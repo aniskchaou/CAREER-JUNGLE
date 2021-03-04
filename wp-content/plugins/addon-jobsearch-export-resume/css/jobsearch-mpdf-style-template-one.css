@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+	margin: 0px;
+	padding: 0px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+.pdf-style2-left {
+	float: left;
+	width: 28%;
+	background-color: #26272f;
+	height: 1800px;
+	font-family: 'Roboto', sans-serif;
+	padding: 40px 30px 30px 30px;
+}
+.pdf-style2-thumb {
+	float: left;
+	width: 100%;
+	padding: 0px 30px 0px 70px;
+	margin-bottom: 40px;
+}
+.pdf-style2-thumb div {
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	border-radius: 100%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	box-shadow: 0px 0px 0px 10px #3b3c48;
+}
+.pdf-style2-left-title {
+	float: left;
+	width: 100%;
+	color: #ffffff;
+	font-size: 17px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: bold;
+	margin-bottom: 25px;
+}
+.pdf-style2-info {
+	float: left;
+	width: 100%;
+	margin-bottom: 20px;
+}
+.pdf-style2-info-icon {
+	float: left;
+	width: 30px;
+	padding: 6px 0px 0px 0px;
+}
+.pdf-style2-info-text {
+	float: left;
+	color: #ffffff;
+	padding: 7px 0px 0px 2px;
+	font-size: 14px;
+}
+.pdf-style2-info-last .pdf-style2-info-text {
+	padding-top: 0px;
+	line-height: 1.5;
+	margin-top: -3px;
+}
+.pdf-style2-spacer-top {
+	float: left;
+	width: 100%;
+	height: 25px;
+}
+/* Skills */
+.pdf-style2-skills {
+	float: left;
+	width: 100%;
+	margin-bottom: 17px;
+}
+.pdf-style2-skills-left {
+	float: left;
+	width: 38%;
+	font-size: 13px;
+	color: #ffffff;
+	letter-spacing: 0.7px;
+}
+.pdf-style2-skills-line {
+	float: left;
+	width: 53%;
+	padding-left: 18px;
+	margin-top: 8px;
+}
+.pdf-style2-skills-inn1 {
+	float: left;
+	width: 100%;
+	height: 4px;
+	background-color: #9c9c9c;
+}
+/* Right Section */
+.pdf-style2-right {
+	float: left;
+	width: 61%;
+	padding: 25px 0px 0px 25px;
+}
+.pdf-style2-skills-inn2 {
+	float: left;
+	margin-top: -7px;
+	height: 10px;
+	background-color: #6984c2;
+	position: relative;
+	z-index: 4;
+}
+.pdf-style2-main-title {
+	font-size: 48px;
+	font-weight: bold;
+	color: #373737;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	line-height: 0.9;
+	margin-bottom: 7px;
+	padding-right: 30px;
+}
+.pdf-style2-main-title-sub {
+	font-size: 14px;
+	background-color: #6984c2;
+	padding: 5px 11px;
+	color: #ffffff;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin: 0px -5px 10px 0px;
+}
+.pdf-style2-main-peragraph {
+	float: left;
+	width: 100%;
+	padding: 0px 25px 0px 0px;
+	color: #666666;
+	line-height: 1.5;
+	margin-bottom: 25px;
+	font-size: 13px;
+}
+.pdf-style2-content-title {
+	float: left;
+	width: 100%;
+	font-size: 15px;
+	color: #373737;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	border-bottom: 1px solid #6984c2;
+	padding-bottom: 8px;
+	margin-bottom: 12px;
+}
+.pdf-style2-content-inner {
+	padding: 0px 25px 0px 0px; }
+.pdf-style2-about-list,
+.pdf-style2-about-title,
+.pdf-style2-about-icon,
+.pdf-style2-about-sub {
+	float: left;
+	width: 100%;
+}
+.pdf-style2-about-list {
+	margin-bottom: 15px; }
+.pdf-style2-about-list-row {
+	margin: 0px -10px; }
+.pdf-style2-about-list-col {
+	padding: 0px 10px;
+	float: left;
+	width: 20%;
+	margin-bottom: 12px;
+}
+.pdf-style2-about-icon {
+	font-size: 30px;
+	color: #6984c2;
+}
+.pdf-style2-about-title {
+	font-size: 12px;
+	color: #000;
+}
+.pdf-style2-about-sub {
+	font-size: 11px;
+	color: #717274;
+}
+.pdf-style2-education-list,
+.pdf-style2-education-inner,
+.pdf-style2-education-date,
+.pdf-style2-education-title,
+.pdf-style2-education-sub {
+	float: left;
+	width: 100%;
+}
+.pdf-style2-education-list {
+	margin: -12px 0px 35px 0px; }
+.pdf-style2-education-col1 {
+	float: left;
+	width: 22%;
+	padding-top: 11px;
+}
+.last-list .pdf-style2-education-col2 {
+	padding-bottom: 0px;
+}
+.pdf-style2-education-col2 {
+	float: left;
+	width: 72%;
+	border-left: 1px solid #6984c2;
+	padding: 11px 0px 17px 22px;
+	font-size: 12px;
+	color: #717273;
+	line-height: 1.6;
+}
+.pdf-style2-education-date {
+	font-size: 16px;
+	color: #252525;
+}
+.pdf-style2-education-title {
+	font-size: 13px;
+	color: #26272f;
+}
+.pdf-style2-education-sub {
+	font-size: 11px;
+	color: #6e6e6f;
+}
+.jobsearch-pdf-porfolio-img {
+	float: left;
+	width: 215px;
+	padding: 5px;
+}
+.jobsearch-pdf-porfolio-link {
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+.cndt-skills {
+	float: left;
+	width: 100%;
+}
+.cndt-skills .cndt-skills-inner {
+	float: left;
+	width: 45%;
+	padding: 0px 8px 8px 0px;
+	text-align: center;
+}
+.cndt-skills div a {
+	color: #ffffff; }
+.cndt-skills .cndt-skills-list-item {
+	float: left;
+	width: 100%;
+	background-color: #000;
+	color: #ffffff;
+	border-radius: 100%;
+	padding: 8px 10px;
+	line-height: 1;
+}
+/* Services Full */
+.pdf-stylefield-bar-servicesfull {
+	float: left;
+	width: 100%;
+}
+.pdf-stylefield-bar-servicesfull-list {
+	float: left;
+	width: 100%;
+}
+.pdf-stylefield-bar-servicesfull {
+	margin-bottom: 20px; }
+.pdf-stylefield-bar-servicesfull-list {
+	margin-bottom: 12px; }
+.pdf-stylefield-bar-iconfull {
+	float: left;
+	width: 30px;
+}
+.pdf-stylefield-bar-iconfull div {
+	float: left;
+	width: 30px;
+	height: 24px;
+	font-size: 30px;
+	color: #6984c2;
+	text-align: center;
+	padding-top: 6px;
+}
+
+.pdf-stylefield-bar-servicesfull-text {
+	float: left;
+	width: 50%;
+	padding-left: 10px;
+}
+.pdf-stylefield-bar-servicesfull-title {
+	display: block;
+	color: #000;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+.pdf-stylefield-bar-servicesfull-sub {
+	display: block;
+	color: #4b4a4b;
+	font-size: 10px;
+}
+.pdf-stylefield-bar-servicesfull-image {
+	float: right;
+	width: 30%;
+	margin-top: -5px;
+}

@@ -1,0 +1,9 @@
+{
+  "status": "success",
+  "tp": 1,
+  "msg": "Cities fetched successfully.",
+  "result": {
+    "\"15710\"": "Andorra la Vella"
+  },
+  "hits": "1731"
+}

@@ -1,0 +1,120 @@
+ul.tagit {
+    padding: 1px 5px;
+    overflow: auto;
+    margin-left: inherit; /* usually we don't want the regular ul margins. */
+    margin-right: inherit;
+}
+
+.jobsearch-typo-wrap .ui-widget-content.tagit li {
+    display: block;
+    float: left;
+    margin: 2px 5px 2px 0px;
+    background-color: #f6f6f6;
+    border: 1px solid #dddddd;
+    box-shadow: none;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+ul.tagit li.tagit-choice {    
+    position: relative;
+    line-height: inherit;
+}
+input.tagit-hidden-field {
+    display: none;
+}
+ul.tagit li.tagit-choice-read-only { 
+    padding: .2em .5em .2em .5em; 
+} 
+
+ul.tagit li.tagit-choice-editable { 
+    padding: .2em 18px .2em .5em; 
+} 
+
+ul.tagit li.tagit-new {
+    padding: .25em 4px .25em 0;
+}
+
+ul.tagit li.tagit-choice a.tagit-label {
+    cursor: pointer;
+    text-decoration: none;
+}
+ul.tagit li.tagit-choice .tagit-close {
+    cursor: pointer;
+    position: absolute;
+    right: .1em;
+    top: 50%;
+    margin-top: -8px;
+    line-height: 17px;
+}
+
+/* used for some custom themes that don't need image icons */
+ul.tagit li.tagit-choice .tagit-close .text-icon {
+    display: none;
+}
+
+ul.tagit li.tagit-choice input {
+    display: block;
+    float: left;
+    margin: 2px 5px 2px 0;
+}
+ul.tagit input[type="text"] {
+    -moz-box-sizing:    border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing:         border-box;
+
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: inherit;
+    background-color: inherit;
+    outline: none;
+}
+.jobsearch-employer-profile-form li input.ui-autocomplete-input.ui-widget-content {
+    background-color: #ffffff;
+    border: none;
+    height: 29px;
+    padding: 0px 20px;
+    border: none;
+    box-shadow: inherit;
+}
+.jobsearch-typo-wrap .jobsearch-employer-profile-form li.tagit-new {
+    background-color: #ffffff;
+    border: none;
+    padding: 0px 0px;
+    border: none;
+    box-shadow: inherit;
+}
+.suggested-skills-con {
+    display: none;
+    width: 100%;
+    margin-top: 16px;
+}
+.suggested-skills-con h5 { margin-bottom: 16px; }
+.suggested-skills li {
+    float: left;
+    list-style: none;
+    line-height: 1;
+    margin: 0px 4px 4px 0px;
+    background-color: #f6f6f6;
+    border: 1px solid #dddddd;
+    padding: 4px 8px;
+    border-radius: 3px;
+    cursor: pointer;
+    -webkit-transition: all 0.4s ease-in-out;
+       -moz-transition: all 0.4s ease-in-out;
+        -ms-transition: all 0.4s ease-in-out;
+         -o-transition: all 0.4s ease-in-out;
+            transition: all 0.4s ease-in-out;
+}
+.suggested-skills li:before {
+    content: "\f067";
+    font-family: FontAwesome;
+    display: inline-block;
+    margin: 0px 4px 0px 0px;
+    font-size: 10px;
+}
+.suggested-skills li:hover { color: #ffffff; }

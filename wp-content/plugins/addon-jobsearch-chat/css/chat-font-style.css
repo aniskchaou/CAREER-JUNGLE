@@ -1,0 +1,87 @@
+@font-face {
+  font-family: 'chat-icon';
+  src:  url('../fonts/chat-icon.eot?mt0wvd');
+  src:  url('../fonts/chat-icon.eot?mt0wvd#iefix') format('embedded-opentype'),
+    url('../fonts/chat-icon.ttf?mt0wvd') format('truetype'),
+    url('../fonts/chat-icon.woff?mt0wvd') format('woff'),
+    url('../fonts/chat-icon.svg?mt0wvd#chat-icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.chat-icon {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'chat-icon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.chat-bubble-line:before {
+  content: "\e913";
+}
+.chat-clock-fill:before {
+  content: "\e900";
+}
+.chat-heart-o:before {
+  content: "\e901";
+}
+.chat-trash-fill:before {
+  content: "\e902";
+}
+.chat-send:before {
+  content: "\e903";
+}
+.chat-speaker:before {
+  content: "\e904";
+}
+.chat-menu:before {
+  content: "\e905";
+}
+.chat-down-arrow:before {
+  content: "\e906";
+}
+.chat-search:before {
+  content: "\e907";
+}
+.chat-add:before {
+  content: "\e908";
+}
+.chat-dott:before {
+  content: "\e909";
+}
+.chat-down-arrow-o:before {
+  content: "\e90a";
+}
+.chat-link:before {
+  content: "\e90b";
+}
+.chat-user-group:before {
+  content: "\e90c";
+}
+.chat-mute:before {
+  content: "\e90d";
+}
+.chat-bubble-o:before {
+  content: "\e90e";
+}
+.chat-bubble:before {
+  content: "\e90f";
+}
+.chat-close:before {
+  content: "\e910";
+}
+.chat-settings:before {
+  content: "\e911";
+}
+.chat-smile:before {
+  content: "\e912";
+}

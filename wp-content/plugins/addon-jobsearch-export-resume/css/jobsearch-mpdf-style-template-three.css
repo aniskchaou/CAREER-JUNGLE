@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+	margin: 0px;
+	padding: 0px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+.pdf-style3-thumb {
+	float: left;
+	width: 144px;
+	background-color: #2793cc;
+	padding: 22px 12px;
+	margin-bottom: 70px;
+}
+.pdf-style3-thumb-title {
+	display: block;
+	font-family: 'Bebas Neue', cursive;
+	color: #ffffff;
+	font-size: 28px;
+	text-transform: uppercase;
+	font-weight: bold;
+	line-height: 1.1;
+	margin-bottom: 4px;
+}
+.pdf-style3-thumb-sub {
+	font-size: 16px;
+	color: #ffffff;
+	display: block;
+	text-transform: uppercase;
+}
+.pdf-style3-thumb-text {
+	float: left;
+	width: 72%;
+	padding-left: 23px;
+}
+.pdf-style3-thumb-text-title {
+	font-size: 22px;
+	color: #2793cc;
+	display: block;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-bottom: 4px;
+}
+.pdf-style3-thumb-text-pera {
+	display: block;
+	font-size: 13px;
+	color: #636566;
+	margin-bottom: 10px;
+	font-family: 'Roboto', sans-serif;
+}
+.pdf-style3-thumb-text-icon-wrap,
+.pdf-style3-thumb-text-num {
+	float: left;
+	font-size: 13px;
+	color: #636566;
+}
+.pdf-style3-thumb-text-icon-wrap {
+	width: 45%;
+	margin-bottom: 5px;
+	font-family: 'Roboto', sans-serif;
+}
+.pdf-style3-thumb-text-icon {
+	float: left;
+	width: 24px;
+	padding: 3px 0px 0px 0px;
+}
+.pdf-style3-thumb-text-left .pdf-style3-thumb-text-icon-wrap {
+	width: 100%;
+}
+.pdf-style3-thumb-text-left {
+	float: left;
+	width: 50%;
+}
+/* Content */
+.pdf-style3-content-left {
+	float: left;
+	width: 65%;
+}
+/* Content Heading */
+.pdf-style3-content-heading {
+	float: left;
+	width: 100%;
+	margin-bottom: 26px;
+}
+.pdf-style3-content-heading-icon {
+	float: left;
+	width: 29px;
+}
+.pdf-style3-content-heading-icon div {
+	display: inline-block;
+	width: 100%;
+	height: 22px;
+	background-color: #2793cc;
+	color: #ffffff;
+	border-radius: 100%;
+	text-align: center;
+	padding-top: 6px;
+}
+.pdf-style3-content-heading-text {
+	float: left;
+	width: 80%;
+	font-size: 14px;
+	color: #1b1b1b;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 4px 0px 0px 9px;
+	font-family: 'Roboto', sans-serif;
+}
+/* Timeline List */
+.pdf-style3-timeline-list-wrapper {
+	float: left;
+	width: 100%;
+	margin-bottom: 50px;
+}
+.pdf-style3-timeline-list {
+	float: left;
+	width: 100%;
+	padding: 0px 0px 25px 17px;
+	border-left: 1px solid #2793cc;
+	line-height: 1;
+}
+.pdf-style3-timeline-list.last {
+	padding-bottom: 0px;
+	border: none;
+}
+.pdf-style3-timeline-circle {
+	float: left;
+	margin: 0px 0px 0px -21px;
+}
+.pdf-style3-timeline-circle div {
+	display: inline-block;
+	width: 8px;
+	height: 8px;
+	background-repeat: no-repeat;
+}
+.pdf-style3-timeline-title {
+	font-size: 14px;
+	color: #2793cc;
+	display: block;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: 'Roboto', sans-serif;
+	line-height: 1;
+	margin: -10px 0px 10px 0px;
+}
+.pdf-style3-timeline-sub {
+	float: left;
+	width: 40%;
+	font-size: 12px;
+	color: #424142;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	margin-bottom: 7px;
+}
+.pdf-style3-timeline-date {
+	float: right;
+	width: 50%;
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+	text-align: right;
+	font-weight: bold;
+	color: #424142;
+	margin-bottom: 7px;
+}
+.pdf-style3-timeline-pera {
+	float: left;
+	width: 100%;
+	font-size: 13px;
+	color: #636566;
+	line-height: 1.5;
+	font-family: 'Roboto', sans-serif;
+}
+/* RightSection */
+.pdf-style3-content-right {
+	float: right;
+	width: 30%;
+}
+/* Services */
+.pdf-style3-bar-services,
+.pdf-style3-bar-services-list {
+	float: left;
+	width: 100%;
+}
+.pdf-style3-bar-services {
+	margin-bottom: 30px; }
+.pdf-style3-bar-services-list {
+	margin-bottom: 18px; }
+.pdf-style3-bar-icon {
+	float: left;
+	width: 43px;
+	font-size: 30px;
+	color: #2793cc;
+	padding-top: 4px;
+}
+.pdf-style3-bar-services-text {
+	float: left;
+	width: 60%;
+}
+.pdf-style3-bar-services-title {
+	display: block;
+	color: #2793cc;
+	font-size: 15px;
+}
+.pdf-style3-bar-services-sub {
+	display: block;
+	color: #424142;
+}
+/* Skills */
+.pdf-style3-skills {
+	float: left;
+	width: 100%;
+	margin-bottom: 10px;
+}
+.pdf-style3-skills-left {
+	float: left;
+	width: 38%;
+	font-size: 14px;
+	color: #636566;
+	letter-spacing: 0.7px;
+}
+.pdf-style3-skills-line {
+	float: left;
+	width: 53%;
+	padding-left: 18px;
+	margin-top: 8px;
+}
+.pdf-style3-skills-inn1 {
+	float: left;
+	width: 100%;
+	height: 5px;
+	background-color: #1b1c1b;
+}
+.pdf-style3-skills-inn2 {
+	float: left;
+	margin: -5px 0px 0px -1px;
+	height: 5px;
+	background-color: #2793cc;
+	position: relative;
+	z-index: 4;
+}
+.jobsearch-pdf-porfolio-img {
+	float: left;
+	width: 215px;
+	padding: 5px;
+}
+.jobsearch-pdf-porfolio-link {
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+.cndt-skills {
+	float: left;
+	width: 100%;
+}
+.cndt-skills .cndt-skills-inner {
+	float: left;
+	width: 45%;
+	padding: 0px 8px 8px 0px;
+	text-align: center;
+}
+.cndt-skills div a {
+	color: #ffffff; }
+.cndt-skills .cndt-skills-list-item {
+	float: left;
+	width: 100%;
+	background-color: #000;
+	color: #ffffff;
+	border-radius: 100%;
+	padding: 8px 10px;
+	line-height: 1;
+}

@@ -1,0 +1,305 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2021-01-09 01:34+0200\n"
+"PO-Revision-Date: 2019-04-11 16:38+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;esc_html;esc_html__;esc_att;esc_attr__;"
+"esc_attr_e;esc_html_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/class-admin.php:76
+msgid "The License Key cannot be empty."
+msgstr ""
+
+#: admin/settings-view.php:9
+msgid "About Login as User"
+msgstr ""
+
+#: admin/settings-view.php:72
+msgid "Need support?"
+msgstr ""
+
+#: admin/settings-view.php:75
+#, php-format
+msgid ""
+"<p>If you are having problems with this plugin, please <a href="
+"\"%1$s\">contact us</a> and we will reply as soon as possible.</p>"
+msgstr ""
+
+#: admin/settings-view.php:83
+msgid "Developed by"
+msgstr ""
+
+#: admin/settings-view.php:92
+msgid "How it works?"
+msgstr ""
+
+#: admin/settings-view.php:94
+msgid ""
+"<p style=\"color:red\">You have to navigate to the <a href=\"users."
+"php\"><strong>Users page</strong></a> and then you will see a "
+"button with the name \"<strong>Login as: `username`</strong>\", at "
+"the right side of each username. If you click on this button you "
+"will login at the front-end of the website as this User.</p>"
+msgstr ""
+
+#: admin/settings-view.php:97 includes/class-w357-settings.php:139
+msgid "Settings"
+msgstr ""
+
+#: admin/settings-view.php:102
+msgid "Save Settings"
+msgstr ""
+
+#: includes/class-w357-custom-fields.php:92
+msgid ""
+"Call with web357.com has been failed. Please, try again later or "
+"contact us at support@web357.com."
+msgstr ""
+
+#: includes/class-w357-custom-fields.php:100
+#: includes/class-w357-custom-fields.php:105
+msgid "Your License Key <strong>"
+msgstr ""
+
+#: includes/class-w357-custom-fields.php:115
+msgid ""
+"Call with Web357's License Manager has been failed. <br>Please, try "
+"again later or contact us at support@web357.com."
+msgstr ""
+
+#: includes/class-w357-custom-fields.php:125
+msgid "Activate License Key"
+msgstr ""
+
+#: includes/class-w357-login-as-user.php:83
+#: includes/class-w357-login-as-user.php:123
+#: includes/class-w357-login-as-user.php:132
+#: includes/class-w357-login-as-user.php:137
+msgid "Could not login as user."
+msgstr ""
+
+#: includes/class-w357-login-as-user.php:167
+msgid "Could not switch users."
+msgstr ""
+
+#: includes/class-w357-login-as-user.php:259
+#, php-format
+msgid "go back to admin as %1$s (%2$s)"
+msgstr ""
+
+#: includes/class-w357-login-as-user.php:278
+#, php-format
+msgid "%1$s (%2$s)"
+msgstr ""
+
+#: includes/class-w357-login-as-user.php:371
+#, php-format
+msgid "You have been logged in as the user <strong>%1$s</strong>"
+msgstr ""
+
+#: includes/class-w357-login-as-user.php:592
+#: includes/class-w357-login-as-user.php:793
+msgid "Login as User"
+msgstr ""
+
+#: includes/class-w357-login-as-user.php:616
+msgid " "
+msgstr ""
+
+#: includes/class-w357-login-as-user.php:657
+#: includes/class-w357-login-as-user.php:747
+msgid "No user exists for this order."
+msgstr ""
+
+#: includes/class-w357-login-as-user.php:661
+#: includes/class-w357-login-as-user.php:689
+#: includes/class-w357-login-as-user.php:721
+#: includes/class-w357-login-as-user.php:751
+msgid "Login as"
+msgstr ""
+
+#: includes/class-w357-login-as-user.php:669
+#: includes/class-w357-login-as-user.php:694
+#: includes/class-w357-login-as-user.php:713
+#: includes/class-w357-login-as-user.php:757
+msgid "Could not login as this user."
+msgstr ""
+
+#: includes/class-w357-login-as-user.php:673
+#: includes/class-w357-login-as-user.php:698
+#: includes/class-w357-login-as-user.php:761
+msgid "You are already logged in."
+msgstr ""
+
+#: includes/class-w357-login-as-user.php:718
+msgid "Already logged in."
+msgstr ""
+
+#: includes/class-w357-settings.php:55
+msgid "Login as User settings"
+msgstr ""
+
+#: includes/class-w357-settings.php:91
+msgid "Option saved successfully!"
+msgstr ""
+
+#: includes/class-w357-settings.php:98
+msgid "Error. The URL is not valid: "
+msgstr ""
+
+#: includes/class-w357-settings.php:99
+msgid "<br>Please remove the slash in front of URL."
+msgstr ""
+
+#: includes/class-w357-settings.php:100
+msgid "<br>You can't redirect the user to the admin page."
+msgstr ""
+
+#: includes/class-w357-settings.php:101
+msgid "<br>You can't redirect the user to the login page."
+msgstr ""
+
+#: includes/class-w357-settings.php:179
+msgid "URL Redirection"
+msgstr ""
+
+#: includes/class-w357-settings.php:190
+msgid "example: my-account/orders"
+msgstr ""
+
+#: includes/class-w357-settings.php:191
+msgid ""
+"This is the URL path that you (Admin) will be redirected after "
+"logging in as a User.<br> For example: maybe you want to be "
+"redirected in user's orders page to see if an order has been "
+"completed successfully or cancelled, or just editing his profile "
+"details.<br>Leave it blank if you would like to be redirected to "
+"the home page (default)"
+msgstr ""
+
+#: includes/class-w357-settings.php:199
+msgid "\"Login as...«option»\" button"
+msgstr ""
+
+#: includes/class-w357-settings.php:207
+msgid "Nickname (username)"
+msgstr ""
+
+#: includes/class-w357-settings.php:208
+msgid "First name"
+msgstr ""
+
+#: includes/class-w357-settings.php:209
+msgid "Last name"
+msgstr ""
+
+#: includes/class-w357-settings.php:210
+msgid "Full name (first & last)"
+msgstr ""
+
+#: includes/class-w357-settings.php:212
+msgid ""
+"Choose which string will be displayed on the \"Login as User\" "
+"button.<br>For example Login as «Yiannis», or Login as "
+"«Christodoulou», or Login as «Johnathan99», or Login as «Yiannis "
+"Christodoulou»."
+msgstr ""
+
+#: includes/class-w357-settings.php:219
+msgid ""
+"Show only the first X characters on the \"Login as...«option»\" "
+"button"
+msgstr ""
+
+#: includes/class-w357-settings.php:227
+msgid "All characters (default)"
+msgstr ""
+
+#: includes/class-w357-settings.php:244
+msgid ""
+"Show only the first X characters of the username, or first/last "
+"name, or full name, on the \"Login as...«option»\" button. <br>For "
+"example, if you choose 5, the button will be displayed as Login as "
+"«Yiann...», or Login as «Chris...», or Login as «Johna...», or "
+"Login as «Yiann...»."
+msgstr ""
+
+#: includes/class-w357-settings.php:251
+msgid "Toolbar's position"
+msgstr ""
+
+#: includes/class-w357-settings.php:259
+msgid "Top"
+msgstr ""
+
+#: includes/class-w357-settings.php:260
+msgid "Bottom"
+msgstr ""
+
+#: includes/class-w357-settings.php:262
+msgid "Choose the position of the \"Login as user\" toolbar."
+msgstr ""
+
+#: includes/class-w357-settings.php:269
+msgid "License Key"
+msgstr ""
+
+#: includes/class-w357-settings.php:282
+msgid "Enter your license key from web357.com"
+msgstr ""
+
+#: includes/class-w357-settings.php:283
+msgid ""
+"In order to update commercial Web357 plugins, you have to enter "
+"your License key. The key can be found in your account details at "
+"web357.com."
+msgstr ""
+
+#: includes/plugin-update-checker/Puc/v4p6/Plugin/Ui.php:54
+msgid "View details"
+msgstr ""
+
+#: includes/plugin-update-checker/Puc/v4p6/Plugin/Ui.php:77
+#, php-format
+msgid "More information about %s"
+msgstr ""
+
+#: includes/plugin-update-checker/Puc/v4p6/Plugin/Ui.php:128
+msgid "Check for updates"
+msgstr ""
+
+#: includes/plugin-update-checker/Puc/v4p6/Plugin/Ui.php:223
+#, php-format
+msgid "Unknown update checker status \"%s\""
+msgstr ""
+
+#: includes/plugin-update-checker/Puc/v4p6/Vcs/PluginUpdateChecker.php:98
+msgid "There is no changelog available."
+msgstr ""
+
+#: login-as-user.php:71
+#, php-format
+msgid ""
+"To enable updates, please enter your license key on the <a href=\"%s"
+"\">Login as User</a> page. If you don't have a licence key, please "
+"see <a href=\"%s\" target=\"_blank\">Plans & Pricing</a>."
+msgstr ""
+
+#: login-as-user.php:122
+#, php-format
+msgid ""
+"You need to deactivate and delete the old <b>Login as User (Free) "
+"version of plugin</b> on the plugins page. %sClick here to "
+"Deactivate it%s."
+msgstr ""

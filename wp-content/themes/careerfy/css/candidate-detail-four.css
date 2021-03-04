@@ -1,0 +1,236 @@
+.careerfy-candidate-detail-four-subheader {
+	float: left;
+	width: 100%;
+	background: url(../extra-images/careerfy-candidate-detail-four-subheader.jpg);
+	position: relative;
+	padding: 60px 0px 54px 0px;
+}
+.candidate-detail-four-transparent {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	opacity: 0.40;
+}
+.careerfy-candidate-detail-four-subheader figure {
+	display: inline-block;
+	vertical-align: middle;
+	width: 80%;
+	margin-bottom: 0px;
+}
+.careerfy-candidate-detail-four-subheader figure img {
+	float: left;
+	width: 174px;
+	border-radius: 100%;
+	border: 3px solid #ffffff;
+}
+.careerfy-candidate-detail-four-subheader figure img ~ figcaption {
+	margin-left: 220px;
+	padding-top: 21px;
+}
+.careerfy-candidate-detail-four-subheader figcaption h1 {
+	color: #ffffff;
+	font-size: 30px;
+	font-weight: 400;
+	margin-bottom: 8px;
+}
+.careerfy-candidate-detail-four-subheader figcaption span {
+	display: inline-block;
+	color: #ffffff;
+	font-size: 16px;
+	margin-bottom: 6px;
+	top: auto;
+	bottom: 76px;
+}
+.careerfy-candidate-detail4-subheader-list {
+	display: inline-block;
+	width: 100%;
+}
+.careerfy-candidate-detail4-subheader-list li {
+	float: left;
+	list-style: none;
+	font-size: 16px;
+	color: #ffffff;
+	margin: 0px 15px 10px 0px;
+}
+.careerfy-candidate-detail4-subheader-list li i {
+	margin-right: 4px; }
+.careerfy-candidate-detail4-subheader-social {
+	display: inline-block;
+	width: 100%;
+}
+.careerfy-candidate-detail4-subheader-social li {
+	float: left;
+	list-style: none;
+	margin: 0px 12px 12px 0px;
+}
+.careerfy-candidate-detail4-subheader-social li a {
+	float: left;
+	width: 34px;
+	height: 34px;
+	background-color: #375d93;
+	color: #ffffff;
+	border-radius: 100%;
+	text-align: center;
+	padding-top: 6px;
+	font-size: 22px;
+}
+.careerfy-candidate-detail4-subheader-social li a.fa-twitter {
+	background-color: #43afe9; }
+.careerfy-candidate-detail4-subheader-social li a.fa-linkedin {
+	background-color: #007eb3; }
+.careerfy-candidate-detail4-subheader-social li a.fa-google-plus {
+	background-color: #e24046; }
+.careerfy-candidate-detail4-subheader-social li a.fa-dribbble {
+	background-color: #f95c94; }
+.careerfy-candidate-detail4-subheader-btn {
+	display: inline-block;
+	vertical-align: middle;
+	padding: 13px 33px;
+	border: 1px solid;
+	border-radius: 80px;
+	color: #ffffff;
+	line-height: 1;
+	font-size: 18px;
+	-webkit-transition: all 0.4s ease-in-out;
+	   -moz-transition: all 0.4s ease-in-out;
+	    -ms-transition: all 0.4s ease-in-out;
+	     -o-transition: all 0.4s ease-in-out;
+	        transition: all 0.4s ease-in-out;
+}
+.careerfy-candidate-detail4-subheader-btn:hover {
+	color: #ffffff;
+	border-color: #ffffff;
+	background-color: transparent;
+}
+.careerfy-candidate-detail-four-content {
+	float: left;
+	width: 100%;
+	padding: 29px 29px 0px 29px;
+	border: 1px solid #ececec;
+	margin-bottom: 40px;
+	background-color: #ffffff;
+}
+.careerfy-candidate-detail4-title {
+	float: left;
+	width: 100%;
+	margin-bottom: 17px;
+}
+.careerfy-candidate-detail4-title h2 {
+	font-size: 18px;
+	font-weight: 500;
+	margin-bottom: 0px;
+}
+.careerfy-candidate-detail4-title h2 i {
+	font-size: 22px;
+	margin: 3px 13px 0px 0px;
+	color: #13b5ea;
+	float: left;
+}
+/* Candidate Detail4 Timeline */
+.candidate-detail4-timeline {
+	float: left;
+	width: 100%;
+	margin-bottom: 18px;
+}
+.candidate-detail4-timeline li {
+	list-style: none;
+}
+.candidate-detail4-timeline-thumb {
+	float: left;
+	width: 34%;
+	padding-left: 37px;
+	position: relative;
+	z-index: 2;
+}
+.candidate-detail4-timeline-thumb span {
+	display: block;
+	font-size: 14px;
+	color: #333333;
+	font-weight: 400;
+	line-height: 1.2;
+}
+.candidate-detail4-timeline-thumb small {
+	font-size: 12px;
+}
+.candidate-detail4-timeline-thumb ~ .candidate-detail4-timeline-text {
+	padding-left: 255px;
+	margin-top: -5px;
+}
+.candidate-detail4-timeline-text {
+	padding-bottom: 23px;
+	position: relative;
+}
+.candidate-detail4-timeline-text:before {
+	content: '';
+	position: absolute;
+	left: 10px;
+	top: 5px;
+	border-left: 1px solid #d1d1d1;
+	height: 100%;
+}
+.candidate-detail4-timeline-text:after {
+	content: '';
+	position: absolute;
+	left: 3px;
+	top: 5px;
+	width: 16px;
+	height: 16px;
+	background-color: #ffffff;
+	border: 4px solid #d1d1d1;
+	border-radius: 100%;
+}
+li:last-child .candidate-detail4-timeline-text:before {
+	display: none; }
+.candidate-detail4-timeline-text h2 {
+	font-size: 16px;
+	font-weight: 400;
+	margin-bottom: 6px;
+}
+.careerfy-candidate-detail-four-content .careerfy-simple-gallery {
+	margin-bottom: 26px; }
+/* Candidate Detail4 Progressbar */
+.careerfy-candidate-detail4-progressbar {
+	float: left;
+	width: 100%;
+	margin-bottom: 30px;
+}
+.careerfy-candidate-detail4-progressbar .jobsearch_progressbar .title {
+	width: 100%;
+	font-size: 14px;
+	text-transform: uppercase;
+	margin-bottom: 7px;
+}
+.careerfy-candidate-detail4-progressbar .jobsearch_progressbar .bar-container {
+	float: left;
+	width: 94%;
+	border-radius: 40px;
+}
+.careerfy-candidate-detail4-progressbar .jobsearch_progressbar .bar {
+	border-radius: 40px; }
+.careerfy-candidate-detail4-progressbar .jobsearch_progressbar .bar-container:before,
+.careerfy-candidate-detail4-progressbar .jobsearch_progressbar .bar-container:after,
+.careerfy-candidate-detail4-progressbar .jobsearch_progressbar .backgroundBar:before,
+.careerfy-candidate-detail4-progressbar .jobsearch_progressbar .backgroundBar:after {
+	display: none;
+}
+.careerfy-candidate-detail4-progressbar .progress-percent {
+	position: absolute;
+	right: -41px;
+	top: 0px;
+	font-size: 14px;
+	font-weight: 400;
+	color: #333333;
+}
+.careerfy-candidate-detail4-progressbar .progress-percent-inner {
+	display: none;
+}
+.jobsearch-candidate-wrap-section .jobsearch-company-review-text { padding-left: 15px; }
+.jobsearch-candidate-wrap-section .jobsearch-company-review {
+	margin-bottom: 15px; }
+.jobsearch-candidate-wrap-section .jobsearch-company-review-left small {
+	margin: 3px 0px 0px 0px; }
+.careerfy-candidate-detail-four-subheader .urgntpkg-detilbadge {
+	margin-left: 7px; }

@@ -1,0 +1,215 @@
+/*	Media 768Px Start */
+@media (min-width: 768px) and (max-width: 990px) {
+	.jobsearch-plugin-default-container { width: 750px; padding: 0px 15px; }
+	.jobsearch-column-3.jobsearch-typo-wrap,.jobsearch-column-9.jobsearch-typo-wrap,.jobsearch-column-8.jobsearch-typo-wrap,.jobsearch-column-4.jobsearch-typo-wrap { width: 100%; }
+	.jobsearch-filter-responsive-wrap,.jobsearch-main-content .widget { width: 50%; padding: 0px 5px; margin-right: -4px; float: none; display: inline-block; vertical-align: top; }
+	.wp-jobsearch-employer-content,.wp-jobsearch-job-content,.wp-jobsearch-candidate-content { margin-top: 20px; }
+	.jobsearch-modal .modal-content-area { padding-right: 10px; padding-left: 10px; }
+	.jobsearch-candidate-savedjobs table { width: 770px; } .jobsearch-candidate-savedjobs { overflow: scroll; }
+	.jobsearch-applied-jobs-text .jobsearch-savedjobs-links { float: left; margin-top: 12px; }
+	.jobsearch-managejobs-list,.jobsearch-employer-transactions,.jobsearch-employer-packages { width: 770px; }
+	.jobsearch-jobs-list-holder,.jobsearch-transactions-list-holder,.jobsearch-packages-list-holder { float: left; width: 100%; overflow: scroll; }
+	.jobsearch-applicants-graph svg,.jobsearch-applicants-graph { width: 100%; }
+	/* NewSearch */
+	.jobsearch-search-container .jobsearch-banner-search ul li { float: left; width: 50%; flex-basis: auto !important; }
+	.jobsearch-search-container .jobsearch-banner-search ul li:last-child { max-width: 100% !important; width: 100% !important; }
+	.jobsearch-search-container .jobsearch-select-style select { border-top: none; }
+	.jobsearch-search-container ul li:nth-child(2) .jobsearch-select-style select { border-top: 1px solid #f2f2f2; }
+	.jobsearch-search-container ul li:nth-child(3) .jobsearch-select-style select { border-left: 1px solid #f2f2f2; }
+	.jobsearch-banner-search.search-cat-off ul li { width: 45%; } .jobsearch-banner-search.search-cat-off ul li:last-child { width: 10%; }
+	/* NewSearch */
+	.jobsearch-modal .modal-box-area { margin-left: 0px; }
+	/* DetailPages */
+	.careerfy-main-content aside.careerfy-column-4,.careerfy-main-content div.careerfy-column-8 { width: 100%; }
+	.careerfy-main-content .widget.careerfy-candidatedetail-services { padding-top: 15px; }
+	.careerfy-jobdetail-four-list figure ~ .careerfy-jobdetail-four-list-text { margin-left: 0px !important; float: left; width: 100%; }
+	.careerfy-employer-detail2-tablink ul li { padding: 0px 11px; }
+	.careerfy-employerfour-list figure img ~ figcaption { margin-left: 0px !important; float: left; width: 100%; }
+	.careerfy-main-section .candidate-detail-two-thumb { margin-top: 0px; }
+	.candidate-detail-two-subheader .candidate-detail-two-subheaderwrap { width: 100%; padding-left: 20px; }
+	.candidate-detail-two-subheader-social { margin-top: 15px; }
+	.careerfy-candidate-detail-four-subheader figure { width: 65%; }
+	.instastcky-aplybtn-con { display: block; }
+	.jobsearch-onlyonelog-form .jobsearch-login-box { width: 70%; }
+	.jobsearch-quick-apply-box-left, .jobsearch-quick-apply-box-right { float: left; width: 100%; }
+	.applyquest-option-itm .applyquest-optionstr,.applyquest-opts-btnsec { width: 100%; }
+	.applyquest-options-main .chekunchk-opt-box { margin-left: 0px; } .applyquest-opts-btnsec { margin-top: 10px; }
+
+}
+
+/* Media 420Px Start */
+@media (max-width: 767px) {
+	.jobsearch-plugin-default-container { width: 100% !important; padding: 0px 15px; }
+	.jobsearch-column-3.jobsearch-typo-wrap { padding: 0px 15px; }
+	.jobsearch-column-3.jobsearch-typo-wrap,.jobsearch-column-9.jobsearch-typo-wrap,.jobsearch-column-8.jobsearch-typo-wrap,.jobsearch-column-4.jobsearch-typo-wrap,.jobsearch-column-10,.jobsearch-column-2 { width: 100%; }
+	.jobsearch-column-4 { width: 50%; }
+	.jobsearch-filter-responsive-wrap,.jobsearch-main-content .widget { width: 50%; padding: 0px 5px; margin-right: -4px; float: none; display: inline-block; vertical-align: top; }
+	.wp-jobsearch-employer-content,.wp-jobsearch-job-content,.wp-jobsearch-candidate-content { margin-top: 20px; }
+	.jobsearch-employer .jobsearch-table-cell { display: inline-block; margin-right: -4px; width: 40%; vertical-align: middle; }
+	.jobsearch-employer .jobsearch-table-cell:first-child { width: 20%; }
+	.jobsearch-employer .jobsearch-table-cell:nth-child(3) { display: none; }
+	.jobsearch-job-userlist,.jobsearch-candidate-default-btn { float: left; } .jobsearch-jobdetail-joblisting .jobsearch-job-userlist { float: right; }
+	.jobsearch-candidate-default-left { width: 100%; }
+	.jobsearch-filterable ul li:first-child { padding-left: 0px; }
+	.jobsearch-list-option h2 { line-height: 1.4; }
+	.jobsearch-candidate-default-text ul li { margin-bottom: 8px; }
+	.jobsearch-jobdetail-options li,.jobsearch-jobdetail-options li:first-child { font-size: 13px; } .jobsearch-jobdetail-list figcaption h2 { font-size: 24px; } .jobsearch-jobdetail-media { margin-left: 0px; }
+	.jobsearch-modal .modal-content-area { padding-right: 10px; padding-left: 10px; }
+	.jobsearch-user-form ul li { width: 50%; } .jobsearch-user-form ul li.jobsearch-user-form-coltwo-full { width: 100%; }
+	.jobsearch-login-media li a { text-indent: -9999px; } .jobsearch-login-media li a i { text-indent: 0px; } .jobsearch-login-media { margin: 0px -5px; } .jobsearch-login-media li { width: 25%; padding: 0px 5px; }
+	.jobsearch-login-media li i { border: none; width: 100%; } .jobsearch-modal .modal-box-area { margin: 0px 0px 0px 0px; margin-bottom: 60px !important; width: 100%; padding: 30px 20px 30px 20px; display: inline-block; position: static !important; }
+	.jobsearch-modal .modal-content-area { margin-top: 40px; }
+	.jobsearch-user-form-info { width: 64%; } .jobsearch-user-form input[type="submit"] { font-size: 15px; } .jobsearch-jobdetail-media li { margin-right: 6px; }
+	.jobsearch_apply_job ul li a { text-indent: -9999px; } .jobsearch_apply_job ul li a i { text-indent: 0px; float: left; width: 100%; }
+	.jobsearch-form.jobsearch-login-registration-form { margin: 0px; } .jobsearch-login-box { padding: 30px 30px 20px 30px; }
+	.jobsearch-login-box form ul li { text-align: center; } .jobsearch-login-box form ul li ul li { text-align: left: 0; } .jobsearch-login-box form a,.jobsearch-login-box form .jobsearch-login-submit-btn { float: none; display: inline-block; }
+	.login-reg-errors .alert-danger,.registration-errors .alert-danger { font-size: 15px; } .jobsearch-login-box form a { margin-bottom: 12px; margin-top: 0px; }
+	.jobsearch-login-with a { text-indent: -9999px; } .jobsearch-login-with a i { text-indent: 0px; width: 100%; } .jobsearch-login-box form .jobsearch-reset-password-submit-btn { padding: 8px 20px 6px 20px; }
+	.jobsearch-radio-checkbox { width: 100%; margin-bottom: 10px; } .jobsearch-company-gallery ul li { width: 50%; } .jobsearch-add-popup { margin-top: 10%; }
+	.jobsearch-candidate-savedjobs table { width: 770px; } .jobsearch-candidate-savedjobs { overflow: scroll; }
+	.jobsearch-applied-jobs-text .jobsearch-savedjobs-links { float: left; margin-top: 12px; } .jobsearch-applied-jobs-text ul li { margin-bottom: 8px; }
+	.jobsearch-managejobs-list,.jobsearch-employer-transactions,.jobsearch-employer-packages { width: 770px; } .jobsearch-jobs-list-holder,.jobsearch-transactions-list-holder,.jobsearch-packages-list-holder { float: left; width: 100%; overflow: scroll; }
+	.jobsearch-employer-resumes > ul > li { width: 100%; }
+	.jobsearch-employer-jobnav ul li:before,.jobsearch-employer-jobnav ul li.active ~ li:nth-child(2):after { display: none; } .jobsearch-employer-jobnav ul li a { padding: 0px 20px; }
+	.jobsearch-subheader-form .jobsearch-banner-search ul li { width: 50%; }
+	.jobsearch-stats-list ul li { width: 50%; }
+	.jobsearch-applicants-graph svg,.jobsearch-applicants-graph { width: 100%; }
+	.jobsearch-candidate-default figure ~ .jobsearch-candidate-default-text { margin-left: 0px; float: left; width: 100%; }
+	.jobsearch-alert-in-content .alerts-fields ul li { width: 100% !important; } .jobsearch-alert-in-content .jobsearch-checkbox li { margin-bottom: 7px; }
+	.complet-percent,.minimum-percent { width: 100%; } .minimum-percent { border-left: none;  padding-top: 5px; padding-left: 0px;} .percent-num { margin-bottom: 15px; }
+	.jobsearch-joblisting-classic .jobsearch-table-cell { float: left; width: 100%; margin-bottom: 8px; }
+	.jobsearch-filterable h2 { margin-bottom: 20px; }
+	.search-full-element { z-index: 99 !important; }
+	.jobsearch-banner-search.search-cat-off ul li { width: 45%; } .jobsearch-banner-search.search-cat-off ul li:last-child { width: 10%; }
+	.jobsearch-jobdetail-view { display: inline-block; line-height: 1; padding: 3px 9px; }
+	.jobsearch-banner-search .jobsearch_searchloc_div input[type="text"] { border-left: 1px solid #f2f2f2; border-top: none; }
+	/* NewSearch */
+	.jobsearch-search-container .jobsearch-banner-search ul li { float: left; width: 50%; flex-basis: auto !important; }
+	.jobsearch-search-container .jobsearch-banner-search ul li:last-child { max-width: 100% !important; width: 100% !important; }
+	.jobsearch-search-container .jobsearch-select-style select { border-top: none; }
+	.jobsearch-search-container ul li:nth-child(2) .jobsearch-select-style select { border-top: 1px solid #f2f2f2; }
+	.jobsearch-search-container ul li:nth-child(3) .jobsearch-select-style select { border-left: 1px solid #f2f2f2; }
+	.jobsearch-search-container .jobsearch-banner-search { padding: 0px; }
+	.jobsearch-column-9 .careerfy-job-grid ul li {  width: 50%; }
+	/* NewSearch */
+	.jobsearch-advance-search-holdr .jobsearch-banner-search ul li.adv-srch-toggler,.jobsearch-advance-search-holdr .jobsearch-banner-search > ul > li:last-child { width: 100% !important; }
+	.adv-srch-toggler a { margin: 0px 0px 10px 0px; }
+	/* DetailPages */
+	.careerfy-main-content aside.careerfy-column-4,.careerfy-main-content div.careerfy-column-8 { width: 100%; }
+	.careerfy-jobdetail-services ul li.careerfy-column-4 { width: 50%; }
+	.careerfy-main-content .widget.widget_application_apply { padding-top: 20px; padding-bottom: 20px; }
+	.careerfy-main-content .careerfy-joblisting-media ~ .careerfy-joblisting-text { float: left; width: 100%; margin-left: 0px; }
+	.careerfy-header-one .careerfy-user-section ul { left: auto; right: 0px; }
+	.careerfy-main-content .widget.careerfy-candidatedetail-services { padding-top: 15px; }
+	.careerfy-list-option ul li { margin-bottom: 10px; }
+	.careerfy-jobdetail-four-list figure ~ .careerfy-jobdetail-four-list-text { margin-left: 0px !important; float: left; width: 100%; }
+	.careerfy-jobdetail-four-list figure { width: 100% !important; }
+	.careerfy-employer-detail2-tablink ul li { margin-bottom: 10px; padding: 0px 12px; }
+	.jobsearch-candidate-grid > ul > li { width: 50%; }
+	.careerfy-candidate-grid2 ul li { width: 50%; }
+	.careerfy-employer-subheader-three figure img { margin-top: -30px; }
+	.careerfy-employerfour-list figure img ~ figcaption { margin-left: 0px !important; float: left; width: 100%; }
+	.careerfy-employerfour-top-section .careerfy-column-4,.careerfy-employerfour-top-section .careerfy-column-8,.careerfy-employerfour-list .careerfy-column-8 { width: 100%; }
+	.careerfy-employerfour-map { margin-top: 0px !important; }
+	.careerfy-employerfour-top-social { margin-bottom: 15px; }
+	.careerfy-main-section .candidate-detail-two-thumb { margin-top: 0px; }
+	.candidate-detail-two-subheader .candidate-detail-two-subheaderwrap { width: 100%; padding-left: 20px; }
+	.candidate-detail-two-subheader-social { margin-top: 15px; }
+	.careerfy-column-4.circle-pie-list { width: 100%; }
+	.careerfy-main-section .careerfy-candidatedetail-text3 img ~ figcaption { margin-left: 0px; padding-top: 15px; float: left; width: 100%; }
+	.careerfy-candidate-detail-four-subheader figure img ~ figcaption { margin-left: 0px !important; float: left; width: 100%; }
+	.careerfy-main-section .candidate-detail4-timeline-thumb ~ .candidate-detail4-timeline-text { padding-left: 155px; }
+	.careerfy-main-section .candidate-detail4-timeline-thumb { width: 20%; }
+	.phon-num-fieldcon .contry-info-con { display: none; }
+	.intl-tel-input.allow-dropdown input[type="tel"] { padding-left: 60px; }
+	.instastcky-aplybtn-con { display: block; }
+	#JobSearchNonuserApplyModal .modal-box-area { margin-top: 0px; }
+	.jobsearch-banner-search .adv-search-options ul li, .jobsearch-banner-search .adv-search-options ul li:last-child { width: 50% !important; }
+	.jobsearch-onlyonelog-form .jobsearch-login-box { width: 100%; }
+	.jobsearch-banner-search ul li.jobsearch-banner-submit,.jobsearch-banner-search ul li { z-index: auto !important; }
+	.jobsearch-top-searchbar .jobsearch-subheader-form .jobsearch-banner-search ul li,.jobsearch-top-searchbar .jobsearch-subheader-form .jobsearch-banner-search ul li.jobsearch-banner-submit i { z-index: inherit !important; }
+	.jobsearch-top-searchbar .jobsearch-subheader-form .jobsearch-banner-search input[type="submit"] { z-index: 5; }
+	.jobsearch-banner-search input[type="submit"],.allapps-selctcounts-holdr,.overall-appcreds-con { width: 100%; }
+	.overall-appcreds-con ul li { width: 50%; float: left; }
+	.jobsearch-quick-apply-box-left, .jobsearch-quick-apply-box-right { float: left; width: 100%; }
+	.jobsearch-quick-apply-box { width: 100%; }
+	.jobsearch-employer-list-btn { margin-bottom: 10px; }
+
+	.applyquest-option-itm .applyquest-optionstr,.applyquest-opts-btnsec,.quest-typecon-ritesec { width: 100%; }
+	.applyquest-options-main .chekunchk-opt-box { margin-left: 0px; } .applyquest-opts-btnsec { margin-top: 10px; }
+
+	
+}
+
+/* Media 300Px Start */
+@media (max-width: 480px) {
+	.jobsearch-column-9 .careerfy-job-grid ul li {  width: 100%; }
+	.jobsearch-filter-responsive-wrap { width: 100%; padding: 0px; }
+	.jobsearch-employer .jobsearch-table-cell { width: 50%; margin-bottom: 14px; }
+	.jobsearch-employer .jobsearch-table-cell:first-child { width: 30%; }
+	.jobsearch-employer .jobsearch-table-cell:nth-child(2) { width: 70%; }
+	.jobsearch-employer-list .jobsearch-table-cell:nth-child(2) { padding-left: 20px; }
+	.jobsearch-search-filter-wrap { width: 100%; margin: 0px 0px 10px 0px; }
+	.jobsearch-list-option ul li { border: none; padding: 12px 0px 0px 0px; }
+	.jobsearch-filterable ul { float: left; }
+	.jobsearch-filterable ul li { padding-left: 0px; border: none; }
+	.jobsearch-candidate-default-text ul li { border: none; padding: 0px; }
+	.jobsearch-jobdetail-listthumb { width: 100%; } .jobsearch-jobdetail-listthumb ~ figcaption { float: left; width: 100%; margin-left: 0px !important; padding-top: 15px !important; }
+	.jobsearch-jobdetail-list figcaption h2 { line-height: 1.2; }
+	.jobsearch-column-4,.jobsearch-column-3,.jobsearch-column-6,.jobsearch-company-gallery ul li { width: 100%; } .jobsearch-jobdetail-joblisting .jobsearch-job-userlist { float: left; }
+	.jobsearch-main-content .widget,.jobsearch-list-option ul li,.jobsearch-user-form-info { width: 100%; } .widget .rc-anchor-normal .rc-anchor-pt { margin-right: 32px; }
+	.jobsearch-modal .modal-box-area { position: static; margin: 0; width: 100%; position: relative; display: inline-block; } .jobsearch-user-form-info .jobsearch-checkbox { float: left; margin-top: 10px; }
+	.jobsearch-user-form ul li { width: 100%; } .jobsearch-user-form-info { text-align: center; } .jobsearch-user-form-info p,.jobsearch-user-form-info .jobsearch-checkbox { float: none; display: inline-block; }
+	.jobsearch-user-options ul li,.jobsearch-user-form-coltwo.jobsearch-user-form ul li,.jobsearch-user-form-coltwo .jobsearch-user-form-info,
+	.jobsearch-reset-password .jobsearch-user-form-info { width: 100%; } .jobsearch-employerdetail-btn { margin-bottom: 8px; } .jobsearch-jobdetail-list { padding: 32px 32px 24px 32px; }
+	.jobsearch-candidate-timeline-text h2 { line-height: 1.3; } .jobsearch-resume-education h2 { line-height: 1.3; } .jobsearch-add-popup { padding: 20px 20px 13px 20px; }
+	.jobsearch-resume-addbtn { float: left; margin-left: 55px; } .jobsearch-add-popup { margin-top: 40%; }
+	.jobsearch-resume-education { padding-left: 58px; } .jobsearch-employer-box-section { padding: 30px 30px 18px 30px; }
+	.jobsearch-add-popup.jobsearch-update-resume-items-sec { left: -9px; } .jobsearch-candidate-resume-wrap .jobsearch-candidate-title:after { bottom: 23px; }
+	.jobsearch-applied-jobs-text ul li { border: none; padding: 0px; line-height: 1.4; margin-bottom: 6px; width: 100%; } .jobsearch-applied-jobs-text h2 { line-height: 1.3; }
+	.jobsearch-applied-jobs-thumb ~ .jobsearch-applied-jobs-text { margin-left: 0px; float: left; width: 100%; }
+	.jobsearch-employer-search { width: 40%; } .jobsearch-employer-resumes figcaption ul li { width: 100%; padding-left: 0px; } .jobsearch-resumes-download { float: left; margin: 5px 0px 9px 0px; width: 100%; }
+	.jobsearch-resumes-subtitle { float: left; } .jobsearch-resumes-options li a { text-indent: -9999px; } .jobsearch-resumes-options li a i { float: left; width: 100%; text-indent: 0px; }
+	.jobsearch-employer-jobnav ul li { width: 100%; margin-bottom: 30px; } .jobsearch-employer-jobnav ul li a { float: none; display: inline-block; padding: 0px; }
+	.jobsearch-subheader-form .jobsearch-banner-search ul li,.jobsearch-stats-list ul li { width: 100% !important; }
+	.jobsearch-joblisting-classic figure ~ .jobsearch-joblisting-text { margin-left: 0px; float: left; width: 100%; padding-top: 10px; }
+	.salary-type, .salary-input { width: 100%; padding-left: 0px; }
+	.salary-input .min-salary, .salary-input .max-salary { width: 100%; }
+	.salary-input .max-salary {padding-left: 0px; padding-top: 8px; }
+	.jobsearch-banner-search.search-cat-off ul li:last-child { width: 100%; }
+	/* NewSearch */
+	.jobsearch-search-container .jobsearch-banner-search ul li { width: 100%; }
+	.jobsearch-search-container ul li:nth-child(2) .jobsearch-select-style select,.jobsearch-search-container .jobsearch-select-style select { border-top: none; }
+	.jobsearch-search-container ul li .jobsearch-select-style select { border-left: 1px solid #f2f2f2; }
+	/* NewSearch */
+	.jobsearch-jobdetail-joblisting.jobsearch-joblisting-classic figure ~ .jobsearch-joblisting-text { margin-left: 0px; }
+	/* DetailPages */
+	.careerfy-jobdetail-services ul li.careerfy-column-4 { width: 100%; }
+	.careerfy-list-option ul li { border: none; padding-left: 0px; }
+	.jobsearch-candidate-grid > ul > li { width: 100%; }
+	.careerfy-candidate-grid2 ul li { width: 100%; }
+	.careerfy-main-section .careerfy-candidatedetail3-social { margin-left: 0px; margin-top: 15px; }
+	.careerfy-main-section .candidate-detail4-timeline-thumb ~ .candidate-detail4-timeline-text { padding-left: 50px; float: left; width: 100%; }
+	.careerfy-main-section .candidate-detail4-timeline-thumb { width: 100%; }
+	.candidate-detail4-timeline-text:before { display: none; }
+	.jobsearch-apply-btns-inner-section { width: 100% !important; }
+	.jobsearch-banner-search .adv-search-options ul li, .jobsearch-banner-search .adv-search-options ul li:last-child { width: 100% !important; }
+	.upload-or-con { display: none; }
+	.overall-appcreds-con ul li { width: 100%; }
+	.jobsearch-employer .jobsearch-table-cell:last-child { width: 100%; }
+	.jobsearch-advance-search-holdr .jobsearch-banner-search ul li:first-child { padding-left: 10px; }
+	.jobsearch-login-box form a.lost-password { width: 100%; }
+	.jobsearch-filterable .clear-tags { text-align: center; width: 100%; }
+
+}
+
+/* Media 940Px Start */
+@media screen and (min-width: 991px) and (max-width: 1054px) {
+	.jobsearch-plugin-default-container { width: 940px; }
+}
+/* Media 940Px Start */
+@media screen and (min-width: 991px) and (max-width: 1366px) {
+	.jobsearch-search-container .jobsearch-banner-search ul li:last-child { max-width: 19%; }
+	.search-full-element { z-index: 99 !important; }
+	.jobsearch-quick-apply-box-left, .jobsearch-quick-apply-box-right { float: left; width: 100%; }
+}

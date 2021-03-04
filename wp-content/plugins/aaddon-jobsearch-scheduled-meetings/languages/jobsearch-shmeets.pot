@@ -1,0 +1,530 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Addon Jobsearch Scheduled Meetings\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-17 12:23+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.4.4; wp-5.5.3"
+
+#: addon-jobsearch-scheduled-meetings.php:109
+msgid "Submitting..."
+msgstr ""
+
+#: addon-jobsearch-scheduled-meetings.php:110
+msgid "There is some problem."
+msgstr ""
+
+#: addon-jobsearch-scheduled-meetings.php:148
+msgid ""
+"<em><b>Addon Jobsearch Scheduled Meetings</b></em> needs the <b>WP "
+"Jobsearch</b> plugin. Please install and activate it."
+msgstr ""
+
+#: include/common-functions.php:33
+msgid "Meetings Settings"
+msgstr ""
+
+#: include/common-functions.php:41 include/common-functions.php:53
+#: include/common-functions.php:72 include/common-functions.php:103
+#: include/common-functions.php:119 include/common-functions.php:150
+#: include/common-functions.php:219
+msgid "Meetings"
+msgstr ""
+
+#: include/common-functions.php:42
+msgid "Switch On/Off Schedule Meetings."
+msgstr ""
+
+#: include/common-functions.php:45 include/common-functions.php:57
+msgid "On"
+msgstr ""
+
+#: include/common-functions.php:46 include/common-functions.php:58
+msgid "Off"
+msgstr ""
+
+#: include/common-functions.php:54
+msgid "Switch On/Off Zoom Meetings."
+msgstr ""
+
+#: include/common-functions.php:193
+msgid "Interview Schedule Meetings"
+msgstr ""
+
+#: include/common-functions.php:225
+msgid "Meeting Settings"
+msgstr ""
+
+#: include/common-functions.php:226
+msgid "Meetings List"
+msgstr ""
+
+#: include/common-functions.php:245 include/common-functions.php:260
+#: include/common-functions.php:329
+msgid "Create Meeting"
+msgstr ""
+
+#: include/common-functions.php:306 include/common-functions.php:376
+msgid "Time Duration"
+msgstr ""
+
+#: include/common-functions.php:308 include/common-functions.php:378
+msgid "Put meeting time duration here (in minutes)"
+msgstr ""
+
+#: include/common-functions.php:311 include/common-functions.php:381
+msgid "Select Timing"
+msgstr ""
+
+#: include/common-functions.php:314 include/common-functions.php:384
+#: include/meetings.php:526 include/meetings.php:558
+msgid "Timing"
+msgstr ""
+
+#: include/common-functions.php:320
+msgid "Schedule Message/Notes"
+msgstr ""
+
+#: include/common-functions.php:335
+msgid "Create Zoom Meeting"
+msgstr ""
+
+#: include/common-functions.php:394
+msgid "Re-Schedule Message/Notes"
+msgstr ""
+
+#: include/common-functions.php:414
+msgid "Re-Schedule Meeting"
+msgstr ""
+
+#: include/dashtab-content.php:20
+msgid "Monday"
+msgstr ""
+
+#: include/dashtab-content.php:21
+msgid "Tuesday"
+msgstr ""
+
+#: include/dashtab-content.php:22
+msgid "Wednesday"
+msgstr ""
+
+#: include/dashtab-content.php:23
+msgid "Thursday"
+msgstr ""
+
+#: include/dashtab-content.php:24
+msgid "Friday"
+msgstr ""
+
+#: include/dashtab-content.php:25
+msgid "Saturday"
+msgstr ""
+
+#: include/dashtab-content.php:26
+msgid "Sunday"
+msgstr ""
+
+#: include/dashtab-content.php:126 include/dashtab-content.php:347
+#: include/dashtab-content.php:619 include/dashtab-content.php:840
+msgid "Today"
+msgstr ""
+
+#: include/dashtab-content.php:137 include/dashtab-content.php:399
+#: include/dashtab-content.php:630 include/dashtab-content.php:889
+msgid "On-Board"
+msgstr ""
+
+#: include/dashtab-content.php:142 include/dashtab-content.php:404
+#: include/dashtab-content.php:635 include/dashtab-content.php:894
+msgid "On Zoom"
+msgstr ""
+
+#: include/dashtab-content.php:152 include/dashtab-content.php:391
+#: include/dashtab-content.php:645 include/dashtab-content.php:884
+#, php-format
+msgid "%s min"
+msgstr ""
+
+#: include/dashtab-content.php:181 include/dashtab-content.php:674
+msgid "Interview schedule @"
+msgstr ""
+
+#: include/dashtab-content.php:200 include/dashtab-content.php:693
+msgid "Note"
+msgstr ""
+
+#: include/dashtab-content.php:201 include/dashtab-content.php:694
+msgid "More detail"
+msgstr ""
+
+#: include/dashtab-content.php:209 include/dashtab-content.php:468
+#: include/dashtab-content.php:702 include/dashtab-content.php:939
+msgid "Re-schedule Meeting"
+msgstr ""
+
+#: include/dashtab-content.php:215 include/dashtab-content.php:708
+msgid "Add to Calendar"
+msgstr ""
+
+#: include/dashtab-content.php:219 include/dashtab-content.php:712
+#, php-format
+msgid "Interview for job \"%s\""
+msgstr ""
+
+#: include/dashtab-content.php:257 include/dashtab-content.php:750
+msgid "Apple Calendar"
+msgstr ""
+
+#: include/dashtab-content.php:258 include/dashtab-content.php:751
+msgid "Google <em>(online)</em>"
+msgstr ""
+
+#: include/dashtab-content.php:259 include/dashtab-content.php:752
+msgid "Office 365 <em>(online)</em>"
+msgstr ""
+
+#: include/dashtab-content.php:260 include/dashtab-content.php:753
+msgid "Outlook"
+msgstr ""
+
+#: include/dashtab-content.php:261 include/dashtab-content.php:754
+msgid "Outlook.com <em>(online)</em>"
+msgstr ""
+
+#: include/dashtab-content.php:262 include/dashtab-content.php:755
+msgid "Yahoo <em>(online)</em>"
+msgstr ""
+
+#: include/dashtab-content.php:397 include/dashtab-content.php:887
+#, php-format
+msgid "Meeting with&nbsp;<a href=\"%s\">%s</a>"
+msgstr ""
+
+#: include/dashtab-content.php:466 include/dashtab-content.php:937
+msgid "Actions"
+msgstr ""
+
+#: include/dashtab-content.php:472 include/meetings.php:334
+msgid "Canceled"
+msgstr ""
+
+#: include/dashtab-content.php:476
+msgid "Cancel Meeting"
+msgstr ""
+
+#: include/dashtab-content.php:514 include/dashtab-content.php:975
+msgid "No meeting found."
+msgstr ""
+
+#: include/dashtab-content.php:940
+msgid "Delete Meeting"
+msgstr ""
+
+#: include/dashtab-content.php:981
+msgid "Available Days"
+msgstr ""
+
+#: include/dashtab-content.php:983
+msgid "Days"
+msgstr ""
+
+#: include/dashtab-content.php:984
+msgid "From"
+msgstr ""
+
+#: include/dashtab-content.php:985
+msgid "To"
+msgstr ""
+
+#: include/dashtab-content.php:1005
+msgid "Save Settings"
+msgstr ""
+
+#: include/dashtab-content.php:1020
+msgid "Zoom API Setting"
+msgstr ""
+
+#: include/dashtab-content.php:1022
+msgid "Zoom Meetings"
+msgstr ""
+
+#: include/dashtab-content.php:1047
+msgid "You are Authorized with zoom."
+msgstr ""
+
+#: include/dashtab-content.php:1047
+msgid "Re-Authorize"
+msgstr ""
+
+#: include/dashtab-content.php:1054
+msgid "Zoom Email"
+msgstr ""
+
+#: include/dashtab-content.php:1058
+msgid "Zoom Client ID"
+msgstr ""
+
+#: include/dashtab-content.php:1062
+msgid "Client Secret"
+msgstr ""
+
+#: include/dashtab-content.php:1066
+msgid "Get Authorize with zoom"
+msgstr ""
+
+#: include/dashtab-content.php:1086
+msgid "Meeting History"
+msgstr ""
+
+#: include/dashtab-content.php:1100
+msgid "Rescheduled By"
+msgstr ""
+
+#: include/dashtab-content.php:1100
+msgid "Created By"
+msgstr ""
+
+#: include/dashtab-content.php:1155
+msgid "Settings saved successfully."
+msgstr ""
+
+#: include/meetings.php:34
+msgctxt "meetings post type general name"
+msgid "Meetings"
+msgstr ""
+
+#: include/meetings.php:35
+msgctxt "post type singular name"
+msgid "Meeting"
+msgstr ""
+
+#: include/meetings.php:36
+msgctxt "admin menu"
+msgid "Meetings"
+msgstr ""
+
+#: include/meetings.php:37
+msgctxt "add new on admin bar"
+msgid "Meeting"
+msgstr ""
+
+#: include/meetings.php:38
+msgctxt "meeting"
+msgid "Add New"
+msgstr ""
+
+#: include/meetings.php:39
+msgid "Add New Meeting"
+msgstr ""
+
+#: include/meetings.php:40
+msgid "New Meeting"
+msgstr ""
+
+#: include/meetings.php:41
+msgid "Edit Meeting"
+msgstr ""
+
+#: include/meetings.php:42
+msgid "View Meeting"
+msgstr ""
+
+#: include/meetings.php:43
+msgid "All Meetings "
+msgstr ""
+
+#: include/meetings.php:44
+msgid "Search Meetings"
+msgstr ""
+
+#: include/meetings.php:45
+msgid "Parent Meetings:"
+msgstr ""
+
+#: include/meetings.php:46
+msgid "No meetings found."
+msgstr ""
+
+#: include/meetings.php:47
+msgid "No meetings found in Trash."
+msgstr ""
+
+#: include/meetings.php:52
+msgid "Description."
+msgstr ""
+
+#: include/meetings.php:87 include/meetings.php:218
+msgid "Please select the meeting date."
+msgstr ""
+
+#: include/meetings.php:91 include/meetings.php:222
+msgid "Please enter the correct duration of meeting."
+msgstr ""
+
+#: include/meetings.php:95 include/meetings.php:226
+msgid "Please select the time of meeting."
+msgstr ""
+
+#: include/meetings.php:120
+#, php-format
+msgid "Interview meeting for job - %s"
+msgstr ""
+
+#: include/meetings.php:182
+msgid "Meeting created successfully."
+msgstr ""
+
+#: include/meetings.php:252
+#, php-format
+msgid "Reschedule Interview meeting for job - %s"
+msgstr ""
+
+#: include/meetings.php:315
+msgid "Meeting Re-Scheduled successfully."
+msgstr ""
+
+#: include/meetings.php:345
+msgid "Deleted"
+msgstr ""
+
+#: include/meetings.php:354
+msgid "Notify me for Job Interview Meeting"
+msgstr ""
+
+#: include/meetings.php:407
+#, php-format
+msgid ""
+"You are selected for meeting for the job '<a href=\"%s\">%s</a>' by '<a "
+"href=\"%s\">%s</a>' you applied."
+msgstr ""
+
+#: include/meetings.php:538 include/meetings.php:570
+msgid "No timing is available for this day. Please choose another day."
+msgstr ""
+
+#: include/class-meeting-email-to-candidate.php:43
+msgid "New Job Meeting with Candidate"
+msgstr ""
+
+#: include/class-meeting-email-to-candidate.php:44
+#: include/class-meeting-email-to-candidate.php:138
+msgid "New Job Meeting"
+msgstr ""
+
+#: include/class-meeting-email-to-candidate.php:46
+#: include/class-meeting-reschedule-to-employer.php:46
+#: include/class-meeting-cancel-to-employer.php:46
+msgid "Default content"
+msgstr ""
+
+#: include/class-meeting-email-to-candidate.php:55
+#: include/class-meeting-reschedule-to-employer.php:55
+#: include/class-meeting-cancel-to-employer.php:55
+msgid "Candidate name"
+msgstr ""
+
+#: include/class-meeting-email-to-candidate.php:60
+#: include/class-meeting-reschedule-to-employer.php:60
+#: include/class-meeting-cancel-to-employer.php:60
+msgid "Meeting Date"
+msgstr ""
+
+#: include/class-meeting-email-to-candidate.php:65
+#: include/class-meeting-reschedule-to-employer.php:65
+#: include/class-meeting-cancel-to-employer.php:65
+msgid "Meeting Time"
+msgstr ""
+
+#: include/class-meeting-email-to-candidate.php:70
+#: include/class-meeting-reschedule-to-employer.php:70
+#: include/class-meeting-cancel-to-employer.php:70
+msgid "Meeting Duration"
+msgstr ""
+
+#: include/class-meeting-email-to-candidate.php:75
+#: include/class-meeting-reschedule-to-employer.php:75
+#: include/class-meeting-cancel-to-employer.php:75
+msgid "Meeting Notes"
+msgstr ""
+
+#: include/class-meeting-email-to-candidate.php:80
+#: include/class-meeting-reschedule-to-employer.php:80
+#: include/class-meeting-cancel-to-employer.php:80
+msgid "Employer name"
+msgstr ""
+
+#: include/class-meeting-email-to-candidate.php:85
+#: include/class-meeting-reschedule-to-employer.php:85
+#: include/class-meeting-cancel-to-employer.php:85
+msgid "Employer Link"
+msgstr ""
+
+#: include/class-meeting-email-to-candidate.php:90
+#: include/class-meeting-reschedule-to-employer.php:90
+#: include/class-meeting-cancel-to-employer.php:90
+msgid "Job Title"
+msgstr ""
+
+#: include/class-meeting-email-to-candidate.php:95
+#: include/class-meeting-reschedule-to-employer.php:95
+#: include/class-meeting-cancel-to-employer.php:95
+msgid "Job Link"
+msgstr ""
+
+#: include/class-meeting-email-to-candidate.php:254
+#: include/class-meeting-reschedule-to-employer.php:254
+#: include/class-meeting-cancel-to-employer.php:254
+#, php-format
+msgid "%s Minutes"
+msgstr ""
+
+#: include/class-meeting-reschedule-to-employer.php:43
+msgid "ReSchedule Meeting to Employer"
+msgstr ""
+
+#: include/class-meeting-reschedule-to-employer.php:44
+msgid "ReSchedule Meeting by Candidate"
+msgstr ""
+
+#: include/class-meeting-reschedule-to-employer.php:138
+msgid "ReSchedule Job Meeting"
+msgstr ""
+
+#: include/class-meeting-cancel-to-employer.php:43
+msgid "Canceled Meeting to Employer"
+msgstr ""
+
+#: include/class-meeting-cancel-to-employer.php:44
+msgid "Canceled Meeting by Candidate"
+msgstr ""
+
+#: include/class-meeting-cancel-to-employer.php:138
+msgid "Canceled Job Meeting"
+msgstr ""
+
+#. Name of the plugin
+msgid "Addon Jobsearch Scheduled Meetings"
+msgstr ""
+
+#. Description of the plugin
+msgid "This addon is useful with WP Jobsearch Plugin."
+msgstr ""
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://themeforest.net/user/eyecix/"
+msgstr ""
+
+#. Author of the plugin
+msgid "Eyecix"
+msgstr ""

@@ -1,0 +1,12 @@
+#loading,
+#success_msg,
+#error_msg,
+#invalid_publisher_number{
+    display: none;
+}
+.jobsearch-careerjet-jobs .import-careerjet-jobs, .jobsearch-careerjet-jobs #loading{
+    float: left !important;
+}
+.jobsearch-careerjet-jobs #loading{
+    padding: 12px 0px 0px 15px;
+}

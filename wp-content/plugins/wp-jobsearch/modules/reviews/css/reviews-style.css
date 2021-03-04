@@ -1,0 +1,284 @@
+/* Company Review */
+.jobsearch-company-review,.jobsearch-company-review figure,
+.company-review-thumb img,.jobsearch-company-review-text {
+    float: left;
+    width: 100%;
+}
+.jobsearch-company-review ul li                                             { list-style: none; }
+.jobsearch-company-review .reviw-mainitem-con                                         { margin-bottom: 30px; position: relative; float: left; width: 100%; }
+.jobsearch-company-review figure                                            { margin-bottom: 17px; }
+.company-review-thumb img                                                   { border-radius: 100%; }
+.jobsearch-company-review-left h6 a                                         { color: #666666; }
+.jobsearch-company-review-text h6 a                                         { color: #666666; }
+.jobsearch-company-review .reviw-mainitem-con:last-child                                  { margin-bottom: 0px; }
+.jobsearch-company-review-text h6                                           { margin-bottom: 4px; }
+.jobsearch-margin-bottom                                                    { margin-bottom: 25px; }
+.company-review-thumb {
+    float: left;
+    width: 60px;
+}
+.company-review-thumb ~ figcaption { margin-left: 84px; padding-top: 7px; }
+.jobsearch-company-review-left {
+    float: left;
+}
+.jobsearch-company-review-left h6 {
+    font-size: 18px;
+    margin-bottom: 6px;
+    line-height: 1;
+}
+.jobsearch-company-review figure figcaption time {
+    float: right;
+    font-size: 14px;
+    color: #666666;
+    margin-top: 2px;
+}
+.jobsearch-company-rating {
+    display: inline-block;
+    height: 16px;
+    line-height: 16px;
+    position: relative;
+    width: 85px;
+    cursor: pointer;
+}
+.jobsearch-company-rating:before, .jobsearch-company-rating-box:before {
+    color: #f1f2f2;
+    content: "\f005 \f005 \f005 \f005 \f005";
+    font-family: FontAwesome;
+    font-size: 14px;
+    left: 0;
+    letter-spacing: 5px;
+    position: absolute;
+    top: 0;
+}
+.jobsearch-company-rating-box:before {
+    content: "\f005 \f005 \f005 \f005 \f005";
+    color: #ffaf00;
+}
+.jobsearch-company-rating-box {
+    height: 14px;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+}
+.jobsearch-company-review-left small {
+    display: inline-block;
+    font-size: 14px;
+    color: #ffaf00;
+    line-height: 1;
+    vertical-align: text-top;
+    margin-left: 7px;
+    margin-top: -2px;
+}
+.jobsearch-typo-wrap .jobsearch-company-review-text {
+    border-bottom: 1px dashed #efefef;
+    padding-bottom: 11px;
+}
+.jobsearch-company-review ul li:last-child .jobsearch-company-review-text {
+    padding-bottom: 0px;
+    border-bottom: none;
+}
+.jobsearch-add-review-con ul li {
+    float: left;
+    width: 100%;
+    list-style: none;
+    margin-bottom: 20px;
+}
+.jobsearch-rating-info {
+    display: inline-block;
+    font-size: 18px;
+    color: #ffaf00;
+    vertical-align: super;
+    margin-right: 4px;
+}
+.jobsearch-rating {
+    display: inline-block;
+    height: 22px;
+    position: relative;
+    width: 122px;
+}
+.jobsearch-rating:before, .jobsearch-rating-box:before {
+    content: "";
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 122px;
+    height: 22px;
+    background: url(../images/rating-star.png);
+}
+.jobsearch-rating-box:before {
+    content: "";
+    background-position: 0px 100%;
+}
+.jobsearch-rating-box {
+    height: 22px;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+}
+.jobsearch-typo-wrap .review-stars-sec {
+    float: left;
+    width: 50%;
+    border: 1px solid #ddd;
+    padding: 35px 30px 24px 30px;
+}
+.review-stars-sec label {
+    display: inline-block;
+    width: 60%;
+    font-weight: 600;
+    vertical-align: middle;
+}
+.review-stars-sec .review-stars-holder .br-wrapper {
+    display: inline-block;
+    vertical-align: middle;
+}
+.review-stars-holder .br-theme-fontawesome-stars .br-widget {
+    height: auto;
+    white-space: inherit;
+}
+.jobsearch-typo-wrap .review-overall-stars-sec {
+    float: left;
+    width: 50%;
+    border: 1px solid #ddd;
+    border-left: none;
+    padding: 30px 30px 29px 30px;
+    text-align: center;
+}
+.jobsearch-company-rating {
+    display: inline-block;
+    margin-top: 6px;
+}
+.rating-text {
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 0.5em;
+}
+.jobsearch-typo-wrap .rating-num {
+    display: block;
+    font-size: 42px;
+    font-weight: 700;
+    color: #333;
+    margin: 13px 0px 14px 0px;
+}
+.jobsearch-typo-wrap .review-stars-holder { margin-bottom: 9px; }
+.jobsearch-add-review-con .jobsearch-company-rating { line-height: 16px; width: 95px; }
+.jobsearch-add-review-con .jobsearch-company-rating-box { height: 16px; }
+.jobsearch-add-review-con .jobsearch-company-rating:before, .jobsearch-add-review-con .jobsearch-company-rating-box:before { font-size: 16px; }
+.jobsearch-add-review-con .jobsearch-company-rating:before { color: #d2d2d2; }
+.jobsearch-add-review-con textarea {
+    float: left;
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 8px 16px;
+    height: 170px;
+}
+.jobsearch-typo-wrap .jobsearch-add-review-con input[type="submit"],
+.jobsearch-addreview-form input[type="submit"] {
+    border: 1px solid;
+    border-radius: 2px;
+    box-shadow: none;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 1;
+    padding: 1em 2em;
+    -webkit-transition: all 0.4s ease-in-out;
+       -moz-transition: all 0.4s ease-in-out;
+        -ms-transition: all 0.4s ease-in-out;
+         -o-transition: all 0.4s ease-in-out;
+            transition: all 0.4s ease-in-out;
+}
+.jobsearch-typo-wrap .jobsearch-add-review-con input[type="submit"]:hover,.jobsearch-addreview-form input[type="submit"]:hover { background-color: transparent; }
+.jobsearch-typo-wrap .review-detail-popover {
+    position: absolute;
+    left: 9%;
+    top: 60px;
+    border: 1px solid #ddd;
+    background-color: #ffffff;
+    z-index: 2;
+    padding: 12px 12px 7px 12px;
+    max-width: 140px;
+    display: none;
+    box-shadow: 0px 0px 3px 1px #eee;
+}
+.jobsearch-typo-wrap .review-detail-popover:before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: -8px;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 8px solid #ffffff;
+    margin-left: -5px;
+    z-index: 2;
+}
+.jobsearch-typo-wrap .review-detail-popover:after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: -10px;
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+    border-bottom: 9px solid #ddd;
+    margin-left: -6px;
+    z-index: 1;
+}
+.review-detail-popover .jobsearch-company-rating {
+    width: 67px;
+}
+.review-detail-popover .jobsearch-company-rating:before {
+    color: #d2d2d2;
+    font-size: 10px;
+    letter-spacing: 4px;
+}
+.review-detail-popover .jobsearch-company-rating-box:before {
+    font-size: 10px;
+    letter-spacing: 4px;
+}
+.review-detail-popover .rating-title {
+    font-size: 14px;
+    display: block;
+    line-height: 1;
+    margin-bottom: 5px;
+}
+.jobsearch-typo-wrap .rating-detail-item {
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 7px;
+    padding-bottom: 3px;
+    line-height: 1;
+}
+.jobsearch-typo-wrap .rating-detail-item:last-child {
+    border-bottom: none;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.jobsearch-review-msg.alert-danger {
+    display: inline-block;
+    background-color: #e15440;
+    color: #ffffff;
+    padding: 8px 18px;
+    border-radius: 3px;
+    margin-left: 8px;
+}
+.jobsearch-review-loader { margin-left: 8px; }
+.jobsearch-review-msg.alert-success {
+    display: inline-block;
+    background-color: #32CD32;
+    color: #ffffff;
+    padding: 8px 18px;
+    border-radius: 3px;
+}
+.jobsearch-candidate-wrap-section .jobsearch-company-review ul li { margin-bottom: 30px; }
+.jobsearch-typo-wrap .dash-reviews-list .review-detail-popover {
+    top: 90px; }
+span.undereview-msg {
+    display: inline-block;
+    font-size: 11px;
+    color: #f54c4c;
+    vertical-align: middle;
+    margin-left: 5px;
+}

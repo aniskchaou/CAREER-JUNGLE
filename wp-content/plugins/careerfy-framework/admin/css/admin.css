@@ -1,0 +1,381 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+.careerfy-post-settings {
+	display: inline-block;
+	padding: 0px 20px;
+	min-width: 75%;
+}
+.inside .careerfy-post-settings .careerfy-elem-heading {
+	margin-left: -32px;
+	margin-right: -32px;
+}
+.careerfy-elem-heading {
+ 	display: block;
+ 	background-color: #fcfcfc;
+ 	border-bottom: 1px solid #eee;
+ 	margin: 25px 0px 25px 0px;
+}
+.careerfy-elem-heading h2 {
+	font-size: 13px !important;
+	font-weight: bold !important;
+	padding: 15px 30px !important;
+}
+.careerfy-element-field {
+	display: inline-block;
+	width: 100%;
+	margin-bottom: 10px;
+}
+.elem-label {
+	display: inline-block;
+	font-weight: bold;
+	width: 20%;
+	vertical-align: middle;
+}
+.elem-field {
+	display: inline-block;
+	width: 40%;
+	vertical-align: middle;
+	position: relative;
+}
+.elem-field .input-select-field.input-f {
+	float: left;
+	width: 68%;
+}
+.elem-field .input-select-field.select-f {
+	float: right;
+	width: 30%;
+}
+.elem-field input[type='text'] {
+	display: inline-block;
+	width: 100%;
+	height: 36px;
+}
+/* On Off Button */
+.onoff-button input[type=checkbox] {
+	visibility: hidden;
+}
+.onoff-button {
+	width: 80px;
+	height: 26px;
+	background: #eee;
+	border: 1px solid #ddd;
+	position: relative;
+}
+.onoff-button:after {
+	content: 'OFF';
+	font: 12px/26px Arial, sans-serif;
+	color: #000;
+	position: absolute;
+	right: 10px;
+	z-index: 0;
+	font-weight: bold;
+	text-shadow: 1px 1px 0px rgba(255,255,255,.15);
+}
+.onoff-button:before {
+	content: 'ON';
+	font: 12px/26px Arial, sans-serif;
+	color: #00bf00;
+	position: absolute;
+	left: 10px;
+	z-index: 0;
+	font-weight: bold;
+}
+.onoff-button label {
+	display: block;
+	width: 34px;
+	height: 20px;
+
+	-webkit-transition: all .4s ease;
+	-moz-transition: all .4s ease;
+	-o-transition: all .4s ease;
+	-ms-transition: all .4s ease;
+	transition: all .4s ease;
+	cursor: pointer;
+	position: absolute;
+	top: 3px;
+	left: 3px;
+	z-index: 1;
+	background: #fefefe;
+}
+.onoff-button input[type="checkbox"]:checked + label { left: 43px; }
+.careerfy-bk-btn {
+	display: inline-block;
+	text-decoration: none;
+	padding: 10px 20px;
+	background: #fdfdfd;
+	border: 1px solid #ddd;
+	color: #000;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.multi-list-add-box {
+	display: inline-block;
+	width: 100%;
+	padding: 30px;
+	position: relative;
+	background-color: #f5f5f5;
+	-webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.careerfy-post-settings textarea { width: 100%; }
+.close-box {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	background-color: #db5940;
+	width: 22px;
+	height: 22px;
+	text-align: center;
+}
+.close-box a {
+	color: #fff;
+	display: inline-block;
+}
+.multi-list-header {
+	margin-bottom: 15px;
+	background-color: #f5f5f5;
+}
+.multi-list-header,.multi-list-header ul {
+	display: inline-block;
+	width: 100%;
+}
+.multi-list-header ul li {
+	display: inline-block;
+	margin: 0px -4px 0px 0px;
+}
+.multi-list-header ul li.drag-point { margin-right: 15px; }
+.multi-list-header ul li.drag-point a { cursor: all-scroll; }
+.multi-list-header ul li.list-actions { float: right; }
+.multi-list-header ul li a {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	color: #666;
+	background-color: #ddd;
+	font-size: 11px;
+	text-align: center;
+}
+.multi-list-header ul li a i {
+	display: inline-block;
+	margin-top: 10px;
+}
+.careerfy-browse-med-image {
+	display: inline-block;
+	width: 100%;
+	position: relative;
+}
+.careerfy-browse-med-image img {
+	width: 250px;
+	margin-bottom: 10px;
+}
+.careerfy-browse-med-image a {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	background-color: #db5940;
+	width: 22px;
+	height: 22px;
+	text-align: center;
+	color: #fff;
+	cursor: pointer;
+}
+
+.careerfy-pagination ul {
+	float:left;
+	width:100%;
+}
+
+.careerfy-pagination ul li {
+	float:left;
+	margin:0 3px;
+}
+
+.careerfy-pagination ul li a {
+	float:left;
+	padding:5px 10px;
+}
+
+.careerfy-pagination ul li a.active,
+.careerfy-pagination ul li a:hover {
+	background:#333;
+	color:#fff;
+}
+
+#adminmenu .wp-menu-image img{
+	padding: 6px 0 0;
+}
+
+.careerfy-gallery-post { width: 100%; }
+.careerfy-gallery-images { margin: 0px -10px; }
+.gal-thumb,.careerfy-add-gal-btn,
+.gal-thumb img,
+.careerfy-gallery-images .careerfy-element-field,
+.careerfy-gallery-images .careerfy-element-field .elem-label,
+.careerfy-gallery-images .careerfy-element-field .elem-field {
+	float: left;
+	width: 100%;
+}
+.gallery-form-elem {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	z-index: 9999;
+	background-color: rgba(0,0,0,0.85);
+}
+.gallery-form-inner {
+	display: inline-block;
+	width: 350px;
+	margin-top: 80px;
+	background-color: #fff;
+	padding: 20px;
+}
+.careerfy-gallery-images li {
+	float: left;
+	width: 10.80%;
+	position: relative;
+	list-style: none;
+	padding: 10px 10px 0px 10px;
+}
+.gal-actions {
+	position: absolute;
+	left: 10px;
+	top: 20px;
+	width: 100%;
+}
+.gal-actions a,.close-gal {
+	float: left;
+	width: 30px;
+	padding: 5px 0px 7px 0px;
+	background-color: #4682B4;
+	color: #fff;
+	text-align: center;
+	margin-left: 10px;
+}
+.gal-actions a.delete { background-color: #FF0000; }
+.careerfy-gallery-images h3 {
+	float: left;
+	margin: 11px 0px 0px 0px;
+}
+.gallery-form-inner .careerfy-heading-area {
+	display: inline-block;
+	width: 100%;
+	margin-bottom: 15px;
+}
+.careerfy-gallery-images .close-gal { float: right; }
+.careerfy-add-gal-btn input,
+.gallery-form-inner input[type="button"] {
+	border: none;
+	color: #ffffff;
+	float: left;
+	font-weight: 500;
+	padding: 8px 22px;
+	text-transform: uppercase;
+	background-color: #4682B4;
+	cursor: pointer;
+	margin-top: 15px;
+}
+.gallery-form-inner input[type="button"] {
+	width: auto;
+	margin: 0px;
+}
+.careerfy-gallery-images .careerfy-element-field .elem-label,
+.careerfy-gallery-images .careerfy-element-field .elem-field {
+	text-align: left;
+	margin: 6px 0px;
+}
+.careerfy-available-wrapper {
+	display: inline-block;
+	width: 14.28%;
+    margin-right: -4px;
+    padding: 0 15px;
+    vertical-align: top;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+.careerfy-available-wrapper .elem-label { margin-bottom: 7px; }
+.careerfy-available-wrapper .elem-label,
+.careerfy-available-wrapper .elem-field { width: 100%; }
+.careerfy-available-wrapper .multi-list-header ul li.drag-point { margin-right: 5px; }
+.careerfy-available-wrapper .multi-list-header ul li a { width: 25px; }
+/* Job.Css */
+
+
+.careerfy-element-field select {
+	width: 100%;
+	height: 36px;
+}
+.careerfy-element-field select option { padding: 10px; }
+.careerfy-field-loader {
+	position: absolute;
+	right: 30px;
+	top: 10px;
+}
+.careerfy-element-field textarea {
+	height: 130px;
+	padding: 3px 5px;
+}
+.careerfy-post-layout .elem-label,.careerfy-post-layout .elem-field { width: 48%; }
+.company-logo {
+	float: left;
+	margin-right: 10px;
+	width: 40px;
+}
+.company-logo img { float: left; width: 100%; }
+.post-type-job .button,
+.actions .button-icon {
+	margin-left: 10px;
+}
+.post-type-job .jobtype-bg {
+	border-radius: 3px;
+	box-sizing: border-box;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 13px;
+	height: 28px;
+	line-height: 26px;
+	margin: 0;
+	padding: 0 10px 1px;
+}
+.post-type-job a.job_title {
+	font-weight: bold;
+}
+.post-type-job a { color: #666; }
+.post-type-job td { vertical-align: middle; }
+.sector-list { font-style: italic; }
+a.careerfy-tooltip { position: relative; }
+a.careerfy-tooltip[title]:after {
+	content: attr(title);
+	padding: 2px 8px;
+	font-size: 11px;
+	color: #ffffff;
+	position: absolute;
+	left: 0;
+	top: 100%;
+	opacity: 0;
+	visibility: hidden;
+	z-index: 20;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	background-color: #000;
+	-webkit-transition: all 0.4s ease-in-out;
+	 -moz-transition: all 0.4s ease-in-out;
+	  -ms-transition: all 0.4s ease-in-out;
+	   -o-transition: all 0.4s ease-in-out;
+	      transition: all 0.4s ease-in-out;
+}
+a.careerfy-tooltip[title]:hover:after {
+	opacity: 1;
+	visibility: visible;
+}
+.column-status a.careerfy-tooltip[title]:after { left: -150%; }
+.post-type-job .widefat td,.post-type-job .widefat th,.column-action { overflow: inherit; }
+.redux-dev-mode-notice-container {display: none;}

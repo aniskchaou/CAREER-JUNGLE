@@ -1,0 +1,284 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+.cndt-body {
+	float: left;
+	width: 100%;
+	border: 2px solid #3398DB;
+}
+
+/* User Section */
+.cndt-user-section {
+	float: left;
+	width: 100%;
+	border-bottom: 2px solid #3398DB;
+	background-color: #3398DB;
+}
+.cndt-user-thumb {
+	float: left;
+	width: 110px;
+	padding: 10px;
+	border-right: 2px solid #ffffff;
+	background-color: #ffffff;
+}
+.cndt-user-thumb img {
+	float: left;
+	width: 100%;
+}
+.cndt-user-text {
+	float: left;
+	width: 79%;
+	padding: 15px 0px 0px 15px;
+}
+.cndt-name {
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 4px;
+	color: #ffffff;
+}
+.cndt-jobtitle {
+	display: block;
+	font-size: 16px;
+	margin-bottom: 0px;
+	color: #ffffff;
+}
+.cndt-contact-info {
+	float: left;
+	width: 100%;
+	border-top: 1px solid #ffffff;
+	font-size: 16px;
+	color: #ffffff;
+	padding-top: 10px;
+	margin-top: 10px;
+}
+.cndt-contact-info span {
+	font-weight: bold;
+	font-size: 14px;
+	color: #ffffff;
+}
+.cndt-contact-info a {
+	color: #ffffff; }
+
+/* Left Content */
+.cndt-left-content {
+	float: left;
+	width: 60%;
+	padding: 20px;
+}
+.content-icon-wrap {
+	float: left;
+	width: 100%;
+	border-bottom: 1px solid #c6ddd4;
+	margin-bottom: 10px;
+}
+.cndt-content-title {
+	float: left;
+	margin-top: 7px;
+	padding-left: 10px;
+}
+.cndt-content-title span {
+	font-size: 18px;
+	font-weight: bold;
+	color: #3398DB;
+	text-transform: uppercase;
+}
+.content-icon {
+	float: left;
+	font-size: 20px;
+	color: #ffffff;
+	background-color: #3398DB;
+	line-height: 40px;
+	width: 40px;
+	text-align: center;
+	font-family: jobsearch;
+}
+.cndt-right-content .content-icon {
+	color: #ffffff; }
+/* Contant Article */
+.cndt-contant-article {
+	float: left;
+	width: 100%;
+	margin-bottom: 25px;
+}
+.cndt-contant-article-sub {
+	color: #3398DB;
+	font-size: 13px;
+	text-transform: uppercase;
+	margin-bottom: 6px;
+}
+.cndt-contant-article-min {
+	display: block;
+	color: #000;
+	font-size: 16px;
+	margin-bottom: 3px;
+}
+.cndt-contant-article-date {
+	font-size: 13px;
+	color: #666;
+	margin-bottom: 6px;
+}
+/* Right Content */
+.cndt-right-content {
+	float: left;
+	width: 29.80%;
+	padding: 0px 18px 18px 18px;
+	background-color: #3398DB;
+	height: 1800px;
+}
+.cndt-right-content .content-icon {
+	background-color: #ffffff;
+	color: #3398DB;
+}
+.cndt-right-pera {
+	float: left;
+	width: 100%;
+	margin-bottom: 25px;
+	color: #ffffff;
+}
+.cndt-right-links-wrap {
+	float: left;
+	width: 100%;
+	margin-bottom: 10px;
+}
+.cndt-right-links {
+	float: left;
+	width: 100%;
+	color: #ffffff;
+	margin-bottom: 6px;
+}
+.cndt-expertise-lines {
+	float: left;
+	width: 100%;
+	background-color: #fff;
+	height: 10px;
+	position: relative;
+	padding: 2px;
+	border-radius: 80px;
+}
+.cndt-expertise-lines-inn {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	background-color: #000;
+	height: 10px;
+	border-radius: 80px;
+}
+.cndt-right-content .cndt-content-title span {
+	color: #ffffff; }
+.cndt-right-out {
+	float: left;
+	width: 100%;
+	color: #ffffff;
+}
+.cndt-custom-field {
+	margin: 30px -15px 10px -15px;
+}
+.cndt-custom-field-inner {
+	float: left;
+	content-align: top;
+	width: 44%;
+	padding: 0px 15px;
+	margin: 0px -4px 25px 0px;
+}
+.cndt-custom-field-icon-wrap {
+	float: left;
+	width: 40px;
+	height: 40px;
+	background-color: #666;
+	border-radius: 100%;
+	text-align: center;
+	line-height: 1.8;
+}
+.cndt-custom-field-icon {
+	font-family: jobsearch;
+	font-size: 22px;
+	color: #ffffff;
+}
+.cndt-custom-field-text {
+	float: left;
+	width: 70%;
+	padding-left: 15px;
+}
+.cndt-custom-field-title {
+	font-size: 16px;
+}
+.cndt-custom-field-sub {
+	font-size: 14px;
+}
+.cndt-skills {
+	float: left;
+	width: 100%;
+}
+.cndt-skills-link {
+	float: left;
+	width: 100%;
+	padding: 0px 5px;
+	margin-bottom: 10px;
+}
+.cndt-skills-link div {
+	float: left;
+	width: 100%;
+	text-align: center;
+	font-size: 14px;
+	padding: 10px 10px;
+	background-color: #eaeaea;
+	border-radius: 20px;
+	line-height: 1;
+	color: #666;
+}
+.sidebar-spacer {
+	float: left;
+	width: 100%;
+	height: 25px;
+}
+.jobsearch-pdf-porfolio-img {
+	float: left;
+	width: 215px;
+	padding: 5px;
+}
+.jobsearch-pdf-porfolio-link {
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+.cndt-skills {
+	float: left;
+	width: 100%;
+}
+.cndt-skills .cndt-skills-inner {
+	float: left;
+	width: 45%;
+	padding: 0px 8px 8px 0px;
+	text-align: center;
+}
+.cndt-skills div a {
+	color: #ffffff; }
+.cndt-skills .cndt-skills-list-item {
+	float: left;
+	width: 100%;
+	background-color: #000;
+	color: #ffffff;
+	border-radius: 100%;
+	padding: 8px 10px;
+	line-height: 1;
+}
+.cndt-custom-field-inner-full {
+	width: 100%;
+}
+.cndt-custom-field-inner-full .cndt-custom-field-text-left {
+	width: 50%;
+	float: left;
+}
+.cndt-custom-field-inner-full .cndt-custom-field-image {
+	float: right;
+	width: 150px;
+}

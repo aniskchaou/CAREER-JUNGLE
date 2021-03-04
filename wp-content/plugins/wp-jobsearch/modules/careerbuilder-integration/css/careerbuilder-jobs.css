@@ -1,0 +1,12 @@
+#loading,
+#success_msg,
+#error_msg,
+#invalid_publisher_number{
+    display: none;
+}
+.jobsearch-careerbuilder-jobs .import-careerbuilder-jobs, .jobsearch-careerbuilder-jobs #loading{
+    float: left !important;
+}
+.jobsearch-careerbuilder-jobs #loading{
+    padding: 12px 0px 0px 15px;
+}

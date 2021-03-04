@@ -1,0 +1,32 @@
+{
+  "status": "success",
+  "tp": 1,
+  "msg": "States fetched successfully.",
+  "result": {
+    "\"1\"": "Buenos Aires",
+    "\"10\"": "Jujuy",
+    "\"11\"": "La Pampa",
+    "\"12\"": "La Rioja",
+    "\"13\"": "Mendoza",
+    "\"14\"": "Misiones",
+    "\"15\"": "Neuquen",
+    "\"16\"": "Rio Negro",
+    "\"17\"": "Salta",
+    "\"18\"": "San Juan",
+    "\"19\"": "San Luis",
+    "\"2\"": "Catamarca",
+    "\"20\"": "Santa Cruz",
+    "\"21\"": "Santa Fe",
+    "\"22\"": "Santiago del Estero",
+    "\"23\"": "Tierra del Fuego",
+    "\"24\"": "Tucuman",
+    "\"3\"": "Chaco",
+    "\"4\"": "Chubut",
+    "\"5\"": "Cordoba",
+    "\"6\"": "Corrientes",
+    "\"7\"": "Buenos Aires F.D.",
+    "\"8\"": "Entre Rios",
+    "\"9\"": "Formosa"
+  },
+  "hits": "1139"
+}

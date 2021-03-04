@@ -1,0 +1,15 @@
+{
+  "status": "success",
+  "tp": 1,
+  "msg": "States fetched successfully.",
+  "result": {
+    "\"2\"": "Canillo",
+    "\"3\"": "Encamp",
+    "\"4\"": "La Massana",
+    "\"5\"": "Ordino",
+    "\"6\"": "Sant Julia de Loria",
+    "\"7\"": "Andorra la Vella",
+    "\"8\"": "Escaldes-Engordany"
+  },
+  "hits": "1135"
+}

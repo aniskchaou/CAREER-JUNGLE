@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<wpml-config>
+	<custom-types>
+		<custom-type translate="1">job</custom-type>
+ 		<custom-type translate="1">candidate</custom-type>
+ 		<custom-type translate="1">employer</custom-type>
+		<custom-type translate="0">package</custom-type>
+	</custom-types>
+	<taxonomies>
+		<taxonomy translate="1">jobtype</taxonomy>
+		<taxonomy translate="1">job-location</taxonomy>
+		<taxonomy translate="1">skill</taxonomy>
+		<taxonomy translate="1">sector</taxonomy>
+	</taxonomies>
+</wpml-config>

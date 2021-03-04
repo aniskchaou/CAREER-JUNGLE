@@ -1,0 +1,13 @@
+{
+  "status": "success",
+  "tp": 1,
+  "msg": "States fetched successfully.",
+  "result": {
+    "\"1\"": "Gorno-Badakhshan",
+    "\"2\"": "Khatlon",
+    "\"3\"": "Viloyati Sughd",
+    "\"4\"": "Dushanbe",
+    "\"RR\"": "Republican Subordination"
+  },
+  "hits": "1326"
+}

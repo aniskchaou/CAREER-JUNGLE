@@ -1,0 +1,106 @@
+.careerfy-employer-subheader-three {
+	float: left;
+	width: 100%;
+}
+.careerfy-employer-subheader-three figure {
+	float: left;
+	margin: 0px 0px -25px 0px;
+}
+.careerfy-employer-subheader-three figure img {
+	float: left;
+	width: 150px;
+	border: 1px solid #ececec;
+	margin-top: -60px;
+	background-color: #ffffff;
+}
+.careerfy-employer-subheader-three figure img ~ h2 {
+	margin-left: 170px;
+	margin-top: 28px;
+}
+.careerfy-employer-subheader-three-transparent-wrap {
+	float: left;
+	width: 100%;
+	height: 270px;
+	position: relative;
+}
+.careerfy-employer-subheader-three-transparent {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+}
+.careerfy-employer-subheader-three .careerfy-employer-detail2-toparea-btn {
+	float: right;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 9px 22px;
+}
+.careerfy-employer-subheader-three .careerfy-employer-detail2-toparea-btn i {
+	font-size: 10px;
+	margin-top: 1px;
+}
+.careerfy-employer-subheader-three .careerfy-right {
+	margin-top: 27px; }
+.careerfy-employer-subheader-three .careerfy-rating {
+	margin-top: 6px; }
+.careerfy-employer-subheader-three .careerfy-employer-detail2-toparea-reviews {
+	margin-top: -13px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 8px;
+}
+.widget_gallery_three ul {
+	margin: 0px -5px; }
+.widget_gallery_three ul li {
+	float: left;
+	width: 33.333%;
+	list-style: none;
+	padding: 0px 5px 10px 5px;
+}
+/* Candidate Grid Two */
+.careerfy-candidate-grid2 > ul > li {
+	margin-bottom: 35px; }
+.careerfy-candidate-grid2 figure {
+	float: left;
+	width: 100%;
+}
+.careerfy-candidate-grid2 figure {
+	margin-bottom: 0px; }
+.careerfy-candidate-grid2 figure > a {
+	float: left;
+	width: 80px;
+}
+.careerfy-candidate-grid2 figure img {
+	border-radius: 100%;
+	height: 80px;
+    width: 100%;
+}
+.careerfy-candidate-grid2 figure > a ~ figcaption {
+	margin-left: 94px;
+}
+.careerfy-candidate-grid2 h2 {
+	margin-bottom: 2px;
+	font-size: 18px;
+}
+.careerfy-candidate-grid2 figcaption span {
+	line-height: 1.3;
+	display: block;
+	margin-top: 3px;
+}
+.careerfy-employer-subheader-three .careerfy-detrating-con {
+	float: left; }
+.careerfy-employer-subheader-three .promotepof-badgeemp {
+	position: static;
+	display: inline-block;
+	vertical-align: middle;
+	border-radius: 12px;
+}
+.careerfy-employer-subheader-three .promotepof-badgeemp:before {
+	display: none; }
+.careerfy-candidate-grid2 .jobsearch-social-icons {
+    padding-top: 0px;
+    background-color: transparent;
+    border: none;
+    text-align: left;
+}

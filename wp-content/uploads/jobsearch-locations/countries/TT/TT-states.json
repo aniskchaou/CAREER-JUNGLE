@@ -1,0 +1,24 @@
+{
+  "status": "success",
+  "tp": 1,
+  "msg": "States fetched successfully.",
+  "result": {
+    "\"1\"": "Borough of Arima",
+    "\"10\"": "City of San Fernando",
+    "\"11\"": "Tobago",
+    "\"3\"": "Mayaro",
+    "\"5\"": "City of Port of Spain",
+    "\"CHA\"": "Chaguanas",
+    "\"CTT\"": "Couva-Tabaquite-Talparo",
+    "\"DMN\"": "Diego Martin",
+    "\"ETO\"": "Eastern Tobago",
+    "\"PED\"": "Penal Debe",
+    "\"PRT\"": "Princes Town",
+    "\"PTF\"": "Point Fortin",
+    "\"SGE\"": "Sangre Grande",
+    "\"SIP\"": "Siparia",
+    "\"SJL\"": "San Juan Laventille",
+    "\"TUP\"": "Tunapuna Piarco"
+  },
+  "hits": "1332"
+}

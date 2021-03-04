@@ -1,0 +1,296 @@
+
+* {
+	margin: 0px;
+	padding: 0px;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+.pdf-style19-left-bar {
+	float: left;
+	width: 25%;
+	height: 100%;
+	background-image: url("bg-pattern1.jpg");
+	text-align: center;
+}
+.pdf-style19-left-bar-inner {
+	float: left;
+	width: 100%;
+	background-image: url("repeater-2.png");
+	padding: 40px 22px 0px 22px;
+}
+.pdf-style19-thumb {
+	display: inline-block;
+	width: 116px;
+	padding-left: 20px;
+	margin-bottom: 12px;
+}
+.pdf-style19-thumb div {
+	float: left;
+	width: 116px;
+	height: 116px;
+	border-radius: 100%;
+	background-image: url("avatar.png");
+	background-size: cover;
+	background-position: center top;
+}
+.pdf-style19-left-bar-title {
+	font-size: 22px;
+	color: #ffffff;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+.pdf-style19-thumb-sub {
+	float: left;
+	width: 100%;
+	font-size: 12px;
+	color: #ffffff;
+	font-weight: bold;
+	line-height: 1.4;
+}
+.pdf-style19-thumb-circle {
+	float: left;
+	width: 100%;
+	margin: 15px 0px;
+}
+.pdf-style19-thumb-pera {
+	float: left;
+	width: 100%;
+	color: #ffffff;
+	font-size: 10px;
+	text-align: justify;
+	line-height: 1.5;
+}
+.pdf-style19-left-bar-shape {
+	float: left;
+	width: 100%;
+	margin-bottom: 18px;
+}
+.pdf-style19-bar-mini-title {
+	float: left;
+	width: 100%;
+	text-transform: uppercase;
+	font-size: 15px;
+	color: #414142;
+	font-weight: bold;
+	letter-spacing: 3px;
+	margin-bottom: 24px;
+}
+.pdf-style19-bar-info {
+	float: left;
+	width: 100%;
+	margin-bottom: 22px;
+	padding: 0px 26px;
+}
+.pdf-style19-bar-info-icon {
+	float: left;
+	width: 100%;
+	padding-left: 55px;
+	margin-bottom: 5px;
+}
+.pdf-style19-bar-info-icon div {
+	display: inline-block;
+	background-color: #414142;
+	width: 33px;
+	height: 26px;
+	border-radius: 100%;
+	padding-top: 7px;
+}
+.pdf-style19-bar-info-text {
+	font-size: 11px;
+	color: #414142;
+}
+.pdf-style19-shape-left-bottom {
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	background-image: url("left-down.png");
+	width: 25px;
+	height: 15px;
+	background-repeat: no-repeat;
+}
+.pdf-style19-shape-right-top {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	background-image: url("right-up.png");
+	width: 69px;
+	height: 42px;
+	background-repeat: no-repeat;
+}
+.pdf-style19-shape-right-bottom {
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	background-image: url("right-down.png");
+	width: 116px;
+	height: 70px;
+	background-repeat: no-repeat;
+}
+/* Content */
+.pdf-style19-content-right {
+	float: left;
+	width: 68%;
+	padding: 20px 20px 0px 20px;
+}
+
+.pdf-style19-bar-heading-main {
+	float: left;
+	width: 100%;
+	margin-bottom: 20px;
+}
+.pdf-style19-bar-heading-icon {
+	float: left;
+	width: 32px;
+	height: 31px;
+	background-color: #e9dfef;
+	border-radius: 100%;
+	padding: 10px 0px 0px 11px;
+}
+.pdf-style19-bar-heading-text {
+	float: left;
+	width: 78%;
+	padding-left: 13px;
+	padding-top: 11px;
+}
+.pdf-style19-bar-heading-text div {
+	color: #414142;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: bold;
+	letter-spacing: 3px;
+}
+
+/* Content List */
+.pdf-style19-content-list,
+.pdf-style19-content-list-item,
+.pdf-style19-content-list-title,
+.pdf-style19-content-list-pera {
+	float: left;
+	width: 100%;
+}
+.pdf-style19-content-list-item {
+	margin-bottom: 23px;
+}
+.pdf-style19-content-list-circle {
+	float: left;
+	width: 4%;
+	padding-top: 3px;
+}
+.pdf-style19-content-list-circle div {
+	width: 8px;
+	height: 8px;
+	float: left;
+	background-image: url("circle.png");
+	background-repeat: no-repeat;
+}
+.pdf-style19-content-list-text {
+	float: left;
+	width: 90%;
+}
+.pdf-style19-content-list-title {
+	font-size: 12px;
+	color: #414142;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-bottom: 4px;
+}
+.pdf-style19-content-list-title span {
+	font-weight: normal;
+	font-size: 10px;
+}
+.pdf-style19-content-list-sub {
+	font-size: 11px;
+	color: #414042;
+	text-transform: uppercase;
+	margin-bottom: 8px;
+}
+.pdf-style19-content-list-pera {
+	font-size: 12px;
+	color: #414142;
+}
+.pdf-style19-coll {
+	float: left;
+	width: 50%;
+}
+/* Mini Heading */
+.pdf-style19-mini-section {
+	float: left;
+	width: 100%;
+}
+.pdf-style19-mini-section-circle {
+	float: left;
+	width: 8%;
+	padding-top: 3px;
+}
+.pdf-style19-mini-section-circle div {
+	width: 8px;
+	height: 8px;
+	float: left;
+	background-image: url("circle.png");
+	background-repeat: no-repeat;
+}
+.pdf-style19-mini-section-text {
+	float: left;
+	width: 90%;
+	font-size: 11px;
+	color: #414042;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-bottom: 4px;
+}
+
+/* Skills */
+.pdf-style19-skills-wrapper {
+	float: left;
+	width: 100%;
+	margin-bottom: 18px;
+	padding-left: 20px;
+	margin-top: 10px;
+}
+.pdf-style19-skills {
+	float: left;
+	width: 100%;
+	margin-bottom: 6px;
+}
+.pdf-style19-skills-left {
+	float: left;
+	width: 50%;
+	font-size: 11px;
+	color: #414142;
+}
+.pdf-style19-skills-line {
+	float: right;
+	width: 80px;
+	margin-top: 4px;
+}
+.pdf-style19-skills-inn1 {
+	float: left;
+	width: 100%;
+	height: 12px;
+	background-image: url("skills-bottom-rd.png");
+	background-repeat: no-repeat;
+}
+.pdf-style19-skills-inn2 {
+	float: left;
+	margin: -12px 0px 0px 0px;
+	height: 12px;
+	background-image: url("skills-top-rd.png");
+	background-repeat: no-repeat;
+	position: relative;
+	z-index: 4;
+}
+.pdf-style19-content-list-bottom .pdf-style19-content-list-item {
+	float: left;
+	width: 50%;
+}
+.pdf-style19-content-list-bottom .pdf-style19-content-list-sub {
+	text-transform: capitalize; }
+.pdf-style19-content-list-bottom .pdf-style19-content-list-circle {
+	width: 8%; }

@@ -1,0 +1,341 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.pdf-style15-body {
+    float: left;
+    width: 100%;
+    height: 100%;
+
+}
+
+.pdf-style15-left-content {
+    float: left;
+    width: 40%;
+}
+
+.pdf-style15-main-thumb {
+    float: left;
+    width: 220px;
+    padding: 20px 0px 0px 8px;
+    margin-bottom: -90px;
+}
+
+.pdf-style15-main-thumb div {
+    float: left;
+    width: 220px;
+    height: 220px;
+    background-repeat: no-repeat;
+}
+
+.pdf-style15-thumb-description-border-top {
+    float: left;
+    width: 85%;
+    background-color: #4c65af;
+    height: 20px;
+    border-radius: 0px 80px 0px 0px;
+}
+
+.pdf-style15-thumb-description-border-bottom {
+    float: left;
+    width: 85%;
+    background-color: #4c65af;
+    height: 20px;
+    border-radius: 0px 0px 80px 0px;
+    margin-bottom: 30px;
+}
+
+.pdf-style15-thumb-description {
+    float: left;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 50px 30px 30px 30px;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.pdf-style15-thumb-title {
+    float: left;
+    width: 100%;
+    font-size: 12px;
+    color: #17191e;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 8px;
+    padding-left: 20px;
+}
+
+.pdf-style15-thumb-allison-title {
+    display: inline-block;
+    width: 100%;
+    font-family: allison;
+    font-size: 55px;
+    color: #4c65af;
+}
+
+.pdf-style15-thumb-pera {
+    float: left;
+    width: 100%;
+    color: #17191e;
+    font-size: 11px;
+    padding: 24px 0px 0px 10px;
+}
+
+/* Social List */
+.pdf-style15-social-list,
+.pdf-style15-social-list-inn {
+    float: left;
+    width: 100%;
+}
+
+.pdf-style15-social-list {
+    padding: 0px 0px 0px 20px;
+    margin-bottom: 15px;
+}
+
+.pdf-style15-social-list-inn {
+    margin-bottom: 20px;
+}
+
+.pdf-style15-social-icon {
+    float: left;
+    width: 22px;
+}
+
+.pdf-style15-social-text {
+    float: right;
+    width: 85%;
+}
+
+.pdf-style15-social-title {
+    display: block;
+    font-size: 13px;
+    color: #4c65af;
+    font-weight: bold;
+}
+
+.pdf-style15-social-sub {
+    display: block;
+    font-size: 12px;
+    color: #ffffff;
+}
+
+.pdf-style15-skills-heading {
+    float: left;
+    width: 100%;
+    font-size: 14px;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding-left: 25px;
+    margin-bottom: 10px;
+}
+
+/* Skills */
+.pdf-style15-skills-wrap {
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+    padding-left: 15px;
+}
+
+.pdf-style15-skills-list {
+    float: left;
+    width: 26%;
+    margin-bottom: 16px;
+    padding: 0px 10px;
+}
+
+.pdf-style15-skills-list.last {
+    margin-bottom: 0px;
+}
+
+.pdf-style15-skills-title {
+    float: left;
+    width: 100%;
+    font-size: 11px;
+    color: #4c66af;
+    letter-spacing: 0.7px;
+    margin-bottom: 8px;
+}
+
+.pdf-style15-skills-line {
+    display: inline-block;
+    width: 100%;
+}
+
+.pdf-style15-skills-inn1 {
+    float: left;
+    width: 100%;
+    height: 5px;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 80px;
+}
+
+.pdf-style15-skills-inn2 {
+    float: left;
+    margin: -5px 0px 0px 0px;
+    height: 5px;
+    background-color: #4c66b0;
+    position: relative;
+    z-index: 4;
+    border-radius: 80px;
+}
+
+/* Right Content */
+.pdf-style15-right-content {
+    float: right;
+    width: 55%;
+    padding: 14px 20px 0px 0px;
+    position: relative;
+    z-index: 2;
+}
+
+.right-bg {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background-color: #4c65af;
+    height: 90%;
+    width: 380px;
+    z-index: 0;
+    border-radius: 0px 0px 0px 20px;
+}
+
+.bottom-shape {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    height: 48px;
+    width: 380px;
+}
+
+.pdf-style15-section-heading {
+    color: #ffffff;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 2;
+}
+
+/* Content List */
+.pdf-style15-content-list,
+.pdf-style15-content-list-inn,
+.pdf-style15-content-list-title,
+.pdf-style15-content-list-pera {
+    float: left;
+    width: 100%;
+}
+
+.pdf-style15-content-list {
+    margin-bottom: 40px;
+}
+
+.pdf-style15-content-list-date {
+    float: left;
+    width: 18%;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.pdf-style15-content-list-circle {
+    float: left;
+    width: 9%;
+    height: 10px;
+    background-repeat: no-repeat;
+    margin-left: -7px;
+    position: relative;
+    z-index: 2;
+}
+
+.last .pdf-style15-content-list-text {
+    padding-bottom: 0px;
+}
+
+.pdf-style15-content-list-text {
+    float: left;
+    width: 65%;
+    position: relative;
+    z-index: 150;
+    border-left: 1px solid #ffffff;
+    padding-left: 20px;
+    margin-left: -35px;
+    padding-bottom: 20px;
+}
+
+.pdf-style15-content-list-title {
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    margin-top: -3px;
+}
+
+.pdf-style15-content-list-sub {
+    font-size: 13px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.pdf-style15-content-list-pera {
+    font-size: 11px;
+    color: #ffffff;
+}
+
+.jobsearch-pdf-porfolio-img {
+    float: left;
+    margin-left: 15px;
+    padding: 5px;
+    width: 200px;
+}
+
+.jobsearch-pdf-porfolio-link {
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.jobsearch-pdf-porfolio-link a {
+    color: #ffffff;
+}
+
+.cndt-skills {
+    float: left;
+    width: 100%;
+}
+
+.cndt-skills .cndt-skills-inner {
+    float: left;
+    width: 45%;
+    padding: 0 8px 8px 0;
+    text-align: center;
+}
+
+.cndt-skills div a {
+    color: #ffffff;
+}
+
+.cndt-skills .cndt-skills-list-item {
+    float: left;
+    width: 100%;
+    background-color: #000;
+    color: #ffffff;
+    border-radius: 100%;
+    padding: 8px 10px;
+    line-height: 1;
+}

@@ -1,0 +1,155 @@
+.body-nowhite-bg .candidate-content-wrapper {
+	padding: 25px;
+	float: left;
+	width: 100%;
+	background-color: #ffffff;
+}
+.candidate-detail-two-subheader {
+	float: left;
+	width: 100%;
+	background: url(../extra-images/candidate-detail-two-2.jpg);
+	position: relative;
+	padding: 180px 0px 21px 0px;
+}
+.candidate-detail-two-transparent {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	opacity: 0.50;
+}
+.candidate-detail-two-subheaderwrap {
+	float: right;
+	width: 66.66666667%;
+	position: relative;
+	padding-left: 15px;
+}
+.candidate-detail-two-subheader h1 {
+	color: #ffffff;
+	font-size: 36px;
+	margin-bottom: 7px;
+	line-height: 1.3;
+}
+.candidate-detail-two-subheader-list {
+	display: inline-block;
+	vertical-align: middle;
+	width: 75%;
+	margin-bottom: 7px;
+}
+.candidate-detail-two-subheader-list li {
+	float: left;
+	list-style: none;
+	color: #ffffff;
+	font-size: 16px;
+	line-height: 1.2;
+	margin: 0px 15px 12px 0px;
+}
+.candidate-detail-two-subheader-list li i {
+	margin-right: 5px; }
+.candidate-detail-two-subheader-list li:first-child {
+	width: 100%; }
+.candidate-detail-two-subheader-btn {
+	display: inline-block;
+	vertical-align: middle;
+	padding: 11px 26px;
+	border: 1px solid #ffffff;
+	border-radius: 80px;
+	color: #ffffff;
+	line-height: 1;
+	font-size: 16px;
+	-webkit-transition: all 0.4s ease-in-out;
+	   -moz-transition: all 0.4s ease-in-out;
+	    -ms-transition: all 0.4s ease-in-out;
+	     -o-transition: all 0.4s ease-in-out;
+	        transition: all 0.4s ease-in-out;
+}
+.candidate-detail-two-subheader-btn:hover {
+	color: #ffffff;
+}
+.candidate-detail-two-subheader-btn i {
+	margin-right: 5px; }
+.candidate-detail-two-subheader-social {
+	float: left;
+	width: 100%;
+}
+.candidate-detail-two-subheader-social li {
+	float: left;
+	list-style: none;
+	margin: 0px 9px 9px 0px;
+}
+.candidate-detail-two-subheader-social li a {
+	float: left;
+	width: 24px;
+	height: 24px;
+	background-color: #ffffff;
+	border-radius: 100%;
+	text-align: center;
+	font-size: 16px;
+	padding-top: 4px;
+}
+.candidate-detail-two-thumb {
+	float: left;
+	width: 100%;
+	margin: -250px 0px 22px 0px;
+	position: relative;
+	overflow: hidden;
+}
+.candidate-detail-two-thumb img { width: 100%; }
+/* Circular Progress */
+.circle-pie-list[class*="careerfy-column-"] {
+	display: inline-block;
+	float: none;
+	vertical-align: top;
+	margin: 22px -4px 22px 0px;
+}
+.pie-title-center {
+	display: inline-block;
+	position: relative;
+	text-align: center;
+}
+
+.pie-value {
+	display: block;
+	position: absolute;
+	font-size: 60px;
+	color: #333333;
+	top: 40%;
+	left: 0;
+	right: 0;
+	margin-top: -15px;
+	line-height: 40px;
+}
+.circle-pie-wrap {
+	float: left;
+	width: 100%;
+	position: relative;
+	text-align: center;
+}
+.circle-pie-inner {
+	display: block;
+	position: absolute;
+	font-size: 24px;
+	color: #999999;
+	top: 50%;
+	left: 0;
+	right: 0;
+	line-height: 40px;
+	margin-top: 11px;
+	text-transform: uppercase;
+}
+.circle-pie-title {
+	float: left;
+	width: 100%;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 0px;
+	margin-top: 10px;
+	font-weight: 500;
+}
+.jobsearch-candidate-wrap-section .jobsearch-company-review-text { padding-left: 15px; }
+.jobsearch-candidate-wrap-section .jobsearch-company-review {
+	margin-bottom: 15px; }
+.jobsearch-candidate-wrap-section .jobsearch-company-review-left small {
+	margin: 3px 0px 0px 0px; }

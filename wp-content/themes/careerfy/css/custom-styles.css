@@ -1,0 +1,37 @@
+.gallery-columns-3 .gallery-item { width: 33.333%; }
+.gallery-columns-4 .gallery-item { width: 25%; }
+.gallery-item {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px -4px 30px 0px;
+    padding: 0px 15px;
+}
+.gallery-item .gallery-icon a,
+.gallery-item .gallery-icon a img {
+    float: left;
+    width: 100%;
+}
+
+video {
+max-width: 100%;
+height: auto;
+}
+iframe,
+embed,
+object {
+	max-width: 100%;
+}
+.vendor {
+	padding: 2%;
+	background: #d1eed1;
+	margin-bottom: 2em;
+}
+.unsupported {
+	background: #fddfde;
+}
+.jobsearch-res-jobvid, .jobsearch-res-candvid,.fluid-width-video-wrapper {
+	width: 100%;
+	float: left;
+}
+.jobsearch-res-candvid {
+    margin-bottom: 40px; }

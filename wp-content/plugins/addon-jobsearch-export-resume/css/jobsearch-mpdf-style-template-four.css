@@ -1,0 +1,449 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.pdf-style5-page-wrapper {
+    display: inline-block;
+    height: 100%;
+    padding: 18px;
+    width: 100%;
+}
+
+.pdf-style5-left-bar {
+    float: left;
+    width: 30%;
+    padding: 18px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px 8px rgba(0, 0, 0, 0.10);
+}
+
+.pdf-style5-thumb-title,
+.pdf-style5-thumb,
+.pdf-style5-pera-title,
+.pdf-style5-peragraph,
+.pdf-style5-bar-list,
+.pdf-style5-bar-list-title,
+.pdf-style5-bar-list-sub,
+.pdf-style5-content-title {
+    float: left;
+    width: 100%;
+}
+
+.pdf-style5-thumb {
+    margin-bottom: 24px;
+}
+
+.pdf-style5-thumb-title {
+    font-size: 25px;
+    color: #2d2c29;
+    text-transform: uppercase;
+    line-height: 1.1;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.pdf-style5-thumb-sub {
+    float: left;
+    width: 57%;
+    background-color: #2a4292;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 4px 6px 2px 6px;
+    text-transform: uppercase;
+    line-height: 1;
+    margin-bottom: 27px;
+}
+
+.pdf-style5-pera-title {
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #3f3d3a;
+    letter-spacing: 2px;
+    margin-bottom: 6px;
+}
+
+.pdf-style5-peragraph {
+    font-size: 13px;
+    color: #5d5b58;
+    font-weight: bold;
+    margin-bottom: 150px;
+}
+
+.pdf-style5-bar-list {
+    margin-bottom: 14px;
+}
+
+.pdf-style5-bar-list-title {
+    font-size: 14px;
+    color: #2a4292;
+    font-weight: bold;
+}
+
+.pdf-style5-bar-list-sub {
+    font-size: 13px;
+    color: #2d2c29;
+}
+
+.pdf-style5-right-content {
+    float: right;
+    width: 60%;
+}
+
+.pdf-style5-content-title {
+    font-size: 14px;
+    font-weight: bold;
+    color: #454141;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 14px;
+}
+
+/* Services */
+.pdf-style5-bar-services {
+    float: left;
+    width: 100%;
+}
+
+.pdf-style5-bar-services-list {
+    float: left;
+    width: 49%;
+}
+
+.pdf-style5-bar-services {
+    margin-bottom: 20px;
+}
+
+.pdf-style5-bar-services-list {
+    margin-bottom: 12px;
+}
+
+.pdf-style5-bar-icon {
+    float: left;
+    width: 43px;
+    font-size: 30px;
+    color: #465073;
+}
+
+.pdf-style5-bar-services-text {
+    float: left;
+    width: 60%;
+}
+
+.pdf-style5-bar-services-title {
+    display: block;
+    color: #2a4292;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.pdf-style5-bar-services-sub {
+    display: block;
+    color: #5d5b58;
+    font-size: 12px;
+}
+
+/* Education List */
+.pdf-style5-education-list {
+    float: left;
+    width: 100%;
+}
+
+.pdf-style5-education-inner {
+    float: left;
+    width: 42%;
+    padding-left: 16px;
+    border-left: 2px solid #dcd4cf;
+    padding-right: 15px;
+    margin-bottom: 25px;
+}
+
+.pdf-style5-education-circle {
+    float: left;
+    margin: 0px 0px 0px -21px;
+    position: relative;
+    z-index: 2;
+}
+
+.pdf-style5-education-circle div {
+    float: left;
+    background-repeat: no-repeat;
+    width: 8px;
+    height: 8px;
+}
+
+.pdf-style5-education-title {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    color: #2a4292;
+    text-transform: uppercase;
+    margin-bottom: 2px;
+    margin-top: -10px;
+}
+
+.pdf-style5-education-sub {
+    display: block;
+    color: #2d2c29;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.pdf-style5-education-pera {
+    display: block;
+    font-size: 11px;
+    color: #5d5b58;
+}
+
+/* Experience List */
+.pdf-style5-experience-list {
+    float: left;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.pdf-style5-experience-inner {
+    float: left;
+    width: 100%;
+    padding-left: 16px;
+    border-left: 2px solid #dcd4cf;
+    padding-right: 15px;
+    padding-bottom: 25px;
+}
+
+.pdf-style5-experience-inner.last {
+    padding-bottom: 0px;
+}
+
+.pdf-style5-experience-circle {
+    float: left;
+    margin: 0px 0px 0px -22px;
+    position: relative;
+    z-index: 2;
+}
+
+.pdf-style5-experience-circle div {
+    background-repeat: no-repeat;
+    float: left;
+    height: 8px;
+    width: 8px;
+}
+
+.pdf-style5-experience-title {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    color: #2a4292;
+    text-transform: uppercase;
+    margin-bottom: 2px;
+    margin-top: -10px;
+}
+
+.pdf-style5-experience-sub {
+    display: block;
+    color: #2d2c29;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.pdf-style5-experience-sub span {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: normal;
+    color: #2b2b2d;
+    font-style: italic;
+}
+
+.pdf-style5-experience-pera {
+    display: block;
+    font-size: 13px;
+    color: #5d5b58;
+}
+
+/* Skills */
+.pdf-style5-skills-wrap {
+    float: left;
+    width: 100%;
+    padding-left: 20px;
+    border-left: 2px solid #dcd4cf;
+    margin-bottom: 30px;
+}
+
+.pdf-style5-skills-list {
+    float: left;
+    width: 25%;
+    padding-right: 30px;
+    margin-bottom: 15px;
+}
+
+.pdf-style5-skills-list.last {
+    margin-bottom: 0px;
+}
+
+.pdf-style5-skills-title {
+    float: left;
+    width: 100%;
+    font-size: 12px;
+    color: #5d5b58;
+    letter-spacing: 0.7px;
+    margin-bottom: 4px;
+}
+
+.pdf-style5-skills-line {
+    float: left;
+    width: 100%;
+}
+
+.pdf-style5-skills-inn1 {
+    float: left;
+    width: 100%;
+    height: 4px;
+    background-color: #dcd4cf;
+    border-radius: 80px;
+}
+
+.pdf-style5-skills-inn2 {
+    float: left;
+    margin: -4px 0px 0px 0px;
+    height: 4px;
+    background-color: #2a4292;
+    position: relative;
+    z-index: 4;
+    border-radius: 80px;
+}
+
+.pdf-style5-skills-circle {
+    float: left;
+    margin: 0 0 0 -26px;
+    position: relative;
+    z-index: 2;
+}
+
+.pdf-style5-skills-circle div {
+    float: left;
+    background-repeat: no-repeat;
+    width: 8px;
+    height: 8px;
+}
+
+.jobsearch-pdf-porfolio-img {
+    float: left;
+    width: 160px;
+    padding: 5px;
+}
+
+.jobsearch-pdf-porfolio-link {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.cndt-skills {
+    float: left;
+    width: 100%;
+}
+
+.cndt-skills .cndt-skills-inner {
+    float: left;
+    width: 45%;
+    padding: 0px 8px 8px 0px;
+    text-align: center;
+}
+
+.cndt-skills div a {
+    color: #ffffff;
+}
+
+.cndt-skills .cndt-skills-list-item {
+    float: left;
+    width: 100%;
+    background-color: #000;
+    color: #ffffff;
+    border-radius: 100%;
+    padding: 8px 10px;
+    line-height: 1;
+}
+
+/* Services Full */
+.pdf-stylefield-bar-servicesfull {
+    float: left;
+    width: 100%;
+}
+
+.pdf-stylefield-bar-servicesfull-list {
+    float: left;
+    width: 100%;
+}
+
+.pdf-stylefield-bar-servicesfull {
+    margin-bottom: 20px;
+}
+
+.pdf-stylefield-bar-servicesfull-list {
+    margin-bottom: 12px;
+}
+
+.pdf-stylefield-bar-iconfull {
+    float: left;
+    width: 30px;
+}
+
+.pdf-stylefield-bar-iconfull div {
+    float: left;
+    font-size: 30px;
+    color: #465073;
+    height: 24px;
+    text-align: center;
+    padding-top: 6px;
+    width: 30px;
+}
+
+.pdf-stylefield-bar-servicesfull-text {
+    float: left;
+    width: 40%;
+    padding-left: 10px;
+}
+
+.pdf-stylefield-bar-servicesfull-title {
+    display: block;
+    color: #000;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.pdf-stylefield-bar-servicesfull-sub {
+    display: block;
+    color: #4b4a4b;
+    font-size: 10px;
+}
+
+.pdf-stylefield-bar-servicesfull-image {
+    float: right;
+    width: 40%;
+    margin-top: -5px;
+}
+
+.pdf-stylefield-bar-servicesfull {
+    float: left;
+    width: 100%;
+}
+.pdf-stylefield-bar-servicesfull-list {
+    float: left;
+    width: 100%;
+}
+

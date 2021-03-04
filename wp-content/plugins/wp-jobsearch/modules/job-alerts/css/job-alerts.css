@@ -1,0 +1,84 @@
+/* Email Me */
+.email-me-top,.job-alert-box input[type="text"],.jobalert-submit,
+.job-alert-box input[type="email"],.job-alert-box .alerts-fields,
+.job-alerts-sec .error,.job-alerts-sec .success {
+    float: left;
+    width: 100%;
+}
+.email-jobs-top,
+.jobsearch-typo-wrap .email-jobs-top {
+    display: inline-block;
+    width: 100%;
+    padding: 17px 19px;
+    color: #ffffff;
+    font-size: 17px;
+    text-align: left;
+    text-transform: capitalize;
+    border: none;
+}
+.email-jobs-top i,
+.jobsearch-typo-wrap .email-jobs-top i {
+    margin-right: 5px;
+    color: #ffffff;
+}
+.job-alert-box input[type="text"],
+.job-alert-box input[type="email"] {
+    height: 39px;
+    background-color: #ffffff;
+    border: 1px solid #eaeaea;
+    margin-top: 10px;
+    padding: 7px 14px;
+}
+.job-alert-box input[type="text"]:focus,
+.job-alert-box input[type="email"]:focus {
+    border-color: #eaeaea;
+}
+.job-alert-box .alerts-fields { margin-bottom: 5px; }
+.job-alerts-sec .jobsearch-search-filter-wrap {
+    background-color: #fcfcfc;
+}
+.jobalert-submit,
+.jobsearch-typo-wrap .jobalert-submit {
+    padding: 8px 20px;
+    text-transform: uppercase;
+    color: #ffffff;
+    border-radius: 2px;
+    font-size: 15px;
+    margin-top: 11px;
+    border: 1px solid;
+}
+.job-alerts-sec .jobsearch-search-filter-wrap { padding: 0px; }
+.job-alerts-sec .jobsearch-search-filter-wrap .job-alert-container-top { padding-left: 19px; padding-right: 19px; }
+.job-alerts-sec .jobsearch-add-padding.jobsearch-search-filter-wrap { padding-top: 3px; padding-bottom: 15px; }
+.job-alerts-sec .error {
+    padding: 5px 14px;
+    margin-top: 8px;
+    background-color: #e15440;
+}
+.job-alerts-sec .success {
+    padding: 5px 14px;
+    margin-top: 8px;
+    background-color: #53b427;
+}
+.job-alerts-sec .error label,.job-alerts-sec .success label { color: #ffffff; }
+.jobsearch-alert-in-content .alerts-fields ul { margin: 0px -10px; }
+.jobsearch-alert-in-content .alerts-fields ul li {
+    float: left;
+    width: 33.3333%;
+    list-style: none;
+    padding: 0px 10px;
+}
+.jobsearch-alert-in-content .job-alert-box .alerts-fields { margin-bottom: 12px; }
+.jobsearch-alert-in-content .alerts-fields ul li .jobalert-submit { padding: 5px 20px; }
+.jobsearch-alert-in-content .jobsearch-checkbox li {
+    width: auto;
+    line-height: 1.5;
+    margin-right: 20px;
+}
+.jobsearch-alert-in-content.job-alerts-sec {
+    float: left;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.jobsearch-alert-in-content .jobsearch-checkbox input[type="checkbox"] + label span,
+.jobsearch-alert-in-content .jobsearch-checkbox input[type="radio"] + label span { top: 5px; }

@@ -1,0 +1,46 @@
+body.jobsearch-modal-active{
+    overflow: hidden;
+    -ms-overflow: hidden;
+}
+
+.jobsearch-modal.fade {
+    display: none;
+}
+
+.jobsearch-modal.fade-in {
+    display: block;
+}
+
+.jobsearch-modal .modal-inner-area {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    opacity: 0.8;
+    z-index: 9999;
+}
+
+.jobsearch-modal .modal-content-area {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    -ms-overflow-y: scroll;
+    z-index: 99999;
+}
+
+.jobsearch-modal .modal-box-area {
+    margin: 30px auto;
+    width: 400px;
+    min-height: 280px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.jobsearch-modal .modal-close {
+    cursor: pointer;
+}

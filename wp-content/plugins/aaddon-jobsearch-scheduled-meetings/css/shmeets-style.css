@@ -1,0 +1,827 @@
+.jobsearch-interview-list-container {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+.jobsearch-interview-list-container-left {
+	width: 9%;
+	text-align: center;
+	background: #f8f8f8;
+	border-right: 1px solid #d8d8d8;
+	padding: 10px 0px;
+	border-bottom: 1px solid #d8d8d8;
+}
+.jobsearch-interview-list-container-right {
+	width: 91%;
+	text-align: center;
+	background: rgba(255,255,255,0.5);
+	align-self: center;
+	border-bottom: 1px solid #d8d8d8;
+}
+.jobsearch-interview-list-container-right-inner,
+.jobsearch-typo-wrap .jobsearch-interview-list-container-right-inner {
+	width: 100%;
+	display: flex;
+    justify-content: space-around;
+    border-top: 1px solid #d8d8d8;
+    padding: 15px 0px;
+}
+.jobsearch-interview-list-container-right >div:first-child {
+	border-top: none; }
+.jobsearch-employer-box-section .jobsearch-interview-list-container:last-child .jobsearch-interview-list-container-right:last-child,
+.jobsearch-employer-box-section .jobsearch-interview-list-container:last-child .jobsearch-interview-list-container-left {
+    border-bottom: none;
+}
+.jobsearch-interview-list-container-right >div:last-child {
+	border-bottom: none; }
+.jobsearch-interview-list-container-right .last {
+	padding-bottom: 0px; }
+.jobsearch-interview-schedule-columnk {
+	text-align: left;
+	align-self: center;
+	padding-left: 15px;
+}
+.jobsearch-interview-schedule-columnk.jobsearch-interview-first {
+    min-width: 30%;
+    width: 35%;
+}
+.jobsearch-interview-list-container-left-inner {
+	display: flex;
+	justify-content: center;
+	height: 100%;
+}
+.jobsearch-interview-list-container-left-text {
+	 align-self: center;
+}
+.jobsearch-interview-list-container-left-text span {
+	display: flex;
+	font-size: 12px;
+	color: #19191b;
+	justify-content: center;
+	line-height: 1;
+    margin-bottom: 5px;
+}
+.jobsearch-interview-list-container-left-text span:last-child {
+    margin: 0px; }
+.jobsearch-interview-list-container-left-text strong {
+	font-size: 26px;
+	color: #13b5ea;
+}
+.jobsearch-interview-schedule-columnk h2 {
+	font-size: 14px;
+	color: #333333;
+	margin: 0px;
+	line-height: 20px;
+}
+.jobsearch-interview-schedule-columnk h2 span {
+	font-size: 12px;
+	color: #999999;
+	line-height: 2;
+	margin-top: 1px;
+	display: flex;
+}
+.jobsearch-interview-schedule-columnk h2 span img {
+	width: 22px;
+	height: 22px;
+	border: 1px solid #cfcfcf;
+	border-radius: 100%;
+	vertical-align: middle;
+	margin-right: 6px;
+}
+.jobsearch-interview-schedule-zoom,
+.jobsearch-typo-wrap .jobsearch-interview-schedule-zoom {
+	color: #ffffff;
+	font-size: 11px;
+	text-decoration: none;
+	text-align: center;
+	line-height: 1.8;
+}
+.schedule-maincol-inner-wrap.metting-wrap {
+	background-color: #2d8cff;
+	border-radius: 80px;
+    line-height: 1.3;
+    padding-right: 10px;
+}
+.jobsearch-interview-schedule-zoom i {
+	display: inline-block;
+	width: 19px;
+	height: 19px;
+	border: 1px solid #dae8f8;
+	border-radius: 100%;
+	margin-right: 5px;
+	vertical-align: middle;
+	padding-top: 4px;
+	font-size: 9px;
+}
+.jobsearch-interview-schedule-date {
+	font-size: 12px;
+	color: #999999;
+}
+.jobsearch-interview-schedule-date i,
+.jobsearch-interview-schedule-time i,
+.jobsearch-interview-schedule-action span i {
+	color: #13b5ea;
+	margin-right: 4px;
+}
+.jobsearch-interview-schedule-time {
+	background-color: #fcfaf1;
+	color: #999999;
+	font-size: 12px;
+	padding: 4px 8px;
+	line-height: 1;
+	border-radius: 5px;
+}
+.jobsearch-interview-schedule-action {
+	display: flex;
+}
+.jobsearch-interview-schedule-action span {
+	font-size: 12px;
+	color: #999999;
+	display: inline-block;
+    vertical-align: middle;
+}
+.meetins-settinbtn-con,
+.meetview-icons-con {
+	float: right;
+}
+.meetview-icons-con a {
+    float: left;
+    padding: 18px 16px;
+    border-left: 1px solid #efefef;
+    font-size: 20px;
+    color: #aaaaaa;
+    -webkit-transition: all 0.4s ease-in-out;
+       -moz-transition: all 0.4s ease-in-out;
+        -ms-transition: all 0.4s ease-in-out;
+         -o-transition: all 0.4s ease-in-out;
+            transition: all 0.4s ease-in-out;
+}
+.meetview-icons-con a.active-view,
+.meetview-icons-con a:hover {
+	color: #13b5ea; }
+.meetins-settinbtn-con a {
+    display: inline-block;
+    background-color: #13b5ea;
+    color: #fff;
+    padding: 5px 20px;
+    border-radius: 4px;
+    margin: 13px 20px 0px 0px;
+}
+.jobsearch-profile-title.jobsearch-meeting-tabtitle h2 {
+    margin: 20px 0px 10px 0px;
+}
+.jobsearch-interview-schedule-action .candidate-more-acts-con {
+    position: relative;
+    margin-left: 13px;
+}
+.jobsearch-interview-schedule-action a.more-actions {
+	line-height: 1;
+	color: #ffffff;
+}
+
+
+
+.jobsearch-interview-schedule-action .candidate-more-acts-con ul {
+    position: absolute;
+    top: 100%;
+    right: 0px;
+    border: 1px solid #ddd;
+    background-color: #ffffff;
+    margin-top: 2px;
+    display: none;
+    z-index: 100;
+}
+.jobsearch-interview-schedule-action ul li:hover {
+    background-color: #f9f9f9;
+}
+.jobsearch-interview-schedule-action .candidate-more-acts-con ul li:hover a { color: #333333; }
+.jobsearch-interview-schedule-action .candidate-more-acts-con ul li:last-child { border: none; }
+.jobsearch-interview-schedule-action ul li {
+    border: none;
+    padding: 0px;
+    line-height: 1;
+    position: relative;
+    list-style: none;
+
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    padding: 9px 8px;
+    -webkit-transition: all 0.4s ease-in-out;
+       -moz-transition: all 0.4s ease-in-out;
+        -ms-transition: all 0.4s ease-in-out;
+         -o-transition: all 0.4s ease-in-out;
+            transition: all 0.4s ease-in-out;
+}
+.jobsearch-interview-schedule-action ul li a {
+	color: #999;
+	font-size: 13px;
+}
+.jobsearch-interview-schedule-action > ul > li { margin: 10px 0px 0px 5px; }
+.jobsearch-interview-schedule-action ul li:first-child { margin-left: 0px; }
+
+/* Schedule PopUp */
+.schedd-creatmeet-popup .modal-content-area {
+	max-width: 420px;
+}
+.schedd-creatmeet-popup .picker-top-row {
+    background-color: #13b5ea;
+    color: #fff;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 20px 0;
+}
+.schedd-creatmeet-popup .picker-days-week-row {
+    background-color: #efefef;
+    padding: 9px 0px 7px 0px;
+    font-size: 16px;
+    color: #646464;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.schedd-creatmeet-popup .picker-day:not(.picker-off):not(.picker-empty):hover {
+	background-color: #13b4e8;
+}
+.schedd-creatmeet-popup .picker-day {
+	border: none;
+    border-top: 1px solid #dfdfe1;
+    border-left: 1px solid #dfdfe1;
+    color: #5a5c5c;
+    font-size: 16px;
+}
+.schedd-creatmeet-popup .picker-days-row {
+    border-right: 1px solid #dfdfe1;
+    border-bottom: 1px solid #dfdfe1;
+}
+.schedd-creatmeet-popup span.modal-close {
+    position: absolute;
+    right: -27px;
+    top: 0;
+    width: 33px;
+    height: 33px;
+    background-color: #fff;
+    text-align: center;
+    padding-top: 7px;
+}
+.schedd-creatmeet-popup span.modal-close i {
+	float: none;
+}
+.jobsearch-meetinsched-calendr {
+    margin-bottom: 26px;
+}
+.jobsearch-creatmeet-form .jobsearch-user-form label {
+	font-size: 15px;
+	color: #333333;
+	font-weight: bold;
+}
+.jobsearch-creatmeet-form .form-textarea textarea {
+	background-color: #f4f4f4;
+	font-size: 14px;
+	color: #999999;
+	height: 92px;
+	border: 1px solid #e3e4e4;
+}
+.jobsearch-creatmeet-form .create-meetin-callbtn {
+	padding: 10px 29px;
+	color: #ffffff;
+	background-color: #13b5ea;
+	border-radius: 80px;
+	font-size: 12px;
+	display: inline-block;
+}
+.jobsearch-creatmeet-form em {
+	margin-top: 8px;
+    display: inline-block;
+}
+.schedd-creatmeet-popup .text-center.picker-day.past {
+    color: #ababab;
+    cursor: not-allowed !important;
+    pointer-events: none;
+}
+.schedd-creatmeet-popup .meet-sched-loder i {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+    left: 0;
+    top: 50%;
+}
+.schedd-creatmeet-popup .meet-sched-loder {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(0,0,0,0.40);
+    z-index: 3;
+}
+.schedd-creatmeet-popup .meet-sched-msg {
+    display: inline-block;
+    width: 100%;
+    margin: 15px 0px 0px 0px;
+}
+.schedd-creatmeet-popup .meet-sched-msg .alert {
+	margin-bottom: 0px; }
+
+
+
+
+.jobsearch-timmings-thead {
+	background: #13b5ea;
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	border-radius: 5px;
+}
+.jobsearch-timmings-thead div {
+	flex: 1 1 33%;
+	font-size: 14px;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-weight: bold;
+	line-height: 1;
+	padding: 20px 18px;
+}
+.jobsearch-timmings-setting-flex {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-bottom: 1px solid #f2f2f2;
+	padding: 20px 0px;
+}
+.jobsearch-timmings-setting-flex div {
+	flex: 1 1 40%;
+	font-size: 16px;
+	line-height: 1;
+	color: #0a0a0a;
+	padding: 0px 18px;
+}
+.jobsearch-timmings-setting-flex div:first-child {
+    flex: 1 1 18%; }
+.jobsearch-timmings-setting-flex div:last-child {
+	text-align: right;
+	flex: 1 1 8%;
+}
+.jobsearch-timmings-setting-flex input[type="text"] {
+	width: 100%;
+	height: 38px;
+	border: 1px solid #e9eaeb;
+	border-radius: 5px;
+}
+.jobsearch-timmings-setting-flex input[type="checkbox"] {
+	display: inline-block;
+	width: 22px;
+	height: 22px;
+	border: 1px solid #d2d2d2;
+	border-radius: 5px;
+}
+.jobsearch-timmings-setting-btn {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	padding: 30px 0px 60px 0px;
+}
+.jobsearch-timmings-setting-btn input[type="submit"] {
+	display: inline-block;
+	padding: 18px 53px;
+	line-height: 1;
+	font-size: 18px;
+	color: #ffffff;
+	font-weight: bold;
+	background-color: #13b5ea;
+	border-radius: 4px;
+	border: none;
+	cursor: pointer;
+}
+.jobsearch-apisetting-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	justify-content: center;
+	background-color: #fafafa;
+	padding: 30px 30px 30px 30px;
+	border-bottom: 1px solid #e0e0e0;
+}
+.jobsearch-apisetting-head {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	justify-content: center;
+	width: 100%;
+	border-bottom: 1px solid #ebebeb;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+}
+.jobsearch-apisetting-coll {
+	flex: 1 1 50%;
+	align-self: center;
+}
+.jobsearch-apisetting-head > div:last-child {
+	text-align: right;
+}
+.jobsearch-apisetting-zoombtn {
+	display: inline-block;
+}
+.jobsearch-apisetting-coll span {
+	font-size: 16px;
+	color: #000000;
+}
+.jobsearch-apisetting-zoombtn {
+	font-size: 14px;
+	color: #333333;
+	text-decoration: none;
+	font-weight: 600;
+}
+.jobsearch-apisetting-zoombtn i {
+	display: inline-block;
+	vertical-align: middle;
+	background-color: #2d8cff;
+	width: 20px;
+	height: 20px;
+	border-radius: 100%;
+	text-align: center;
+	color: #ffffff;
+	line-height: 1.5;
+	margin-right: 5px;
+}
+.jobsearch-apisetting-coll .chekunchk-opt-box {
+    float: right;
+    margin: 0px 0px 0px 24px;
+}
+
+.jobsearch-apisetting-content {
+	width: 100%;
+    justify-content: space-between;
+    display: flex;
+}
+.jobsearch-apisetting-content div {
+	flex: 0 0 21%;
+	align-self: flex-end;
+}
+.jobsearch-apisetting-content div:first-child {
+	flex: 0 0 26%;
+}
+.jobsearch-apisetting-content span {
+	display: block;
+	font-size: 14px;
+	color: #000;
+	font-weight: bold;
+	margin-bottom: 18px;
+}
+.jobsearch-apisetting-content input[type="text"] {
+	display: inline-block;
+	width: 100%;
+	border: 1px solid #e9eaeb;
+	border-radius: 4px;
+	font-size: 14px;
+	color: #cdcdcd;
+	background-color: #ffffff;
+	height: 42px;
+}
+.jobsearch-apisetting-content input[type="submit"] {
+	display: inline-block;
+	width: 100%;
+	background-color: #13b5ea;
+	color: #ffffff;
+	padding: 9px 14px;
+	border-radius: 4px;
+	font-size: 14px;
+	border: none;
+	cursor: pointer;
+}
+.jobsearch-apisetting-wrapper-style2 .jobsearch-apisetting-content div:first-child {
+	flex: 0 0 21%;
+}
+.jobsearch-apisetting-wrapper-style2 .jobsearch-apisetting-content div {
+	flex: 0 0 21%;
+}
+.meetings-list-con {
+    float: left;
+    width: 100%;
+}
+.calendar-eventpopvr-mainbox {
+	position: absolute;
+	z-index: 999;
+	width: 340px;
+}
+
+/* Calendar */
+.fc-header-toolbar {
+    background-color: #13b5ea;
+}
+.meetings-list-con .fc .fc-toolbar-title {
+	font-size: 1.15em;
+	margin: 0;
+	color: #fff;
+	font-weight: normal;
+	text-transform: uppercase;
+	padding-left: 20px;
+}
+.meetings-list-con .fc .fc-button-primary {
+    background-color: #0fa0cf;
+    border: none;
+    padding: .8em .90em;
+    margin-left: 1px !important;
+}
+.meetings-list-con .fc .fc-toolbar.fc-header-toolbar {
+    margin-bottom: 0em;
+}
+.meetings-list-con .fc-theme-standard th {
+    border: none;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #19191b;
+}
+.meetings-list-con .fc-scrollgrid.fc-scrollgrid-liquid,
+.meetings-list-con .fc-daygrid thead td {
+	border: none; }
+.meetings-list-con .fc-theme-standard td {
+    border: 2px solid #d0d0d0;
+}
+.meetings-list-con .fc-view-harness tbody tr.fc-scrollgrid-section > td {
+    border-top: 2px solid #d0d0d0;
+    border-left: 2px solid #d0d0d0;
+}
+.meetings-list-con .fc .fc-daygrid-day-top {
+    flex-direction: revert;
+    font-size: 17px;
+    color: #484848;
+    padding: 0px 0px 0px 10px;
+}
+.meetings-list-con .fc-theme-standard tbody td {
+	background-color: #f7f7f7;
+}
+.meetings-list-con .fc .fc-daygrid-day.fc-day-today {
+    background-color: #13b5ea;
+}
+.meetings-list-con .fc .fc-daygrid-day.fc-day-today a.fc-daygrid-day-number {
+    color: #fff;
+}
+.meetings-list-con .fc .fc-button-primary:hover {
+    background-color: #13b5ea;
+}
+.meetings-list-con .fc-daygrid-dot-event {
+	background-color: #fff;
+	margin: 0px 0px 4px 0px;
+	padding: 1px 8px;
+	cursor: pointer;
+	-webkit-transition: all 0.4s ease-in-out;
+	   -moz-transition: all 0.4s ease-in-out;
+	    -ms-transition: all 0.4s ease-in-out;
+	     -o-transition: all 0.4s ease-in-out;
+	        transition: all 0.4s ease-in-out;
+}
+.meetings-list-con .fc-daygrid-dot-event .fc-daygrid-event-dot {
+	display: none; }
+.meetings-list-con .fc-daygrid-dot-event .fc-event-title {
+	font-weight: 400; }
+.calendar-eventpopvr-inner {
+	background-color: #ffffff;
+	border: 1px solid #c2c2c2;
+	box-shadow: 0px 0px 10px 0px rgba(4,5,5,0.13);
+	position: relative;
+}
+.calendar-eventpopvr-inner:before {
+	content: '';
+	position: absolute;
+	left: 26px;
+	bottom: -10px;
+	border-left: 17px solid transparent;
+	border-right: 17px solid transparent;
+	border-top: 10px solid #ffffff;
+	z-index: 2;
+}
+.calendar-eventpopvr-inner:after {
+	content: '';
+	position: absolute;
+	left: 26px;
+	bottom: -11px;
+	border-left: 17px solid transparent;
+	border-right: 17px solid transparent;
+	border-top: 10px solid #9eb8c0;
+}
+.meet-txtimg-con {
+    display: flex;
+    align-items: flex-start;
+    padding: 15px 15px;
+}
+.meet-job-imgcon {
+    width: 35px;
+    border-radius: 100%;
+    border: 1px solid #000;
+}
+.meet-job-imgcon img {
+	border-radius: 100%; }
+.meet-job-detinfcon {
+	padding-left: 11px;
+	flex: 1;
+}
+span.job-company {
+    display: block;
+    font-size: 12px;
+}
+span.job-company a {
+	color: #13b5ea;
+}
+.meet-job-detinfcon h2 {
+    font-size: 14px;
+    color: #333333;
+    margin: 0;
+    line-height: 1;
+}
+.meet-txtimg-con .jobsearch-option-btn {
+    padding: 4px 5px 3px 5px;
+    font-size: 10px;
+}
+.meet-txtimg-con span.job-location {
+    font-size: 12px;
+    color: #999999;
+}
+.meet-txtimg-con span.job-location i {
+    color: #aaaaaa;
+    font-size: 10px;
+    margin-right: 2px;
+}
+.meting-typdur-con a.interview-schedule-zoom {
+    color: #ffffff;
+    font-size: 11px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 2;
+    background-color: #2d8cff;
+    border-radius: 80px;
+    padding: 2px 9px 3px 0px;
+}
+.meting-typdur-con a.interview-schedule-zoom i {
+    width: 17px;
+    height: 17px;
+    border: 1px solid #dae8f8;
+    border-radius: 100%;
+    margin-right: 3px;
+    vertical-align: middle;
+    padding-top: 3px;
+    font-size: 9px;
+}
+.meting-typdur-con .meetin-duration {
+    background-color: #f7f7f7;
+    color: #999999;
+    font-size: 12px;
+    padding: 4px 8px;
+    line-height: 1;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+.interview-schedule-atcon {
+    background-color: #13b5ea;
+    display: flex;
+    padding: 8px 16px;
+    color: #fff;
+}
+.interview-schedule-atcon i {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 17px;
+    margin-right: 7px;
+}
+.interview-schedule-atcon span {
+    font-weight: bold;
+}
+.meting-typdur-con {
+    margin-top: 6px;
+}
+.meetin-belowsec-con {
+    padding: 20px 15px;
+}
+.meting-note-con {
+    display: flex;
+}
+.meetnote-icon-con {
+    text-align: center;
+    font-size: 12px;
+    color: #141414;
+}
+.meetnote-text-con {
+    flex: 1;
+    font-size: 12px;
+    color: #666666;
+    margin-top: -4px;
+    padding-left: 7px;
+}
+.meetnote-icon-con i {
+    width: 100%;
+    font-size: 20px;
+    color: #13b5ea;
+}
+.meetin-belowbtns-con {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+.meetin-belowbtn-iner {
+    background-color: #fff;
+    font-size: 12px;
+    border: 1px solid #13b5ea;
+    border-radius: 80px;
+    padding: 8px 11px;
+    line-height: 1;
+    color: #13b5ea;
+    -webkit-transition: all 0.4s ease-in-out;
+       -moz-transition: all 0.4s ease-in-out;
+        -ms-transition: all 0.4s ease-in-out;
+         -o-transition: all 0.4s ease-in-out;
+            transition: all 0.4s ease-in-out;
+}
+.meetin-belowbtn-iner a {
+    color: #13b5ea;
+    -webkit-transition: all 0.4s ease-in-out;
+       -moz-transition: all 0.4s ease-in-out;
+        -ms-transition: all 0.4s ease-in-out;
+         -o-transition: all 0.4s ease-in-out;
+            transition: all 0.4s ease-in-out;
+}
+.meetin-belowbtn-iner i {
+    margin-right: 5px;
+}
+.meetin-belowbtn-iner:hover {
+    background-color: #13b5ea;
+    color: #fff;
+}
+.meetin-belowbtn-iner:hover a {
+	color: #ffffff;
+}
+.calendar-eventpopvr-inner a.close-calnder-evntpop {
+    position: absolute;
+    right: 5px;
+    top: 1px;
+    color: red;
+    z-index: 9;
+}
+
+.meet-noteobj-item {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    border: 1px solid #f4f4f4;
+    border-left: 4px solid #f94d4d;
+    border-radius: 4px;
+    margin-top: 15px;
+}
+.meet-noteobj-item.new-note {
+	border-left-color: #47d765; }
+.meet-note-hder {
+    display: flex;
+    width: 100%;
+    background-color: #ededed;
+    justify-content: space-between;
+    padding: 8px 15px;
+}
+.meet-note-det {
+    padding: 13px 16px 0px 16px;
+    width: 100%;
+}
+.meet-note-hder * {
+    align-self: center;
+}
+.meet-note-det p {
+    color: #333333;
+}
+.schedd-creatmeet-popup .picker-day.picker-selected {
+	color: #fff; }
+
+
+
+
+/* Responsive */
+
+/* Ipad */
+@media (min-width: 768px) and (max-width: 990px) {
+	.meetings-list-con {overflow: scroll;}
+	.jobsearch-interview-list-container {width: 850px;}
+	.jobsearch-apisetting-content div:first-child { flex: 0 0 22%; }
+}
+
+/* Media 420Px Start */
+@media (max-width: 767px) {
+	.meetings-list-con {overflow: scroll;}
+	.jobsearch-interview-list-container {width: 850px;}
+	.jobsearch-apisetting-content { flex-wrap: wrap; }
+	.jobsearch-apisetting-content div,.jobsearch-apisetting-content div:first-child { flex: 0 0 47%; margin-bottom: 10px; }
+}
+
+/* Media 300Px Start */
+@media (max-width: 480px) {
+	.meetins-settinbtn-con { width: 100%; text-align: center; margin-bottom: 15px; }
+	.schedd-creatmeet-popup span.modal-close { right: 0px; top: -28px; }
+	.jobsearch-apisetting-content div,.jobsearch-apisetting-content div:first-child { flex: 0 0 100%; }
+	.jobsearch-apisetting-coll,.jobsearch-apisetting-head > div:last-child { text-align: center; }
+	.jobsearch-apisetting-coll { flex: 1 1 100%; }
+	.jobsearch-timmings-setting-flex div { flex: 1 1 100%; margin-bottom: 10px; }
+	.jobsearch-timmings-setting-flex div:first-child { flex: 1 1 100%; }
+	.jobsearch-timmings-setting-flex { flex-wrap: wrap; }
+	.jobsearch-apisetting-coll .chekunchk-opt-box { float: none; display: inline-block; }
+}

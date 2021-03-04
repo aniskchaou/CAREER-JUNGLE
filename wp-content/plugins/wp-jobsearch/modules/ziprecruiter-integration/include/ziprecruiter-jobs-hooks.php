@@ -1,0 +1,366 @@
+<?php
+/*
+  Class : Ziprecruiter jobs Hooks
+ */
+
+
+// this is an include only WP file
+if (!defined('ABSPATH')) {
+    die;
+}
+
+// main plugin class
+class JobSearch_Ziprecruiter_Jobs_Hooks {
+
+    // hook things up
+    public function __construct() {
+
+        // job meta fields
+        //add_action('jobsearch_job_meta_ext_fields', array($this, 'ziprecruiter_job_meta_fields'));
+
+        //
+        add_action('admin_menu', array($this, 'jobsearch_ziprecruiter_jobs_import_page'));
+        add_action('wp_ajax_jobsearch_import_ziprecruiter_jobs', array($this, 'jobsearch_import_ziprecruiter_jobs'));
+
+        // job listings shortcode params hook
+        add_filter('jobsearch_job_integrations_types_list', array($this, 'shortcode_params_add'), 11, 1);
+
+        // job listings query args params hook
+        add_filter('jobsearch_job_listing_query_args_array', array($this, 'ziprecruiter_jobs_listing_parameters'), 10, 2);
+    }
+
+    public function jobsearch_ziprecruiter_jobs_import_page() {
+        $ziprecruiter_jobs_switch = get_option('jobsearch_integration_ziprecruiter_jobs');
+        if ($ziprecruiter_jobs_switch == 'on') {
+            add_submenu_page('edit.php?post_type=job', esc_html__('Import Ziprecruiter Jobs', 'wp-jobsearch'), esc_html__('Import Ziprecruiter Jobs', 'wp-jobsearch'), 'manage_options', 'import-ziprecruiter-jobs', array($this, 'jobsearch_import_ziprecruiter_jobs_settings'));
+        }
+    }
+
+    /**
+     * Ziprecruiter jobs settings page
+     * */
+    public function jobsearch_import_ziprecruiter_jobs_settings() {
+        global $jobsearch_form_fields;
+        
+        
+        $publisher_number = get_option('jobsearch_ziprecruiter_imp_publisher_number');
+        ?>
+        <div id="wrapper" class="jobsearch-post-settings jobsearch-ziprecruiter-import-sec">
+            <h2><?php esc_html_e('Import Ziprecruiter Jobs', 'wp-jobsearch'); ?></h2>
+            <div class="error" id="error_msg"><p><strong><?php _e('There is some error importing jobs.', 'wp-jobsearch'); ?></strong></p></div>
+            <div id="success_msg" class="updated"><p><strong><?php _e('Ziprecruiter jobs are imported successfully.', 'wp-jobsearch'); ?></strong></p></div>
+            
+            <form id="jobsearch-import-ziprecruiter-jobs" class="jobsearch-ziprecruiter-jobs" method="post" enctype="multipart/form-data">
+                <?php
+                wp_nonce_field('jobsearch-import-ziprecruiter-jobs-page', '_wpnonce-jobsearch-import-ziprecruiter-jobs-page');
+                ?>
+                <div class="jobsearch-element-field">
+                    <div class="elem-label">
+                        <label><?php esc_html_e('Keywords', 'wp-jobsearch') ?></label>
+                    </div>
+                    <div class="elem-field">
+                        <?php
+                        $field_params = array(
+                            'force_std' => '',
+                            'id' => 'keyword',
+                            'cus_name' => 'keyword',
+                            'field_desc' => esc_html__('Enter job title, keywords or company name. The default keyword is all.', 'wp-jobsearch'),
+                        );
+                        $jobsearch_form_fields->input_field($field_params);
+                        ?>
+                    </div>
+                </div>
+                <div class="jobsearch-element-field">
+                    <div class="elem-label">
+                        <label><?php esc_html_e('Location', 'wp-jobsearch') ?></label>
+                    </div>
+                    <div class="elem-field">
+                        <?php
+                        $field_params = array(
+                            'force_std' => '',
+                            'id' => 'location',
+                            'cus_name' => 'location',
+                            'field_desc' => esc_html__('Enter a location for search.', 'wp-jobsearch'),
+                        );
+                        $jobsearch_form_fields->input_field($field_params);
+                        ?>
+                    </div>
+                </div>
+                <div class="jobsearch-element-field">
+                    <div class="elem-label">
+                        <label><?php esc_html_e('Per page jobs', 'wp-jobsearch') ?></label>
+                    </div>
+                    <div class="elem-field">
+                        <?php
+                        $field_params = array(
+                            'force_std' => '10',
+                            'id' => 'per_page',
+                            'cus_name' => 'per_page',
+                            'field_desc' => esc_html__('Enter per page jobs. Default is 10.', 'wp-jobsearch'),
+                        );
+                        $jobsearch_form_fields->input_field($field_params);
+                        ?>
+                    </div>
+                </div>
+                <div class="jobsearch-element-field">
+                    <div class="elem-label">
+                        <label><?php esc_html_e('Radius', 'wp-jobsearch') ?></label>
+                    </div>
+                    <div class="elem-field">
+                        <?php
+                        $field_params = array(
+                            'force_std' => '20',
+                            'id' => 'radius',
+                            'cus_name' => 'radius',
+                            'field_desc' => esc_html__('Enter radius for search.', 'wp-jobsearch'),
+                        );
+                        $jobsearch_form_fields->input_field($field_params);
+                        ?>
+                    </div>
+                </div>
+                <div class="jobsearch-element-field">
+                    <div class="elem-label">
+                        <label><?php esc_html_e('Expired on', 'wp-jobsearch') ?></label>
+                    </div>
+                    <div class="elem-field">
+                        <?php
+                        $field_params = array(
+                            'force_std' => '0',
+                            'id' => 'expire_days',
+                            'cus_name' => 'expire_days',
+                            'field_desc' => esc_html__('Enter number of days (numeric format) for expiray date after job posted date.', 'wp-jobsearch'),
+                        );
+                        $jobsearch_form_fields->input_field($field_params);
+                        ?>
+                    </div>
+                </div>
+                <div class="jobsearch-element-field">
+                    <div class="elem-label">
+                        <label><?php esc_html_e('Posted By', 'wp-jobsearch') ?></label>
+                    </div>
+                    <div class="elem-field">
+                        <?php
+                        jobsearch_get_custom_post_field('', 'employer', esc_html__('Auto Generate', 'wp-jobsearch'), 'job_username', 'job_username');
+                        ?>
+                    </div>
+                </div>
+                <div class="jobsearch-element-field">
+                    <div class="elem-label">&nbsp;</div>
+                    <div class="elem-field">
+                        <input type="button" id="import-ziprecruiter-jobs" class="import-ziprecruiter-jobs" name="import-ziprecruiter-jobs" onclick="javascript:jobsearch_import_ziprecruiter_jobs_submit('<?php echo esc_js(admin_url('admin-ajax.php')) ?>');" value="<?php esc_html_e('Import Ziprecruiter Jobs', 'wp-jobsearch') ?>">
+                        <div id="loading"><i class="fa fa-refresh fa-spin"></i></div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <?php
+    }
+
+    public function ziprecruiter_job_meta_fields() {
+        global $jobsearch_form_fields;
+        $ziprecruiter_jobs_switch = get_option('jobsearch_integration_ziprecruiter_jobs');
+
+        if ($ziprecruiter_jobs_switch == 'on') {
+            ?>
+            <div class="jobsearch-elem-heading">
+                <h2><?php esc_html_e('Ziprecruiter Job Fields', 'wp-jobsearch') ?></h2>
+            </div>
+
+            <div class="jobsearch-element-field">
+                <div class="elem-label">
+                    <label><?php esc_html_e('Job Detail Url', 'wp-jobsearch') ?></label>
+                </div>
+                <div class="elem-field">
+                    <?php
+                    $field_params = array(
+                        'name' => 'job_detail_url',
+                    );
+                    $jobsearch_form_fields->input_field($field_params);
+                    ?>
+                </div>
+            </div>
+            <div class="jobsearch-element-field">
+                <div class="elem-label">
+                    <label><?php esc_html_e('Company Name', 'wp-jobsearch') ?></label>
+                </div>
+                <div class="elem-field">
+                    <?php
+                    $field_params = array(
+                        'name' => 'company_name',
+                    );
+                    $jobsearch_form_fields->input_field($field_params);
+                    ?>
+                </div>
+            </div>
+            <?php
+        }
+    }
+
+    public function jobsearch_import_ziprecruiter_jobs() {
+        $search_keywords = sanitize_text_field(stripslashes($_POST['keyword']));
+        $search_location = sanitize_text_field(stripslashes($_POST['location']));
+        $per_page = sanitize_text_field($_POST['per_page']);
+        $radius = sanitize_text_field($_POST['radius']);
+        $job_username = sanitize_text_field($_POST['job_username']);
+        
+        if ($per_page < 0) {
+            $per_page = 10;
+        }
+
+        if ($radius < 0) {
+            $radius = 20;
+        }
+        
+        $api_args = array(
+            'search' => $search_keywords,
+            'location' => $search_location,
+            'jobs_per_page' => $per_page,
+            'radius_miles' => $radius,
+        );
+
+        $ziprecruiter_jobs_arr = JobSearch_Ziprecruiter_API::get_jobs($api_args);
+        
+        $ziprecruiter_jobs = isset($ziprecruiter_jobs_arr['jobs']) ? $ziprecruiter_jobs_arr['jobs'] : '';
+
+        $json = array();
+        if (isset($ziprecruiter_jobs['error']) && $ziprecruiter_jobs['error'] != '') {
+            $json['type'] = 'error';
+            $json['message'] = $ziprecruiter_jobs['error'];
+        } elseif (empty($ziprecruiter_jobs) || $ziprecruiter_jobs === NULL) {
+            $json['type'] = 'error';
+            $json['message'] = esc_html__('Sorry! There are no jobs found for your search query.', 'wp-jobsearch');
+        } else {
+            $no_unique_jobs_found = true;
+            $user_id = get_current_user_id();
+            foreach ($ziprecruiter_jobs as $ziprecruiter_job) {
+                $job_title = isset($ziprecruiter_job['title']) ? $ziprecruiter_job['title'] : '';
+                $job_desc = isset($ziprecruiter_job['tagline']) ? $ziprecruiter_job['tagline'] : '';
+                $job_location = isset($ziprecruiter_job['location']) ? $ziprecruiter_job['location'] : '';
+                $job_lat = isset($ziprecruiter_job['latitude']) ? $ziprecruiter_job['latitude'] : '';
+                $job_lng = isset($ziprecruiter_job['longitude']) ? $ziprecruiter_job['longitude'] : '';
+                $job_url = isset($ziprecruiter_job['url']) ? $ziprecruiter_job['url'] : '';
+                $job_company = isset($ziprecruiter_job['company']) ? $ziprecruiter_job['company'] : '';
+                $job_type = isset($ziprecruiter_job['type']) ? $ziprecruiter_job['type'] : '';
+
+                $existing_id = jobsearch_get_postmeta_id_byval('jobsearch_field_job_detail_url', $job_url);
+
+                if ($existing_id > 0) {
+                    //
+                } else {
+                    $no_unique_jobs_found = false;
+                    $post_data = array(
+                        'post_type' => 'job',
+                        'post_title' => $job_title,
+                        'post_content' => $job_desc,
+                        'post_status' => 'publish',
+                        //'post_author' => $user_id
+                    );
+                    // Insert the job into the database
+                    $post_id = wp_insert_post($post_data);
+
+                    //
+                    update_post_meta($post_id, 'jobsearch_job_employer_status', 'approved');
+                    update_post_meta($post_id, 'jobsearch_field_job_featured', '');
+
+                    // Insert job username meta key
+                    if ($job_username > 0) {
+                        update_post_meta($post_id, 'jobsearch_field_job_posted_by', $job_username, true);
+                    } else {
+                        if ($job_company != '') {
+                            jobsearch_fake_generate_employer_byname($job_company, $post_id);
+                        }
+                    }
+
+                    // Insert job posted on meta key
+                    update_post_meta($post_id, 'jobsearch_field_job_publish_date', current_time('timestamp'), true);
+
+                    // Insert job expired on meta key
+                    $expire_days = $_POST['expire_days'];
+                    $expired_date = date('d-m-Y H:i:s', strtotime("$expire_days days", current_time('timestamp')));
+                    update_post_meta($post_id, 'jobsearch_field_job_expiry_date', strtotime($expired_date), true);
+
+                    // Insert job status meta key
+                    update_post_meta($post_id, 'jobsearch_field_job_status', 'approved', true);
+
+                    // Insert job address meta key
+                    if ($job_location != '') {
+                        update_post_meta($post_id, 'jobsearch_field_location_address', $job_location, true);
+                    }
+
+                    // Insert job latitude meta key
+                    update_post_meta($post_id, 'jobsearch_field_location_lat', ($job_lat), true);
+
+                    // Insert job longitude meta key
+                    update_post_meta($post_id, 'jobsearch_field_location_lng', ($job_lng), true);
+
+                    // Insert job referral meta key
+                    update_post_meta($post_id, 'jobsearch_job_referral', 'ziprecruiter', true);
+
+                    // Insert job detail url meta key
+                    update_post_meta($post_id, 'jobsearch_field_job_detail_url', ($job_url), true);
+
+                    // Insert job comapny name meta key
+                    update_post_meta($post_id, 'jobsearch_field_company_name', $job_company, true);
+                    
+                    update_post_meta($post_id, 'jobsearch_field_job_apply_type', 'external', true);
+                    update_post_meta($post_id, 'jobsearch_field_job_apply_url', $job_url, true);
+
+                    // Create and assign taxonomy to post
+                    if ($job_type != '') {
+                        wp_insert_term($job_type, 'jobtype');
+                        $term = get_term_by('name', $job_type, 'jobtype');
+                        wp_set_post_terms($post_id, $term->term_id, 'jobtype');
+                    }
+                }
+            }
+            if ($no_unique_jobs_found) {
+                $json['type'] = 'error';
+                $json['message'] = __('No new job found.', 'wp-jobsearch');
+            } else {
+                $json['type'] = 'success';
+                $json['msg'] = sprintf(__('%s ziprecruiter jobs are imported successfully.', 'wp-jobsearch'), count($ziprecruiter_jobs));
+            }
+        }
+        if (isset($_POST['action']) && $_POST['action'] == 'jobsearch_import_ziprecruiter_jobs') {
+            echo json_encode($json);
+            die();
+        }
+    }
+
+    public function array_insert($array, $values, $offset) {
+        return array_slice($array, 0, $offset, true) + $values + array_slice($array, $offset, NULL, true);
+    }
+
+    public function shortcode_params_add($opts = array()) {
+        $ziprecruiter_jobs_switch = get_option('jobsearch_integration_ziprecruiter_jobs');
+
+        if ($ziprecruiter_jobs_switch == 'on') {
+            $opts[] = 'ziprecruiter';
+        }
+
+        return $opts;
+    }
+
+    public function ziprecruiter_jobs_listing_parameters($args, $attr) {
+
+        $ziprecruiter_jobs_switch = get_option('jobsearch_integration_ziprecruiter_jobs');
+
+        if ($ziprecruiter_jobs_switch == 'on') {
+            if (isset($attr['job_list_type']) && $attr['job_list_type'] == 'ziprecruiter') {
+                $filter_arr = array(
+                    'key' => 'jobsearch_job_referral',
+                    'value' => 'ziprecruiter',
+                    'compare' => '=',
+                );
+                $args['meta_query'][] = $filter_arr;
+            }
+        }
+
+        return $args;
+    }
+
+}
+
+// Class JobSearch_Ziprecruiter_Jobs_Hooks
+global $JobSearch_Ziprecruiter_Jobs_Hooks_obj;
+$JobSearch_Ziprecruiter_Jobs_Hooks_obj = new JobSearch_Ziprecruiter_Jobs_Hooks();

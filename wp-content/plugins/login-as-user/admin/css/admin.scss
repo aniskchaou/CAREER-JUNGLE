@@ -1,0 +1,122 @@
+.button .dashicons {
+    padding-top: 3px;
+}
+
+.lac-input-prefix {
+    background: #DCDCDC;
+    border: 1px solid #ccc;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.lau-about {
+    padding: 20px;
+    background: #fff;
+    margin: 20px;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
+    float: right;
+    width: 280px;
+}
+
+.lau-form {
+    overflow: hidden;
+}
+
+.lau-product-img {
+    float: left;
+    margin-right: 20px;
+}
+
+.lac-developed-by {
+    text-align: center;
+}
+
+.lac-developed-by img {
+    position: relative;
+    top: 10px;
+    margin-left: 5px;
+}
+
+.lau-free-vs-pro {
+    table {
+        width: 100%;
+    }
+
+    table,
+    th,
+    td {
+        border: 1px solid #ccc;
+        border-collapse: collapse;
+        text-align: center;
+    }
+
+    .lau-feature-info {
+        font-size: 11px;
+    }
+
+    .lau-icon {
+        display: block;
+        width: 16px;
+        height: 16px;
+        margin: 0 auto;
+    }
+
+    .lau-icon-tick {
+        background: url('../img/tick.png');
+    }
+
+    .lau-icon-x {
+        background: url('../img/x.png');
+    }
+
+    .lac-buy-pro-btn-container {
+        text-align: center;
+        margin: 20px auto 0 auto;
+    }
+
+    .lac-buy-pro-btn {
+        background: #2E4857;
+        color: #fff;
+        border: none;
+    }
+
+    .lac-buy-pro-btn:hover,
+    .lac-buy-pro-btn:focus,
+    .lac-buy-pro-btn:active {
+        background: #1D6630;
+        color: #fff;
+        border: none;
+    }
+}
+
+@media only screen and (max-width: 1179px) {
+    .lau-about {
+        width: auto;
+        float: none;
+        margin: 20px 0;
+    }
+
+    .lau-form {
+        margin: 40px 0;
+    }
+}
+
+.web357-loading-gif {
+	width: 80px;
+	height: 80px;
+	background: transparent url("../img/loading.gif") no-repeat left top;
+}
+.w357-alert {
+    margin: 20px 0;
+    border: 1px solid #e6db55;
+    background-color: #ffffe0;
+    padding: 15px;
+}
+.w357-alert.w357-alert-success {
+    border-color: #21759B;
+    background-color: #EAF2FA;
+}
+.w357-alert.w357-alert-danger {
+    border-color: #D54E21;
+    background-color: #d54e2134;
+}

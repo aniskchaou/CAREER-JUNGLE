@@ -1,0 +1,85 @@
+ /* ThemeColor One */
+.jobsearch-color,.jobsearch-colorhover:hover,.navbar-nav > li:hover > a,.navbar-nav > li.active > a,.navbar-nav .sub-menu > li:hover > a,.widget_nav_manu ul li:hover a,.widget_nav_manu ul li:hover a:before,
+.categories-list ul li i,li:hover .jobsearch-blog-grid-text h2 a,li:hover .jobsearch-read-more,.jobsearch-filterable ul li:hover a,.jobsearch-job-tag a,.jobsearch-list-option ul li a:hover,.jobsearch-jobdetail-postinfo,
+.jobsearch-jobdetail-options li i,.jobsearch-jobdetail-btn,.jobsearch-jobdetail-services i,.jobsearch-list-style-icon li i,.jobsearch_box_view_jobs_btn,.jobsearch-employer-list small,.jobsearch-employer-list-btn,
+.jobsearch-employer-grid figcaption small,.jobsearch-fileUpload span,.jobsearch-managejobs-appli,.jobsearch-transactions-tbody small,.jobsearch-resumes-subtitle a,.jobsearch-employer-confitmation a,
+.jobsearch-candidate-default-text h2 i,.jobsearch-candidate-default-btn,.jobsearch-candidate-grid figure figcaption p a,.jobsearch_candidate_info p a,.jobsearch-candidate-download-btn,.show-toggle-filter-list,
+.jobsearch-employer-dashboard-nav ul li:hover a,.jobsearch-employer-dashboard-nav ul li.active a,.jobsearch-candidate-savedjobs tbody td span,.jobsearch-cvupload-file span,.jobsearch-modal .modal-close:hover,
+.jobsearch-box-title span,.jobsearch-user-form-info p a,.jobsearch-services-classic span i,.widget_faq ul li:hover a,.grab-classic-priceplane ul li.active i,.jobsearch-classic-priceplane.active .jobsearch-classic-priceplane-btn,
+.jobsearch-plain-services i,.jobsearch-packages-priceplane ul li i,.jobsearch-additional-priceplane-btn,.contact-service i,.jobsearch-filterable ul li:hover a i,.jobsearch-login-box form a:hover,.jobsearch-resume-addbtn:hover,.img-icons a,
+.jobsearch-description ul li:before,.jobsearch-employer-list small a,.jobsearch-employer-wrap-section .jobsearch-candidate-grid figure figcaption span,.jobsearch-load-more a,.jobsearch-jobdetail-btn:hover,.tabs-list li:hover a,
+.tabs-list li.active a,.sort-list-view a.active,.sort-list-view a:hover,.jobsearch-applied-job-btns .more-actions:hover,.jobsearch-applied-job-btns .more-actions:hover i,.jobsearch-applied-job-btns .more-actions.open-options,
+.jobsearch-applied-job-btns .more-actions.open-options i,.restrict-candidate-sec a:hover,.get-skill-detail-btn:hover,.jobsearch-filterable-select .selectize-control.single .selectize-input input,
+.jobsearch-list-option ul li.job-company-name a,.adv-srch-toggler a,.jobsearch-typo-wrap .jobsearch-add-review-con input[type="submit"]:hover,.jobsearch-user-form input[type="submit"]:hover,
+.jobsearch_box_contact_form input[type="submit"]:hover,.register-form:hover,.jobsearch-applyjob-btn:hover,.send-contract-to-applicnt,.jobsearch_apply_job span,/*Update*/
+.jobsearch-sort-section .selectize-input,.careerfy-jobdetail-btn,a.careerfy-jobdetail-btn:hover,.jobsearch-send-email-popup-btn,.jobsearch-send-email-popup-btn:hover,.jobsearch-drpzon-con .jobsearch-drpzon-btn,
+.jobsearch-drag-dropcustom .jobsearch-drpzon-btn i,.jobsearch-user-form i.jobsearch-icon,.jobsearch-candidate-timeline-text span,.jobsearch-candidate-timeline small,.jobsearch-candidate-title i,
+.jobsearch_candidate_info small,.jobsearch-employerdetail-btn,.jobsearch-profile-title h2,.jobsearch-typo-wrap .jobsearch-findmap-btn, .jobsearch-employer-profile-form .jobsearch-findmap-btn,
+.jobsearch-employer-dashboard-nav ul li:hover i, .jobsearch-employer-dashboard-nav ul li.active i, .jobsearch-employer-dashboard-nav ul li:hover a, .jobsearch-employer-dashboard-nav ul li.active a,
+.jobsearch-typo-wrap .main-tab-section .jobsearch-employer-profile-submit:hover, .other-lang-translate-post:hover,.jobsearch-employer-profile-form .upload-port-img-btn,.jobsearch-resume-education span,
+.jobsearch-applied-jobs-text span,.jobsearch-empmember-add-popup:hover,.categories-list ul li i,.jobsearch-filterable ul li:hover a,.jobsearch-filterable ul li:hover a i,.jobsearch-filterable-select:after,
+.show-toggle-filter-list:hover,.jobsearch-seemore,.show-toggle-filter-list,.jobsearch-jobdetail-postinfo,.jobsearch-jobdetail-options li i,.jobsearch-jobdetail-btn:hover,.jobsearch-jobdetail-btn,
+.jobsearch-jobdetail-services i,.jobsearch-description ul li:before,.jobsearch-description ul li i,.jobsearch_apply_job span,.jobsearch_box_view_jobs_btn,.jobsearch-employer-list small,.jobsearch-employer-list-btn,
+.jobsearch-payments-checkbox input[type="checkbox"]:checked + label span:before,
+.jobsearch-payments-checkbox input[type="checkbox"] + label:hover span:before,
+.jobsearch-payments-checkbox input[type="radio"]:checked + label span:before,
+.jobsearch-payments-checkbox input[type="radio"] + label:hover span:before,.jobsearch-candidate-default-text ul li a.jobsearch-candidate-default-studio,
+.jobsearch-candidate-grid figure figcaption p a a,.aplicants-grid-inner-con p a,.short-li-icons li a,.embed-code-getbtncon a:hover,.hder-notifics-count,.hdernotifics-after-con a:hover,
+.hdernotifics-after-con a,.addnew-aplyquestbtn-con button:hover,.jobsearch-add-job-to-favourite.jobsearch-job-like i {
+    color: #13b5ea;
+}
+.jobsearch-bgcolor,.jobsearch-bgcolorhover:hover,.navbar-nav > li > a:before,.jobsearch-banner-search ul li.jobsearch-banner-submit i,.jobsearch-plain-btn a,.jobsearch-testimonial-slider .slick-arrow:hover,
+.jobsearch-featured-label,.jobsearch-pagination-blog ul li:hover a, .jobsearch-pagination-blog ul li:hover span,.jobsearch-jobdetail-view,.jobsearch-jobdetail-tags a:hover,.jobsearch-employer-list-btn:hover,
+ul li:hover .jobsearch-employer-grid-btn,.jobsearch_box_contact_form input[type="submit"],.jobsearch-fileUpload:hover span,.jobsearch-resumes-options li:hover a,.jobsearch-employer-jobnav ul li:hover i,.jobsearch-employer-jobnav ul li.active i,
+.jobsearch-employer-jobnav ul li.active ~ li.active:after,.jobsearch-employer-jobnav ul li.active:nth-child(2):after,.jobsearch-employer-jobnav ul li.active:nth-child(3):after,.jobsearch-employer-confitmation a:hover,
+.jobsearch-candidate-default-btn:hover,.jobsearch-candidate-download-btn:hover,.jobsearch-add-popup input[type="submit"],.jobsearch-user-form input[type="submit"],.jobsearch-classic-services ul li:hover i,
+.jobsearch-service-slider .slick-arrow:hover,.jobsearch-classic-priceplane-btn,.jobsearch-classic-priceplane.active,.active .jobsearch-simple-priceplane-basic a,.jobsearch-packages-priceplane-btn,
+.jobsearch-additional-priceplane.active h2,.jobsearch-additional-priceplane.active .jobsearch-additional-priceplane-btn,.jobsearch-contact-info-sec,.jobsearch-contact-form input[type="submit"],.contact-service a,
+.jobsearch-employer-profile-form .jobsearch-findmap-btn:hover,.jobsearch-login-box form input[type="submit"],.jobsearch-login-box form .jobsearch-login-submit-btn, .jobsearch-login-box form .jobsearch-reset-password-submit-btn,
+.jobsearch-login-box form .jobsearch-register-submit-btn,.jobsearch-radio-checkbox input[type="radio"]:checked+label,.jobsearch-radio-checkbox input[type="radio"]:hover+label,.jobsearch-load-more a:hover,
+.jobsearch-typo-wrap .jobsearch-add-review-con input[type="submit"],.email-jobs-top,.jobalert-submit,.tabs-list li a:before,.sort-list-view a:before,.more-actions,.preview-candidate-profile:hover,.restrict-candidate-sec a,
+.get-skill-detail-btn,.profile-improve-con ul li small,.jobsearch_searchloc_div .jobsearch_google_suggestions:hover,.jobsearch_searchloc_div .jobsearch_location_parent:hover,.jobsearch-jobdetail-btn.active:hover,
+.jobsearch-checkbox li:hover .filter-post-count,/*Update*/
+.jobsearch-checkbox input[type="checkbox"]:checked + label span,
+.jobsearch-checkbox input[type="checkbox"] + label:hover span,
+.jobsearch-checkbox input[type="radio"]:checked + label span,
+.jobsearch-checkbox input[type="radio"] + label:hover span,
+.jobsearch-pagination-blog ul li:hover a,
+.jobsearch-pagination-blog ul li:hover span,
+.jobsearch-pagination-blog ul li span.current,.jobsearch-typo-wrap .ui-widget-header,.jobsearch-typo-wrap .ui-state-default, .jobsearch-typo-wrap .ui-widget-content .ui-state-default,
+.jobsearch-drpzon-con:hover .jobsearch-drpzon-btn,.jobsearch-candidate-timeline small:after,.jobsearch-employerdetail-btn:hover,.jobsearch-typo-wrap .jobsearch-employer-profile-submit,
+.other-lang-translate-post,.jobsearch-resume-addbtn,.jobsearch-employer-profile-form .upload-port-img-btn:hover,.suggested-skills li:hover,.jobsearch-empmember-add-popup,.dash-hdtabchng-btn,
+.addcand-databy-emp,.alret-submitbtn-con a.jobsearch-savejobalrts-sbtn,.jobsearch-jobdetail-view,.jobsearch-jobdetail-tags a:hover,.jobsearch-employer-list-btn:hover,.jobsearch-company-photo .jobsearch-fileUpload span,
+.jobsearch-typo-wrap button:hover, .jobsearch-typo-wrap button:focus, .jobsearch-typo-wrap input[type="button"]:hover, .jobsearch-typo-wrap input[type="button"]:focus,
+.jobsearch-typo-wrap input[type="submit"]:hover, .jobsearch-typo-wrap input[type="submit"]:focus,.jobsearch-cvupload-file:hover span,.salary-type-radio input[type="radio"]:checked + label span,
+.demo-login-pbtns .active .jobsearch-demo-login-btn,.demo-login-pbtns .jobsearch-demo-login-btn:hover,.jobsearch-file-attach-sec li:hover .file-download-btn,.embed-code-getbtncon a,
+.jobsearch-usernotifics-menubtn a span,.hdernotifics-after-con a:hover,.quest-typecon-leftsec i,.addnew-questtypes-btnsiner a:hover i,.addnew-aplyquestbtn-con button,.addnew-questtypes-btnsiner a.active-type-itm i,
+.quests-item-answer p a,.jobsearch-applics-filterscon input.applics-filter-formbtn,.jobsearch-job-like {
+    background-color: #13b5ea;
+}
+.jobsearch-bordercolor,.jobsearch-bordercolorhover:hover,.jobsearch-jobdetail-btn,.jobsearch-employer-list-btn,.jobsearch-fileUpload span,.jobsearch-employer-confitmation a,.jobsearch-candidate-default-btn,
+.jobsearch-candidate-download-btn,.jobsearch-cvupload-file span,.active .jobsearch-simple-priceplane-basic a,.jobsearch-additional-priceplane-btn,.jobsearch-resume-addbtn,.jobsearch-load-more a,
+.more-actions,.restrict-candidate-sec a,.get-skill-detail-btn,.jobsearch-banner-search .adv-search-options .ui-widget-content .ui-state-default,.jobsearch-typo-wrap .jobsearch-add-review-con input[type="submit"],
+.jobsearch-user-form input[type="submit"],.jobsearch-jobdetail-btn.active:hover,.jobsearch_box_contact_form input[type="submit"],.register-form,/*Update*/
+.jobsearch-checkbox input[type="checkbox"]:checked + label span,
+.jobsearch-checkbox input[type="checkbox"] + label:hover span,
+.jobsearch-checkbox input[type="radio"]:checked + label span,
+.jobsearch-checkbox input[type="radio"] + label:hover span,.careerfy-jobdetail-btn,.jobsearch-send-email-popup-btn,
+.jobsearch-typo-wrap .ui-state-default, .jobsearch-typo-wrap .ui-widget-content .ui-state-default,.jobsearch-drpzon-con .jobsearch-drpzon-btn,.jobsearch-employerdetail-btn,
+.jobsearch-typo-wrap .jobsearch-employer-profile-submit,.other-lang-translate-post,.jobsearch-typo-wrap .jobsearch-findmap-btn, .jobsearch-employer-profile-form .jobsearch-findmap-btn,
+.jobsearch-employer-profile-form .upload-port-img-btn,.jobsearch-empmember-add-popup,.dash-hdtabchng-btn,.addcand-databy-emp,.jobsearch-jobdetail-btn.active,.jobsearch-employer-list-btn,
+.jobsearch-company-photo .jobsearch-fileUpload span,.short-li-icons li a,.embed-code-getbtncon a,.hder-notifics-count,.hdernotifics-after-con a,.addnew-aplyquestbtn-con button,.jobsearch-job-like {
+    border-color: #13b5ea;
+}
+.jobsearch-read-more {
+    box-shadow: 0px 0px 0px 2px #13b5ea inset;
+}
+.sort-select-all label:after,.candidate-select-box label:after {
+	background: #13b5ea;
+}
+
+.jobsearch-typo-wrap button:hover, .jobsearch-typo-wrap button:focus, .jobsearch-typo-wrap input[type="button"]:hover, .jobsearch-typo-wrap input[type="button"]:focus,
+.jobsearch-typo-wrap input[type="submit"]:hover, .jobsearch-typo-wrap input[type="submit"]:focus {
+    background-color: #13b5ea;
+}
+

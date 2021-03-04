@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+	margin: 0px;
+	padding: 0px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+.pdf-style4-page {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	background-color: #e5e9e8;
+	padding: 30px 17px 17px 17px;
+}
+.pdf-style4-content-right {
+	float: right;
+	width: 88%;
+}
+.pdf-style4-content-wrapper {
+	float: left;
+	width: 100%;
+	background-color: #ffffff;
+	padding: 35px 25px 40px 120px;
+}
+.pdf-style4-top-opt {
+	float: left;
+	width: 33.333%;
+	font-size: 15px;
+	font-weight: bold;
+	color: #070808;
+	text-transform: uppercase;
+	margin-bottom: 18px;
+}
+
+/* About Text */
+.pdf-style4-about-text,
+.pdf-style4-about-text-title,
+.pdf-style4-about-text-pera {
+	float: left;
+	width: 100%;
+}
+.pdf-style4-about-text {
+	margin-bottom: 29px; }
+.pdf-style4-about-text-title {
+	font-size: 20px;
+	color: #020303;
+	text-transform: uppercase;
+	margin-bottom: 3px;
+}
+.pdf-style4-about-text-pera {
+	font-size: 13px;
+	color: #030303;
+	line-height: 1.5;
+}
+
+/* Services */
+.pdf-style4-bar-services {
+	float: left;
+	width: 100%;
+}
+.pdf-style4-bar-services-list {
+	float: left;
+	width: 33.333%;
+}
+.pdf-style4-bar-services {
+	margin-bottom: 30px; }
+.pdf-style4-bar-services-list {
+	margin-bottom: 12px; }
+.pdf-style4-bar-icon {
+	float: left;
+	width: 43px;
+	font-size: 30px;
+	color: #465073;
+	padding-top: 4px;
+}
+.pdf-style4-bar-services-text {
+	float: left;
+	width: 60%;
+}
+.pdf-style4-bar-services-title {
+	display: block;
+	color: #181718;
+	font-size: 15px;
+}
+.pdf-style4-bar-services-sub {
+	display: block;
+	color: #6c6c6c;
+}
+.pdf-style4-thumb {
+	float: left;
+	width: 154px;
+	margin: 0px 0px 0px -210px;
+}
+.pdf-style4-thumb-title {
+	display: block;
+	font-size: 44px;
+	color: #000;
+	font-family: google_font;
+	font-weight: bold;
+	line-height: 0.9;
+	margin-top: 27px;
+}
+.pdf-style4-thumb-title span {
+	color: #465073; }
+.pdf-style4-content-inner {
+	float: left;
+	width: 100%;
+}
+.pdf-style4-content-title {
+	float: left;
+	width: 100%;
+	font-size: 20px;
+	color: #090909;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+/* Education List */
+.pdf-style4-education-list {
+	float: left;
+	width: 100%;
+	margin-bottom: 15px;
+}
+.pdf-style4-education-inner {
+	float: left;
+	width: 50%;
+	margin-bottom: 15px;
+}
+.pdf-style4-education-date {
+	float: left;
+	width: 30%;
+	font-size: 13px;
+	color: #040404;
+	padding: 3px 10px 0px 0px;
+}
+.pdf-style4-education-text {
+	float: right;
+	width: 66%;
+}
+.pdf-style4-education-title {
+	display: block;
+	font-size: 13px;
+	color: #050606;
+}
+.pdf-style4-education-sub {
+	color: #6c6c6c;
+	font-size: 11px;
+}
+/* Experiences List */
+.pdf-style4-experiences-list {
+	float: left;
+	width: 100%;
+	margin-bottom: 15px;
+}
+.pdf-style4-experiences-inner {
+	float: left;
+	width: 100%;
+	margin-bottom: 21px;
+}
+.pdf-style4-experiences-date {
+	float: left;
+	width: 30%;
+	font-size: 13px;
+	color: #040404;
+	padding: 3px 10px 0px 0px;
+}
+.pdf-style4-experiences-text {
+	float: right;
+	width: 66%;
+}
+.pdf-style4-experiences-title {
+	display: block;
+	font-size: 13px;
+	color: #050606;
+}
+.pdf-style4-experiences-italic {
+	font-size: 11px;
+	color: #0b0c0c;
+	font-style: italic;
+	display: block;
+	margin-bottom: 5px;
+	font-family: 'Roboto', sans-serif;
+}
+.pdf-style4-experiences-pera {
+	display: block;
+	font-size: 13px;
+	color: #6c6c6c;
+}
+/* Skills */
+.pdf-style4-skills {
+	float: left;
+	width: 50%;
+	margin-bottom: 10px;
+}
+.pdf-style4-skills-left {
+	float: left;
+	width: 40%;
+	font-size: 12px;
+	color: #171718;
+	letter-spacing: 0.7px;
+}
+.pdf-style4-skills-line {
+	float: left;
+	width: 69px;
+	margin-top: 4px;
+}
+.pdf-style4-skills-inn1 {
+	float: left;
+	width: 100%;
+	height: 11px;
+
+	background-repeat: no-repeat;
+}
+.pdf-style4-skills-inn2 {
+	float: left;
+	margin: -11px 0px 0px 0px;
+	height: 11px;
+	background-repeat: no-repeat;
+	position: relative;
+	z-index: 4;
+}
+.big-text {
+	position: absolute;
+	left: 150px;
+	bottom: 70px;
+	background-image: url("../images/template_2/text-tr.png");
+	background-repeat: no-repeat;
+	width: 29px;
+	height: 327px;
+}
+.pdf-style4-social-network {
+	position: absolute;
+	left: 10px;
+	bottom: 45px;
+	width: 90px;
+	text-align: center;
+}
+.pdf-style4-social-network-title {
+	font-size: 10px;
+	color: #000001;
+	display: block;
+	margin: 10px 0px 15px 0px;
+}
+.jobsearch-pdf-porfolio-img {
+	float: left;
+	width: 215px;
+	padding: 5px;
+}
+.jobsearch-pdf-porfolio-link {
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+.cndt-skills {
+	float: left;
+	width: 100%;
+}
+.cndt-skills .cndt-skills-inner {
+	float: left;
+	width: 45%;
+	padding: 0px 8px 8px 0px;
+	text-align: center;
+}
+.cndt-skills div a {
+	color: #ffffff; }
+.cndt-skills .cndt-skills-list-item {
+	float: left;
+	width: 100%;
+	background-color: #000;
+	color: #ffffff;
+	border-radius: 100%;
+	padding: 8px 10px;
+	line-height: 1;
+}
+/* Services Full */
+.pdf-stylefield-bar-servicesfull {
+	float: left;
+	width: 100%;
+}
+.pdf-stylefield-bar-servicesfull-list {
+	float: left;
+	width: 100%;
+}
+.pdf-stylefield-bar-servicesfull {
+	margin-bottom: 20px; }
+.pdf-stylefield-bar-servicesfull-list {
+	margin-bottom: 12px; }
+.pdf-stylefield-bar-iconfull {
+	float: left;
+	width: 30px;
+}
+.pdf-stylefield-bar-servicesfull-list .pdf-style17-bar-icon {
+	padding-left: 25px;
+	width: 50px;
+}
+.pdf-stylefield-bar-iconfull div {
+	background-color: #4359a8;
+	color: #ffffff;
+	font-size: 30px;
+	float: left;
+	height: 24px;
+	padding-top: 6px;
+	text-align: center;
+	width: 30px;
+}
+
+.pdf-stylefield-bar-servicesfull-text {
+	float: left;
+	width: 50%;
+}
+.pdf-stylefield-bar-servicesfull-title {
+	display: block;
+	color: #000;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+.pdf-stylefield-bar-servicesfull-sub {
+	display: block;
+	color: #4b4a4b;
+	font-size: 10px;
+}
+.pdf-stylefield-bar-servicesfull-image {
+	float: right;
+	width: 20%;
+	margin-top: -5px;
+}

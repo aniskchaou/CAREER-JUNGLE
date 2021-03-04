@@ -1,0 +1,60 @@
+.careerfy-multi-select-text,
+.careerfy-multi-select-text ul,
+.careerfy-multi-select-text ul > li {
+	float:left;
+	width:100%;
+}
+
+.careerfy-multi-select-text ul > li {
+	margin:0 !important;
+	padding:10px 0 !important;
+}
+
+.careerfy-multi-select-text ul > li:nth-child(even) {
+	background-color:#f4f4f4 !important;
+}
+
+.careerfy-multi-select-text ul > li:nth-child(odd) {
+	background-color:#eeeeee !important;
+}
+
+.careerfy-multi-select-text ul > li.multi-select-head {
+	background-color:#666666 !important;
+	padding:0 !important;
+}
+
+.careerfy-multi-select-text ul > li h3 {
+	font-weight:700;
+	font-size:14px;
+	line-height:12px !important;
+	border:none !important;
+	margin:10px 0 !important;
+	color:#ffffff;
+}
+
+.careerfy-multi-select-text ul > li .select-field {
+	float:left;
+	width:30%;
+	padding:0 10px;
+	-webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.careerfy-multi-select-text ul > li .remove-field {
+	float:left;
+	width:10%;
+	padding:0 10px;
+	margin:5px 0 0 0;
+	-webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.careerfy-multi-select-text ul > li .remove-field a {
+	font-size:12px !important;
+}
+
+.careerfy-multi-select-text ul > li .select-field select {
+	width:100% !important;
+}

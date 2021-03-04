@@ -1,0 +1,362 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+.pdf-style6-left-bar {
+    float: left;
+    width: 26%;
+}
+.pdf-style6-thumb {
+    float: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 264px;
+    border-radius: 0px 0px 100% 100%;
+}
+.pdf-style6-thumb-text {
+    float: left;
+    width: 100%;
+    margin: -73px 0px 0px 0px;
+    text-align: center;
+    padding-right: 0px;
+    line-height: 1;
+}
+.pdf-style6-thumb-title {
+    font-size: 24px;
+    color: #ffffff;
+    margin-bottom: 3px;
+    display: block;
+}
+.pdf-style6-thumb-sub {
+    font-size: 14px;
+    color: #ffffff;
+}
+.pdf-style6-info-wrap {
+    float: left;
+    width: 100%;
+    background-color: #ededed;
+    padding: 80px 20px 50px 20px;
+    border-radius: 100%;
+    margin: -50px 0px 20px 0px;
+}
+.pdf-style6-info-list {
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.pdf-style6-info-icon {
+    float: left;
+    width: 14px;
+    height: 14px;
+    margin-top: 4px;
+}
+.pdf-style6-info-text {
+    float: right;
+    width: 80%;
+    line-height: 1;
+}
+.pdf-style6-info-title {
+    display: block;
+    font-size: 14px;
+    color: #3d4c80;
+    text-transform: uppercase;
+    margin-bottom: 7px;
+}
+.pdf-style6-info-sub {
+    display: block;
+    font-size: 12px;
+    color: #000000;
+    margin-bottom: 5px;
+    line-height: 1.5;
+}
+/* Left Title */
+.pdf-style6-left-title {
+    float: left;
+    width: 100%;
+    text-transform: uppercase;
+    color: #3d4c80;
+    font-size: 15px;
+    margin-bottom: 5px;
+    padding-left: 16px;
+}
+
+/* Skills */
+.pdf-style6-skills {
+    float: left;
+    width: 100%;
+    margin-bottom: 5px;
+    padding: 0px 0px 0px 16px;
+}
+.pdf-style6-skills-left {
+    float: left;
+    width: 60%;
+    font-size: 12px;
+    color: #000000;
+    letter-spacing: 0.7px;
+}
+.pdf-style6-skills-line {
+    float: left;
+    width: 64px;
+    margin-top: 8px;
+}
+.pdf-style6-skills-inn1 {
+    float: left;
+    width: 100%;
+    height: 8px;
+    background-repeat: no-repeat;
+}
+.pdf-style6-skills-inn2 {
+    float: left;
+    margin: -8px 0px 0px 0px;
+    height: 8px;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 4;
+}
+/* Content */
+.pdf-style6-right-content {
+    float: right;
+    width: 70%;
+}
+.pdf-style6-content-light {
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+}
+.pdf-style6-content-top-title {
+    float: left;
+    width: 100%;
+    color: #191919;
+    font-size: 18px;
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+.pdf-style6-content-top-title span {
+    color: #3d4c80; }
+.pdf-style6-content-top-pera {
+    float: left;
+    width: 100%;
+    color: #191919;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+.pdf-style6-content-title {
+    float: left;
+    width: 100%;
+    font-size: 16px;
+    color: #3e4853;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+/* Timeline Wrapper */
+.pdf-style6-timeline-wrapper,
+.pdf-style6-timeline-inner {
+    float: left;
+    width: 100%;
+}
+.pdf-style6-timeline-wrapper {
+    margin-bottom: 50px; }
+.pdf-style6-timeline-year {
+    float: left;
+    background-color: #ededed;
+    color: #3e4853;
+    font-size: 16px;
+    border-radius: 80px;
+    padding: 4px 15px;
+    width: 110px;
+    text-align: center;
+    margin-top: -5px;
+}
+.pdf-style6-timeline-text {
+    float: left;
+    width: 65%;
+    padding-left: 22px;
+    margin-left: 15px;
+    border-left: 2px solid #ecebeb;
+    line-height: 1;
+    padding-bottom: 30px;
+}
+.last .pdf-style6-timeline-text {
+    padding-bottom: 0px; }
+.pdf-style6-timeline-circle {
+    float: left;
+    margin: 0px 0px 0px -27px;
+    position: relative;
+    z-index: 2;
+}
+.pdf-style6-timeline-title {
+    float: left;
+    width: 100%;
+    margin: -10px 0px 5px 0px;
+    font-size: 16px;
+    color: #3d4c80;
+}
+.pdf-style6-timeline-title span {
+    color: #3e4853;
+    font-size: 13px;
+}
+.pdf-style6-timeline-sub {
+    display: block;
+    font-size: 12px;
+    color: #3e4853;
+}
+
+/* Skills Wrap */
+.pdf-style6-skills-count {
+    float: left;
+    width: 100%;
+}
+.pdf-style6-skills-wrap { margin: 0px -15px; }
+.pdf-style6-skills-inner {
+    float: left;
+    width: 19%;
+    padding: 0px 15px;
+}
+.pdf-style6-skills-count {
+    font-size: 32px;
+    color: #3d4c80;
+    text-align: center;
+}
+.pdf-style6-skills-text {
+    float: left;
+    background-color: #ededed;
+    color: #3e4853;
+    font-size: 13px;
+    padding: 5px 10px 20px 10px;
+    text-align: center;
+    border-radius: 0px 0px 100% 100%;
+}
+.jobsearch-pdf-porfolio-img {
+    float: left;
+    width: 230px;
+    padding: 5px;
+}
+
+.jobsearch-pdf-porfolio-link {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.cndt-skills {
+    float: left;
+    width: 100%;
+}
+
+.cndt-skills .cndt-skills-inner {
+    float: left;
+    width: 45%;
+    padding: 0 8px 8px 0;
+    text-align: center;
+}
+
+.cndt-skills div a {
+    color: #ffffff;
+}
+
+.cndt-skills .cndt-skills-list-item {
+    float: left;
+    width: 100%;
+    background-color: #000;
+    color: #ffffff;
+    border-radius: 100%;
+    padding: 8px 10px;
+    line-height: 1;
+}
+/* Services */
+.pdf-style6-bar-services {
+    float: left;
+    width: 100%;
+    padding: 10px 40px 10px 0px;
+}
+.pdf-style6-bar-services-list {
+    float: left;
+    width: 49%;
+}
+.pdf-style6-bar-services {
+    margin-bottom: 20px; }
+.pdf-style6-bar-services-list {
+    margin-bottom: 12px; }
+.pdf-style6-bar-icon {
+    float: left;
+    width: 43px;
+    font-size: 30px;
+    color: #465073;
+}
+.pdf-style6-bar-services-text {
+    float: left;
+    width: 60%;
+}
+.pdf-style6-bar-services-title {
+    display: block;
+    color: #242424;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+.pdf-style6-bar-services-sub {
+    display: block;
+    color: #222222;
+    font-size: 12px;
+}
+
+/* Services Full */
+.pdf-stylefield-bar-servicesfull {
+    float: left;
+    width: 100%;
+}
+.pdf-stylefield-bar-servicesfull-list {
+    float: left;
+    width: 100%;
+}
+.pdf-stylefield-bar-servicesfull {
+    margin-bottom: 20px; }
+.pdf-stylefield-bar-servicesfull-list {
+    margin-bottom: 12px; }
+.pdf-stylefield-bar-iconfull {
+    float: left;
+    width: 30px;
+}
+.pdf-stylefield-bar-servicesfull-list .pdf-style17-bar-icon {
+    padding-left: 25px;
+    width: 50px;
+}
+.pdf-stylefield-bar-iconfull div {
+    background-color: #4359a8;
+    color: #ffffff;
+    font-size: 30px;
+    float: left;
+    height: 24px;
+    padding-top: 6px;
+    text-align: center;
+    width: 30px;
+}
+
+.pdf-stylefield-bar-servicesfull-text {
+    float: left;
+    width: 50%;
+}
+.pdf-stylefield-bar-servicesfull-title {
+    display: block;
+    color: #000;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.pdf-stylefield-bar-servicesfull-sub {
+    display: block;
+    color: #4b4a4b;
+    font-size: 10px;
+}
+.pdf-stylefield-bar-servicesfull-image {
+    float: right;
+    width: 20%;
+    margin-top: -5px;
+}

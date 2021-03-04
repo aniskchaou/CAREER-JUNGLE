@@ -1,0 +1,70 @@
+.login-as-user {
+	position: fixed;
+	left: 0;
+	width: 100%;
+	z-index: 999; 
+}
+.login-as-user-top {
+	top: 0;
+}
+.login-as-user-bottom {
+	bottom: 0;
+}
+.login-as-user-inner {
+	height: auto;
+	width: 100%;
+	background: #fcfcfc;
+	color: #000;
+}
+.login-as-user-top .login-as-user-inner {
+	border-bottom: 1px solid #ccc;
+}
+.login-as-user-bottom .login-as-user-inner {
+	border-top: 2px solid #ccc;
+}
+.login-as-user-content {
+	padding: 5px 15px;
+	text-align: center;
+	width: 100%; 
+}
+.login-as-user-content * {
+	margin: 0;
+	padding: 0;
+}
+.login-as-user-msg {
+	padding-top: 15px;
+}
+.login-as-user-content a:hover {
+	background: none !important;
+}
+.button.w357-login-as-user-btn {
+  display: inline-block !important;
+  padding: 6px 12px !important;
+  border-radius: 4px !important;
+  border: 0 !important;
+  font-weight: bold !important;
+  text-transform: none !important;
+  background: #1F6538 !important;
+  color: #fff !important; 
+  margin: 15px 0;
+}
+
+.button.w357-login-as-user-btn:hover,
+.button.w357-login-as-user-btn:focus,
+.button.w357-login-as-user-btn:active {
+  background: #924017 !important;
+  color: #fff !important; }
+
+@media print {
+	.login-as-user,
+	.login-as-user * {
+		display: none !important; 
+	} 
+}
+@media only screen and (max-width: 782px) {
+    .login-as-user-content { 
+        font-size: 80%;
+        width: 80%;
+        margin: 0 auto;
+    }
+}

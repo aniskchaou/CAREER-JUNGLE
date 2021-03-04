@@ -1,0 +1,187 @@
+.total-appcreds-con .applicnt-count-box a {
+	text-decoration: none;
+	color: #fff;
+}
+.total-appcreds-con .applicnt-count-box.pdf-export {
+	background-color: #ff2323; }
+.total-appcreds-con .applicnt-count-box.excel-export {
+	background-color: #008000; }
+.total-appcreds-con .applicnt-count-box.cand-expt-files-btn {
+    background-color: #ffb14a; }
+.jobsearch-all-aplicantslst .jobsearch-applied-jobs-thumb {
+	position: relative; }
+.jobsearch-applied-jobs-thumb input {
+    position: absolute;
+    left: 0px;
+    top: 4px;
+    border-radius: 0;
+    border: 1px solid #888;
+}
+.sort-select-all-aplicnt-opts {
+    display: inline-block;
+    width: 100%;
+    padding: 0px 0px 15px 20px;
+    font-size: 15px;
+}
+
+.jobsearch-export-candidate-pdf {
+    float: left;
+    width: 100%;
+    background-color: #f7f7f7;
+    padding: 23px 30px 12px 30px;
+    border-radius: 6px;
+    margin-bottom: 30px;
+}
+.jobsearch-export-candidate-pdf h2 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.jobsearch-export-candidate-pdf strong {
+    color: #666666;
+    font-size: 16px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+.jobsearch-export-candidate-pdf ul,
+.jobsearch-export-candidate-pdf strong {
+    float: left;
+    width: 100%;
+}
+.jobsearch-export-candidate-pdf ul li {
+    font-size: 15px;
+    color: #666666;
+    position: relative;
+    margin-bottom: 6px;
+    list-style: none;
+}
+.jobsearch-export-candidate-pdf ul li:before {
+    content: '';
+    float: left;
+    width: 6px;
+    height: 6px;
+    background-color: #13b5ea;
+    margin: 10px 10px 0px 0px;
+    border-radius: 100%;
+}
+.jobsearch-candidate-pdf-list,
+.jobsearch-candidate-pdf-list figure,
+.jobsearch-candidate-pdf-list figure img,
+.jobsearch-candidate-pdf-list-inner {
+    float: left;
+    width: 100%;
+}
+.jobsearch-candidate-pdf-list {
+    margin: 20px 0px;
+}
+.jobsearch-candidate-pdf-list * {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+.jobsearch-candidate-pdf-list a {
+    text-decoration: none; }
+.jobsearch-candidate-pdf-list a:hover {
+    color: #ffffff; }
+.jobsearch-candidate-pdf-list ul {
+    margin: 0px -5px;
+}
+.jobsearch-candidate-pdf-list ul li {
+    padding: 0px 5px;
+    margin-bottom: 10px;
+    list-style: none;
+    float: none;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: -4px;
+    width: 16%;
+}
+.jobsearch-candidate-pdf-list figure {
+    border: 2px solid #e5e5e5;
+    margin: 0px 0px 4px 0px;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+}
+.jobsearch-candidate-pdf-list figure img {
+    border-radius: 5px;
+}
+.jobsearch-candidate-pdf-list figcaption {
+    position: absolute;
+    right: -26px;
+    bottom: 8px;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #000000;
+    padding: 9px 30px;
+    line-height: 1;
+    background-color: rgba(186,255,201,0.80);
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+.jobsearch-candidate-pdf-preview {
+    float: left;
+    width: 29px;
+    height: 27px;
+    background-color: #fcca3d;
+    color: #ffffff;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 4px;
+    line-height: 1;
+    padding: 4px 5px 0px 5px;
+    margin-right: 4px;
+}
+.jobsearch-candidate-pdf-download,
+.jobsearch-candidate-pdf-buy {
+    float: right;
+    width: 83%;
+    background-color: #ff2323;
+    color: #ffffff;
+    font-size: 11px;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 4px;
+    padding: 3px 3px 2px 3px;
+    line-height: 2;
+}
+.jobsearch-candidate-pdf-download i {
+    float: left;
+    font-size: 20px;
+}
+ .jobsearch-candidate-pdf-buy {
+    background-color: #13b5ea; }
+.jobsearch-candidate-pdf-buy i {
+    float: left;
+    background-color: #fff;
+    width: 21px;
+    height: 21px;
+    color: #13b5ea;
+    font-size: 16px;
+    line-height: 1.3;
+    border-radius: 3px;
+}
+.jobsearch-candidate-pdf-list .tooltip-inner {
+    background-color: #fcca3d; }
+.jobsearch-candidate-pdf-list .tooltip.top .tooltip-arrow {
+    border-top-color: #fcca3d; }
+.jobsearch-candidate-pdf-locked {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(51,51,51,0.60);
+}
+.jobsearch-candidate-pdf-locked a {
+    font-size: 60px;
+    color: #fff;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 50%;
+    margin-top: -20px;
+}
